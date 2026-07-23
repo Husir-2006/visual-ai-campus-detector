@@ -1,0 +1,845 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/84ahos",
+    "id": "84ahos",
+    "slide": 9,
+    "layoutId": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "368012da-b264-4b8e-9d25-45db87a40646",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jy9knyxg",
+      "id": "1",
+      "bbox": [
+        64,
+        50,
+        880,
+        58
+      ],
+      "geometry": "rect",
+      "text": "项目亮点在于完成了从训练到应用的完整闭环",
+      "textPreview": "项目亮点在于完成了从训练到应用的完整闭环",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "项目亮点在于完成了从训练到应用的完整闭环"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "项目亮点在于完成了从训练到应用的完整闭环",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "项目亮点在于完成了从训练到应用的完整闭环",
+              "fontSize": 36,
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzi1w3y1",
+      "id": "2",
+      "bbox": [
+        66,
+        110,
+        820,
+        34
+      ],
+      "geometry": "rect",
+      "text": "不足也清楚，后续可以继续加强车辆整体检测和字符识别",
+      "textPreview": "不足也清楚，后续可以继续加强车辆整体检测和字符识别",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#667085",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "不足也清楚，后续可以继续加强车辆整体检测和字符识别"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "不足也清楚，后续可以继续加强车辆整体检测和字符识别",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#667085",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "不足也清楚，后续可以继续加强车辆整体检测和字符识别",
+              "fontSize": 18,
+              "color": "#667085",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/50b2p8fm",
+      "id": "3",
+      "bbox": [
+        64,
+        154,
+        1152,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#D1D5DB",
+      "lineColor": "#D1D5DB",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61kjydg7",
+      "id": "4",
+      "bbox": [
+        84,
+        205,
+        500,
+        360
+      ],
+      "geometry": "rect",
+      "fillColor": "#F9FAFB",
+      "lineColor": "#D1D5DB",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72tkrixs",
+      "id": "5",
+      "bbox": [
+        124,
+        238,
+        160,
+        38
+      ],
+      "geometry": "rect",
+      "text": "亮点",
+      "textPreview": "亮点",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "fontSize": 30,
+        "typeface": "+mn-lt",
+        "color": "#16865B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "亮点"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "亮点",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "color": "#16865B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "亮点",
+              "fontSize": 30,
+              "color": "#16865B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s3210nyd",
+      "id": "6",
+      "bbox": [
+        126,
+        310,
+        360,
+        34
+      ],
+      "geometry": "rect",
+      "text": "• 多源数据集合并",
+      "textPreview": "• 多源数据集合并",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 多源数据集合并"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• 多源数据集合并",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 多源数据集合并",
+              "fontSize": 22,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tob2t8fi",
+      "id": "7",
+      "bbox": [
+        126,
+        348,
+        360,
+        34
+      ],
+      "geometry": "rect",
+      "text": "• 2.5 万张图像训练",
+      "textPreview": "• 2.5 万张图像训练",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 2.5 万张图像训练"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• 2.5 万张图像训练",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 2.5 万张图像训练",
+              "fontSize": 22,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m5gjm9gn",
+      "id": "8",
+      "bbox": [
+        126,
+        386,
+        360,
+        34
+      ],
+      "geometry": "rect",
+      "text": "• 双版本演示入口",
+      "textPreview": "• 双版本演示入口",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 双版本演示入口"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• 双版本演示入口",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 双版本演示入口",
+              "fontSize": 22,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n6p0feh8",
+      "id": "9",
+      "bbox": [
+        126,
+        424,
+        360,
+        34
+      ],
+      "geometry": "rect",
+      "text": "• 检测结果可视化完整",
+      "textPreview": "• 检测结果可视化完整",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 检测结果可视化完整"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• 检测结果可视化完整",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 检测结果可视化完整",
+              "fontSize": 22,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jq5ojy1s",
+      "id": "10",
+      "bbox": [
+        682,
+        205,
+        500,
+        360
+      ],
+      "geometry": "rect",
+      "fillColor": "#F9FAFB",
+      "lineColor": "#D1D5DB",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ipw7atkn",
+      "id": "11",
+      "bbox": [
+        722,
+        238,
+        180,
+        38
+      ],
+      "geometry": "rect",
+      "text": "后续改进",
+      "textPreview": "后续改进",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "fontSize": 30,
+        "typeface": "+mn-lt",
+        "color": "#EA7A24",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "后续改进"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "后续改进",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "color": "#EA7A24",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "后续改进",
+              "fontSize": 30,
+              "color": "#EA7A24",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5sn6lojy",
+      "id": "12",
+      "bbox": [
+        724,
+        310,
+        360,
+        34
+      ],
+      "geometry": "rect",
+      "text": "• 加入更多校园场景数据",
+      "textPreview": "• 加入更多校园场景数据",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 加入更多校园场景数据"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• 加入更多校园场景数据",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 加入更多校园场景数据",
+              "fontSize": 22,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4repcj2d",
+      "id": "13",
+      "bbox": [
+        724,
+        348,
+        360,
+        34
+      ],
+      "geometry": "rect",
+      "text": "• 替换为完整 YOLOv5/YOLOv8",
+      "textPreview": "• 替换为完整 YOLOv5/YOLOv8",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 替换为完整 YOLOv5/YOLOv8"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• 替换为完整 YOLOv5/YOLOv8",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 替换为完整 YOLOv5/YOLOv8",
+              "fontSize": 22,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmlofe1w",
+      "id": "14",
+      "bbox": [
+        724,
+        386,
+        360,
+        34
+      ],
+      "geometry": "rect",
+      "text": "• 增加车牌字符识别",
+      "textPreview": "• 增加车牌字符识别",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 增加车牌字符识别"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• 增加车牌字符识别",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 增加车牌字符识别",
+              "fontSize": 22,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulc769kb",
+      "id": "15",
+      "bbox": [
+        724,
+        424,
+        360,
+        34
+      ],
+      "geometry": "rect",
+      "text": "• 扩展实时视频检测",
+      "textPreview": "• 扩展实时视频检测",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 扩展实时视频检测"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• 扩展实时视频检测",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 扩展实时视频检测",
+              "fontSize": 22,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

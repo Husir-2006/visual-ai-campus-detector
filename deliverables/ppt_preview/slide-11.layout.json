@@ -1,0 +1,440 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/zyrzmt",
+    "id": "zyrzmt",
+    "slide": 11,
+    "layoutId": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "368012da-b264-4b8e-9d25-45db87a40646",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2l8nmxg7",
+      "id": "1",
+      "bbox": [
+        72,
+        138,
+        1040,
+        124
+      ],
+      "geometry": "rect",
+      "text": "最终交付形成了可运行、可展示、可复现的视觉 AI 课程项目",
+      "textPreview": "最终交付形成了可运行、可展示、可复现的视觉 AI 课程项目",
+      "resolvedFontSize": 50,
+      "resolvedTextStyle": {
+        "fontSize": 50,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "最终交付形成了可运行、可展示、可复现的视"
+          },
+          {
+            "index": 2,
+            "text": "觉 AI 课程项目"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "最终交付形成了可运行、可展示、可复现的视觉 AI 课程项目",
+          "resolvedTextStyle": {
+            "fontSize": 50,
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "最终交付形成了可运行、可展示、可复现的视觉 AI 课程项目",
+              "fontSize": 50,
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/poj6xsfy",
+      "id": "2",
+      "bbox": [
+        78,
+        330,
+        880,
+        82
+      ],
+      "geometry": "rect",
+      "text": "下一步可以接入完整 YOLO 权重、视频流检测和车牌字符识别，把原型扩展为更接近真实校园车辆管理系统的应用。",
+      "textPreview": "下一步可以接入完整 YOLO 权重、视频流检测和车牌字符识别，把原型扩展为更接近真实校园车辆管理系统的应用。",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "fontSize": 26,
+        "typeface": "+mn-lt",
+        "color": "#667085",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "下一步可以接入完整 YOLO"
+          },
+          {
+            "index": 2,
+            "text": "权重、视频流检测和车牌字符识别，把原型扩展为更接近真实校园车辆管理"
+          },
+          {
+            "index": 3,
+            "text": "系统的应用。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "下一步可以接入完整 YOLO 权重、视频流检测和车牌字符识别，把原型扩展为更接近真实校园车辆管理系统的应用。",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "color": "#667085",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "下一步可以接入完整 YOLO 权重、视频流检测和车牌字符识别，把原型扩展为更接近真实校园车辆管理系统的应用。",
+              "fontSize": 26,
+              "color": "#667085",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onq5o7yd",
+      "id": "3",
+      "bbox": [
+        82,
+        500,
+        320,
+        82
+      ],
+      "geometry": "rect",
+      "fillColor": "#EFF6FF",
+      "lineColor": "#D1D5DB",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fihorixg",
+      "id": "4",
+      "bbox": [
+        110,
+        525,
+        260,
+        32
+      ],
+      "geometry": "rect",
+      "text": "非静态版 + 静态版",
+      "textPreview": "非静态版 + 静态版",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#2563EB",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "非静态版 + 静态版"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "非静态版 + 静态版",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#2563EB",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "非静态版 + 静态版",
+              "fontSize": 24,
+              "color": "#2563EB",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ex8nidgb",
+      "id": "5",
+      "bbox": [
+        444,
+        500,
+        320,
+        82
+      ],
+      "geometry": "rect",
+      "fillColor": "#ECFDF3",
+      "lineColor": "#D1D5DB",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kz6tsfm",
+      "id": "6",
+      "bbox": [
+        472,
+        525,
+        260,
+        32
+      ],
+      "geometry": "rect",
+      "text": "模型和数据可复现",
+      "textPreview": "模型和数据可复现",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#16865B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "模型和数据可复现"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "模型和数据可复现",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#16865B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "模型和数据可复现",
+              "fontSize": 24,
+              "color": "#16865B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gjq5kny1",
+      "id": "7",
+      "bbox": [
+        806,
+        500,
+        320,
+        82
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFF7ED",
+      "lineColor": "#D1D5DB",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rux4nixk",
+      "id": "8",
+      "bbox": [
+        834,
+        525,
+        260,
+        32
+      ],
+      "geometry": "rect",
+      "text": "报告和 PPT 已整理",
+      "textPreview": "报告和 PPT 已整理",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#EA7A24",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "报告和 PPT 已整理"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "报告和 PPT 已整理",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#EA7A24",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "报告和 PPT 已整理",
+              "fontSize": 24,
+              "color": "#EA7A24",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

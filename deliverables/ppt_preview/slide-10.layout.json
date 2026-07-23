@@ -1,0 +1,1029 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/aqvht0",
+    "id": "aqvht0",
+    "slide": 10,
+    "layoutId": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "368012da-b264-4b8e-9d25-45db87a40646",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mx8zyh0v",
+      "id": "1",
+      "bbox": [
+        64,
+        50,
+        880,
+        58
+      ],
+      "geometry": "rect",
+      "text": "分工围绕模型、系统、材料和演示展开",
+      "textPreview": "分工围绕模型、系统、材料和演示展开",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "分工围绕模型、系统、材料和演示展开"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "分工围绕模型、系统、材料和演示展开",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "分工围绕模型、系统、材料和演示展开",
+              "fontSize": 36,
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/90jitwz6",
+      "id": "2",
+      "bbox": [
+        66,
+        110,
+        820,
+        34
+      ],
+      "geometry": "rect",
+      "text": "贡献比例可按实际小组成员姓名替换",
+      "textPreview": "贡献比例可按实际小组成员姓名替换",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#667085",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "贡献比例可按实际小组成员姓名替换"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "贡献比例可按实际小组成员姓名替换",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#667085",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "贡献比例可按实际小组成员姓名替换",
+              "fontSize": 18,
+              "color": "#667085",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8zqhkril",
+      "id": "3",
+      "bbox": [
+        64,
+        154,
+        1152,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#D1D5DB",
+      "lineColor": "#D1D5DB",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zah0nmh4",
+      "id": "4",
+      "bbox": [
+        88,
+        220,
+        1090,
+        260
+      ],
+      "geometry": "rect",
+      "fillColor": "#F9FAFB",
+      "lineColor": "#D1D5DB",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y98zuh0j",
+      "id": "5",
+      "bbox": [
+        125,
+        250,
+        120,
+        30
+      ],
+      "geometry": "rect",
+      "text": "成员A",
+      "textPreview": "成员A",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "成员A"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "成员A",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "成员A",
+              "fontSize": 22,
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lwzipcza",
+      "id": "6",
+      "bbox": [
+        290,
+        250,
+        600,
+        30
+      ],
+      "geometry": "rect",
+      "text": "需求分析、报告撰写、材料整理",
+      "textPreview": "需求分析、报告撰写、材料整理",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "需求分析、报告撰写、材料整理"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "需求分析、报告撰写、材料整理",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "需求分析、报告撰写、材料整理",
+              "fontSize": 22,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0vqhw7ip",
+      "id": "7",
+      "bbox": [
+        980,
+        250,
+        100,
+        30
+      ],
+      "geometry": "rect",
+      "text": "25%",
+      "textPreview": "25%",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#2563EB",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "25%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "25%",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#2563EB",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "25%",
+              "fontSize": 22,
+              "color": "#2563EB",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6x0j2h8",
+      "id": "8",
+      "bbox": [
+        125,
+        305,
+        120,
+        30
+      ],
+      "geometry": "rect",
+      "text": "成员B",
+      "textPreview": "成员B",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "成员B"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "成员B",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "成员B",
+              "fontSize": 22,
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5ozqx0n",
+      "id": "9",
+      "bbox": [
+        290,
+        305,
+        600,
+        30
+      ],
+      "geometry": "rect",
+      "text": "数据集整理、模型训练、结果分析",
+      "textPreview": "数据集整理、模型训练、结果分析",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "数据集整理、模型训练、结果分析"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "数据集整理、模型训练、结果分析",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "数据集整理、模型训练、结果分析",
+              "fontSize": 22,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7qt4rqt",
+      "id": "10",
+      "bbox": [
+        980,
+        305,
+        100,
+        30
+      ],
+      "geometry": "rect",
+      "text": "30%",
+      "textPreview": "30%",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#2563EB",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "30%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "30%",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#2563EB",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "30%",
+              "fontSize": 22,
+              "color": "#2563EB",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h8zuxwre",
+      "id": "11",
+      "bbox": [
+        125,
+        360,
+        120,
+        30
+      ],
+      "geometry": "rect",
+      "text": "成员C",
+      "textPreview": "成员C",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "成员C"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "成员C",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "成员C",
+              "fontSize": 22,
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u58b2h8n",
+      "id": "12",
+      "bbox": [
+        290,
+        360,
+        600,
+        30
+      ],
+      "geometry": "rect",
+      "text": "后端接口、检测模块、OpenCV 可视化",
+      "textPreview": "后端接口、检测模块、OpenCV 可视化",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "后端接口、检测模块、OpenCV 可视化"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "后端接口、检测模块、OpenCV 可视化",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "后端接口、检测模块、OpenCV 可视化",
+              "fontSize": 22,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6hsvm98",
+      "id": "13",
+      "bbox": [
+        980,
+        360,
+        100,
+        30
+      ],
+      "geometry": "rect",
+      "text": "25%",
+      "textPreview": "25%",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#2563EB",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "25%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "25%",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#2563EB",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "25%",
+              "fontSize": 22,
+              "color": "#2563EB",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8j6t07qx",
+      "id": "14",
+      "bbox": [
+        125,
+        415,
+        120,
+        30
+      ],
+      "geometry": "rect",
+      "text": "成员D",
+      "textPreview": "成员D",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "成员D"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "成员D",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "成员D",
+              "fontSize": 22,
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9kzatcr2",
+      "id": "15",
+      "bbox": [
+        290,
+        415,
+        600,
+        30
+      ],
+      "geometry": "rect",
+      "text": "前端页面、静态版、PPT 和视频",
+      "textPreview": "前端页面、静态版、PPT 和视频",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "前端页面、静态版、PPT 和视频"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "前端页面、静态版、PPT 和视频",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "前端页面、静态版、PPT 和视频",
+              "fontSize": 22,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mhobyh8r",
+      "id": "16",
+      "bbox": [
+        980,
+        415,
+        100,
+        30
+      ],
+      "geometry": "rect",
+      "text": "20%",
+      "textPreview": "20%",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#2563EB",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "20%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "20%",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#2563EB",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "20%",
+              "fontSize": 22,
+              "color": "#2563EB",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ixsrm9c",
+      "id": "17",
+      "bbox": [
+        130,
+        535,
+        720,
+        32
+      ],
+      "geometry": "rect",
+      "text": "成员A：成员B：成员C：成员D = 2.5：3.0：2.5：2.0",
+      "textPreview": "成员A：成员B：成员C：成员D = 2.5：3.0：2.5：2.0",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "成员A：成员B：成员C：成员D = 2.5：3.0：2.5：2.0"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "成员A：成员B：成员C：成员D = 2.5：3.0：2.5：2.0",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "成员A：成员B：成员C：成员D = 2.5：3.0：2.5：2.0",
+              "fontSize": 22,
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

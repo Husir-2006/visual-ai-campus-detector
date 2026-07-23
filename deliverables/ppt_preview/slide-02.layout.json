@@ -1,0 +1,445 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/bq5m8j",
+    "id": "bq5m8j",
+    "slide": 2,
+    "layoutId": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "368012da-b264-4b8e-9d25-45db87a40646",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18jq9czy",
+      "id": "1",
+      "bbox": [
+        64,
+        50,
+        880,
+        58
+      ],
+      "geometry": "rect",
+      "text": "项目要解决的是校园车辆图片的自动识别问题",
+      "textPreview": "项目要解决的是校园车辆图片的自动识别问题",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "项目要解决的是校园车辆图片的自动识别问题"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "项目要解决的是校园车辆图片的自动识别问题",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "项目要解决的是校园车辆图片的自动识别问题",
+              "fontSize": 36,
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/elsreh0n",
+      "id": "2",
+      "bbox": [
+        66,
+        110,
+        820,
+        34
+      ],
+      "geometry": "rect",
+      "text": "从人工查看图片，转向自动定位车辆和车牌区域",
+      "textPreview": "从人工查看图片，转向自动定位车辆和车牌区域",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#667085",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "从人工查看图片，转向自动定位车辆和车牌区域"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "从人工查看图片，转向自动定位车辆和车牌区域",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#667085",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "从人工查看图片，转向自动定位车辆和车牌区域",
+              "fontSize": 18,
+              "color": "#667085",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z6187mhs",
+      "id": "3",
+      "bbox": [
+        64,
+        154,
+        1152,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#D1D5DB",
+      "lineColor": "#D1D5DB",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8ba9krip",
+      "id": "4",
+      "bbox": [
+        92,
+        220,
+        920,
+        34
+      ],
+      "geometry": "rect",
+      "text": "• 校园门口、停车场、道路监控都存在车辆通行记录需求",
+      "textPreview": "• 校园门口、停车场、道路监控都存在车辆通行记录需求",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 校园门口、停车场、道路监控都存在车辆通行记录需求"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• 校园门口、停车场、道路监控都存在车辆通行记录需求",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 校园门口、停车场、道路监控都存在车辆通行记录需求",
+              "fontSize": 22,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9c3qdwza",
+      "id": "5",
+      "bbox": [
+        92,
+        262,
+        920,
+        34
+      ],
+      "geometry": "rect",
+      "text": "• 人工查看图片效率低，难以快速统计数量和定位车牌",
+      "textPreview": "• 人工查看图片效率低，难以快速统计数量和定位车牌",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 人工查看图片效率低，难以快速统计数量和定位车牌"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• 人工查看图片效率低，难以快速统计数量和定位车牌",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 人工查看图片效率低，难以快速统计数量和定位车牌",
+              "fontSize": 22,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m9srih0j",
+      "id": "6",
+      "bbox": [
+        92,
+        304,
+        920,
+        34
+      ],
+      "geometry": "rect",
+      "text": "• 目标检测可以输出位置、类别和置信度，适合做课程视觉 AI 应用",
+      "textPreview": "• 目标检测可以输出位置、类别和置信度，适合做课程视觉 AI 应用",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 目标检测可以输出位置、类别和置信度，适合做课程视觉 AI 应用"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• 目标检测可以输出位置、类别和置信度，适合做课程视觉 AI 应用",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 目标检测可以输出位置、类别和置信度，适合做课程视觉 AI 应用",
+              "fontSize": 22,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/na18bmh4",
+      "id": "7",
+      "bbox": [
+        92,
+        346,
+        920,
+        34
+      ],
+      "geometry": "rect",
+      "text": "• 本项目重点完成“能训练、能检测、能展示、能交付”的完整闭环",
+      "textPreview": "• 本项目重点完成“能训练、能检测、能展示、能交付”的完整闭环",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 本项目重点完成“能训练、能检测、能展示、能交付”的完整闭环"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• 本项目重点完成“能训练、能检测、能展示、能交付”的完整闭环",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 本项目重点完成“能训练、能检测、能展示、能交付”的完整闭环",
+              "fontSize": 22,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

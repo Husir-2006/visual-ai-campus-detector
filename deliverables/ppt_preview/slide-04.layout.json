@@ -1,0 +1,552 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/4f5gix",
+    "id": "4f5gix",
+    "slide": 4,
+    "layoutId": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "368012da-b264-4b8e-9d25-45db87a40646",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7i1o3a1o",
+      "id": "1",
+      "bbox": [
+        64,
+        50,
+        880,
+        58
+      ],
+      "geometry": "rect",
+      "text": "训练数据扩展到 2.5 万张，支撑模型结果更有说服力",
+      "textPreview": "训练数据扩展到 2.5 万张，支撑模型结果更有说服力",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "训练数据扩展到 2.5 万张，支撑模型结果更有说服力"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "训练数据扩展到 2.5 万张，支撑模型结果更有说服力",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "训练数据扩展到 2.5 万张，支撑模型结果更有说服力",
+              "fontSize": 36,
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sjupcf29",
+      "id": "2",
+      "bbox": [
+        66,
+        110,
+        820,
+        34
+      ],
+      "geometry": "rect",
+      "text": "三类公开数据源合并为统一 YOLO 目录",
+      "textPreview": "三类公开数据源合并为统一 YOLO 目录",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#667085",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "三类公开数据源合并为统一 YOLO 目录"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "三类公开数据源合并为统一 YOLO 目录",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#667085",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "三类公开数据源合并为统一 YOLO 目录",
+              "fontSize": 18,
+              "color": "#667085",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tk365kju",
+      "id": "3",
+      "bbox": [
+        64,
+        154,
+        1152,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#D1D5DB",
+      "lineColor": "#D1D5DB",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/upojitwn",
+      "id": "4",
+      "bbox": [
+        88,
+        215,
+        520,
+        330
+      ],
+      "chartType": "bar"
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ju1oza1s",
+      "id": "5",
+      "bbox": [
+        690,
+        215,
+        440,
+        330
+      ],
+      "geometry": "rect",
+      "fillColor": "#F9FAFB",
+      "lineColor": "#D1D5DB",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kfa58v2d",
+      "id": "6",
+      "bbox": [
+        728,
+        248,
+        300,
+        36
+      ],
+      "geometry": "rect",
+      "text": "合并后数据划分",
+      "textPreview": "合并后数据划分",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "合并后数据划分"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "合并后数据划分",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "合并后数据划分",
+              "fontSize": 28,
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5gj610jy",
+      "id": "7",
+      "bbox": [
+        730,
+        320,
+        300,
+        32
+      ],
+      "geometry": "rect",
+      "text": "训练集 22094 张",
+      "textPreview": "训练集 22094 张",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#16865B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "训练集 22094 张"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "训练集 22094 张",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#16865B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "训练集 22094 张",
+              "fontSize": 24,
+              "color": "#16865B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2pc7ipkb",
+      "id": "8",
+      "bbox": [
+        730,
+        375,
+        300,
+        32
+      ],
+      "geometry": "rect",
+      "text": "验证集 2310 张",
+      "textPreview": "验证集 2310 张",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#2563EB",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "验证集 2310 张"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "验证集 2310 张",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#2563EB",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "验证集 2310 张",
+              "fontSize": 24,
+              "color": "#2563EB",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3qlobu1w",
+      "id": "9",
+      "bbox": [
+        730,
+        430,
+        300,
+        32
+      ],
+      "geometry": "rect",
+      "text": "测试集 1150 张",
+      "textPreview": "测试集 1150 张",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#EA7A24",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "测试集 1150 张"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "测试集 1150 张",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#EA7A24",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "测试集 1150 张",
+              "fontSize": 24,
+              "color": "#EA7A24",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6x43ahs",
+      "id": "10",
+      "bbox": [
+        730,
+        500,
+        330,
+        56
+      ],
+      "geometry": "rect",
+      "text": "所有图片与标签统一复制到 datasets/combined，便于复现实验。",
+      "textPreview": "所有图片与标签统一复制到 datasets/combined，便于复现实验。",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#667085",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "所有图片与标签统一复制到"
+          },
+          {
+            "index": 2,
+            "text": "datasets/combined，便于复现实验。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "所有图片与标签统一复制到 datasets/combined，便于复现实验。",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#667085",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "所有图片与标签统一复制到 datasets/combined，便于复现实验。",
+              "fontSize": 18,
+              "color": "#667085",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

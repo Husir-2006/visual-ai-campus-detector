@@ -1,0 +1,164 @@
+{"kind":"deck","id":"pr/fdkhdo","name":"Deck"}
+{"kind":"layout","layoutId":"368012da-b264-4b8e-9d25-45db87a40646","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"09653692-eecc-452b-b9f5-5cb9812ec5cd","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/rxic1s","slide":1,"title":"基于 YOLO 的校园车辆与车牌检测系统","textShapes":8}
+{"kind":"textbox","id":"sh/ob2tozah","slide":1,"text":"基于 YOLO 的校园车辆与车牌检测系统","textPreview":"基于 YOLO 的校园车辆与车牌检测系统","textChars":20,"textLines":1,"bbox":[72,120,1020,120]}
+{"kind":"textbox","id":"sh/natsfutw","slide":1,"text":"创新应用综合实训 · 视觉 AI 应用项目","textPreview":"创新应用综合实训 · 视觉 AI 应用项目","textChars":21,"textLines":1,"bbox":[76,265,760,38]}
+{"kind":"shape","id":"sh/29krmpsb","slide":1,"bbox":[76,385,300,96]}
+{"kind":"textbox","id":"sh/18badkbq","slide":1,"text":"25554","textPreview":"25554","textChars":5,"textLines":1,"bbox":[104,402,160,44]}
+{"kind":"textbox","id":"sh/g729kfa5","slide":1,"text":"张合并训练图片","textPreview":"张合并训练图片","textChars":7,"textLines":1,"bbox":[106,452,220,28]}
+{"kind":"shape","id":"sh/f6tsbatk","slide":1,"bbox":[410,385,300,96]}
+{"kind":"textbox","id":"sh/e5kri5sf","slide":1,"text":"0.1196","textPreview":"0.1196","textChars":6,"textLines":1,"bbox":[438,402,190,44]}
+{"kind":"textbox","id":"sh/l4fap4ra","slide":1,"text":"测试集损失","textPreview":"测试集损失","textChars":5,"textLines":1,"bbox":[440,452,180,28]}
+{"kind":"shape","id":"sh/k36twjap","slide":1,"bbox":[744,385,300,96]}
+{"kind":"textbox","id":"sh/mt43ipgj","slide":1,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[772,402,90,44]}
+{"kind":"textbox","id":"sh/nud4buh4","slide":1,"text":"套演示版本","textPreview":"套演示版本","textChars":5,"textLines":1,"bbox":[774,452,180,28]}
+{"kind":"notes","id":"nt/rxic1s","slide":1,"text":""}
+{"kind":"slide","id":"sl/bq5m8j","slide":2,"title":"项目要解决的是校园车辆图片的自动识别问题","textShapes":6}
+{"kind":"textbox","id":"sh/18jq9czy","slide":2,"text":"项目要解决的是校园车辆图片的自动识别问题","textPreview":"项目要解决的是校园车辆图片的自动识别问题","textChars":20,"textLines":1,"bbox":[64,50,880,58]}
+{"kind":"textbox","id":"sh/elsreh0n","slide":2,"text":"从人工查看图片，转向自动定位车辆和车牌区域","textPreview":"从人工查看图片，转向自动定位车辆和车牌区域","textChars":21,"textLines":1,"bbox":[66,110,820,34]}
+{"kind":"shape","id":"sh/z6187mhs","slide":2,"bbox":[64,154,1152,2]}
+{"kind":"textbox","id":"sh/8ba9krip","slide":2,"text":"• 校园门口、停车场、道路监控都存在车辆通行记录需求","textPreview":"• 校园门口、停车场、道路监控都存在车辆通行记录需求","textChars":26,"textLines":1,"bbox":[92,220,920,34]}
+{"kind":"textbox","id":"sh/9c3qdwza","slide":2,"text":"• 人工查看图片效率低，难以快速统计数量和定位车牌","textPreview":"• 人工查看图片效率低，难以快速统计数量和定位车牌","textChars":25,"textLines":1,"bbox":[92,262,920,34]}
+{"kind":"textbox","id":"sh/m9srih0j","slide":2,"text":"• 目标检测可以输出位置、类别和置信度，适合做课程视觉 AI 应用","textPreview":"• 目标检测可以输出位置、类别和置信度，适合做课程视觉 AI 应用","textChars":33,"textLines":1,"bbox":[92,304,920,34]}
+{"kind":"textbox","id":"sh/na18bmh4","slide":2,"text":"• 本项目重点完成“能训练、能检测、能展示、能交付”的完整闭环","textPreview":"• 本项目重点完成“能训练、能检测、能展示、能交付”的完整闭环","textChars":31,"textLines":1,"bbox":[92,346,920,34]}
+{"kind":"notes","id":"nt/bq5m8j","slide":2,"text":""}
+{"kind":"slide","id":"sl/aghj39","slide":3,"title":"系统目标覆盖训练、推理和演示三个环节","textShapes":14}
+{"kind":"textbox","id":"sh/43atwr2l","slide":3,"text":"系统目标覆盖训练、推理和演示三个环节","textPreview":"系统目标覆盖训练、推理和演示三个环节","textChars":18,"textLines":1,"bbox":[64,50,880,58]}
+{"kind":"textbox","id":"sh/321s3m10","slide":3,"text":"最终交付不是单个模型，而是可展示的应用系统","textPreview":"最终交付不是单个模型，而是可展示的应用系统","textChars":21,"textLines":1,"bbox":[66,110,820,34]}
+{"kind":"shape","id":"sh/21sbuhkf","slide":3,"bbox":[64,154,1152,2]}
+{"kind":"shape","id":"sh/d83a9wj2","slide":3,"bbox":[78,238,246,250]}
+{"kind":"textbox","id":"sh/c7ut0b2x","slide":3,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[102,264,72,44]}
+{"kind":"textbox","id":"sh/r6ls761c","slide":3,"text":"上传图片","textPreview":"上传图片","textChars":4,"textLines":1,"bbox":[102,332,180,36]}
+{"kind":"textbox","id":"sh/q5sby1kr","slide":3,"text":"选择车辆图片并预览原图","textPreview":"选择车辆图片并预览原图","textChars":11,"textLines":1,"bbox":[102,392,184,74]}
+{"kind":"shape","id":"sh/tczaxcjy","slide":3,"bbox":[370,238,246,250]}
+{"kind":"textbox","id":"sh/sbq9o72d","slide":3,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[394,264,72,44]}
+{"kind":"textbox","id":"sh/a1w36x8j","slide":3,"text":"目标检测","textPreview":"目标检测","textChars":4,"textLines":1,"bbox":[394,332,180,36]}
+{"kind":"textbox","id":"sh/v25kz2p4","slide":3,"text":"定位车辆和车牌候选区域","textPreview":"定位车辆和车牌候选区域","textChars":11,"textLines":1,"bbox":[394,392,184,74]}
+{"kind":"shape","id":"sh/w3el876p","slide":3,"bbox":[662,238,246,250]}
+{"kind":"textbox","id":"sh/h4nm1s7a","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[686,264,72,44]}
+{"kind":"textbox","id":"sh/i5w3axov","slide":3,"text":"结果展示","textPreview":"结果展示","textChars":4,"textLines":1,"bbox":[686,332,180,36]}
+{"kind":"textbox","id":"sh/j65432p0","slide":3,"text":"绘制检测框、置信度和坐标","textPreview":"绘制检测框、置信度和坐标","textChars":12,"textLines":1,"bbox":[686,392,184,74]}
+{"kind":"shape","id":"sh/47elc76l","slide":3,"bbox":[954,238,246,250]}
+{"kind":"textbox","id":"sh/5s7m5c76","slide":3,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[978,264,72,44]}
+{"kind":"textbox","id":"sh/6tg3ehor","slide":3,"text":"材料交付","textPreview":"材料交付","textChars":4,"textLines":1,"bbox":[978,332,180,36]}
+{"kind":"textbox","id":"sh/rup47mpc","slide":3,"text":"报告、PPT、演示版本和样例图","textPreview":"报告、PPT、演示版本和样例图","textChars":15,"textLines":1,"bbox":[978,392,184,74]}
+{"kind":"notes","id":"nt/aghj39","slide":3,"text":""}
+{"kind":"slide","id":"sl/4f5gix","slide":4,"title":"训练数据扩展到 2.5 万张，支撑模型结果更有说服力","textShapes":7}
+{"kind":"textbox","id":"sh/7i1o3a1o","slide":4,"text":"训练数据扩展到 2.5 万张，支撑模型结果更有说服力","textPreview":"训练数据扩展到 2.5 万张，支撑模型结果更有说服力","textChars":26,"textLines":1,"bbox":[64,50,880,58]}
+{"kind":"textbox","id":"sh/sjupcf29","slide":4,"text":"三类公开数据源合并为统一 YOLO 目录","textPreview":"三类公开数据源合并为统一 YOLO 目录","textChars":20,"textLines":1,"bbox":[66,110,820,34]}
+{"kind":"shape","id":"sh/tk365kju","slide":4,"bbox":[64,154,1152,2]}
+{"kind":"shape","id":"sh/ju1oza1s","slide":4,"bbox":[690,215,440,330]}
+{"kind":"textbox","id":"sh/kfa58v2d","slide":4,"text":"合并后数据划分","textPreview":"合并后数据划分","textChars":7,"textLines":1,"bbox":[728,248,300,36]}
+{"kind":"textbox","id":"sh/5gj610jy","slide":4,"text":"训练集 22094 张","textPreview":"训练集 22094 张","textChars":11,"textLines":1,"bbox":[730,320,300,32]}
+{"kind":"textbox","id":"sh/2pc7ipkb","slide":4,"text":"验证集 2310 张","textPreview":"验证集 2310 张","textChars":10,"textLines":1,"bbox":[730,375,300,32]}
+{"kind":"textbox","id":"sh/3qlobu1w","slide":4,"text":"测试集 1150 张","textPreview":"测试集 1150 张","textChars":10,"textLines":1,"bbox":[730,430,300,32]}
+{"kind":"textbox","id":"sh/j6x43ahs","slide":4,"text":"所有图片与标签统一复制到 datasets/combined，便于复现实验。","textPreview":"所有图片与标签统一复制到 datasets/combined，便于复现实验。","textChars":38,"textLines":1,"bbox":[730,500,330,56]}
+{"kind":"chart","id":"ch/upojitwn","slide":4,"name":"","chartType":"bar","bbox":[88,215,520,330]}
+{"kind":"notes","id":"nt/4f5gix","slide":4,"text":""}
+{"kind":"slide","id":"sl/iw0csp","slide":5,"title":"模型采用轻量 YOLO 风格网格检测结构","textShapes":12}
+{"kind":"textbox","id":"sh/wnmxgfq1","slide":5,"text":"模型采用轻量 YOLO 风格网格检测结构","textPreview":"模型采用轻量 YOLO 风格网格检测结构","textChars":20,"textLines":1,"bbox":[64,50,880,58]}
+{"kind":"textbox","id":"sh/bmdw7a9g","slide":5,"text":"在课程电脑上可训练、可推理、可解释","textPreview":"在课程电脑上可训练、可推理、可解释","textChars":17,"textLines":1,"bbox":[66,110,820,34]}
+{"kind":"shape","id":"sh/al4fe58v","slide":5,"bbox":[64,154,1152,2]}
+{"kind":"shape","id":"sh/lcfedkri","slide":5,"bbox":[92,265,220,120]}
+{"kind":"textbox","id":"sh/kb6xkfqx","slide":5,"text":"输入图片 256×256","textPreview":"输入图片 256×256","textChars":12,"textLines":1,"bbox":[114,302,176,42]}
+{"kind":"textbox","id":"sh/jaxwbu9c","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[324,304,42,42]}
+{"kind":"shape","id":"sh/ypofip8r","slide":5,"bbox":[372,265,220,120]}
+{"kind":"textbox","id":"sh/1gbe10re","slide":5,"text":"CNN 特征提取","textPreview":"CNN 特征提取","textChars":8,"textLines":1,"bbox":[394,302,176,42]}
+{"kind":"textbox","id":"sh/0f2x8vqt","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[604,304,42,42]}
+{"kind":"shape","id":"sh/i5sbe1oz","slide":5,"bbox":[652,265,220,120]}
+{"kind":"textbox","id":"sh/jq1c76p4","slide":5,"text":"10×10 网格预测","textPreview":"10×10 网格预测","textChars":10,"textLines":1,"bbox":[674,302,176,42]}
+{"kind":"textbox","id":"sh/kratgb6p","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[884,304,42,42]}
+{"kind":"shape","id":"sh/5s3u9g7a","slide":5,"bbox":[932,265,220,120]}
+{"kind":"textbox","id":"sh/6tcbi1ov","slide":5,"text":"输出目标框和类别","textPreview":"输出目标框和类别","textChars":8,"textLines":1,"bbox":[954,302,176,42]}
+{"kind":"textbox","id":"sh/7ulcb6pg","slide":5,"text":"• 每个网格预测目标置信度、边界框坐标和类别概率","textPreview":"• 每个网格预测目标置信度、边界框坐标和类别概率","textChars":24,"textLines":1,"bbox":[118,470,980,34]}
+{"kind":"textbox","id":"sh/svutkb61","slide":5,"text":"• 损失函数包含目标置信度、边界框回归和类别分类","textPreview":"• 损失函数包含目标置信度、边界框回归和类别分类","textChars":24,"textLines":1,"bbox":[118,508,980,34]}
+{"kind":"textbox","id":"sh/tw3udg7m","slide":5,"text":"• 训练时加入亮度、对比度、噪声和模糊增强","textPreview":"• 训练时加入亮度、对比度、噪声和模糊增强","textChars":21,"textLines":1,"bbox":[118,546,980,34]}
+{"kind":"notes","id":"nt/iw0csp","slide":5,"text":""}
+{"kind":"slide","id":"sl/hlpnk5","slide":6,"title":"非静态版完成真实模型推理，静态版保证现场演示稳定","textShapes":12}
+{"kind":"textbox","id":"sh/0rmd0n2l","slide":6,"text":"非静态版完成真实模型推理，静态版保证现场演示稳定","textPreview":"非静态版完成真实模型推理，静态版保证现场演示稳定","textChars":24,"textLines":1,"bbox":[64,50,880,58]}
+{"kind":"textbox","id":"sh/zqdc7i10","slide":6,"text":"两套入口降低答辩时的运行风险","textPreview":"两套入口降低答辩时的运行风险","textChars":14,"textLines":1,"bbox":[66,110,820,34]}
+{"kind":"shape","id":"sh/ep4vydkf","slide":6,"bbox":[64,154,1152,2]}
+{"kind":"shape","id":"sh/9wfedsj2","slide":6,"bbox":[82,215,500,340]}
+{"kind":"textbox","id":"sh/ov6d4n2h","slide":6,"text":"非静态版","textPreview":"非静态版","textChars":4,"textLines":1,"bbox":[122,248,220,40]}
+{"kind":"textbox","id":"sh/nuxwb21w","slide":6,"text":"• Flask 后端接口","textPreview":"• Flask 后端接口","textChars":12,"textLines":1,"bbox":[124,320,370,34]}
+{"kind":"textbox","id":"sh/mtov2xkr","slide":6,"text":"• 加载 PyTorch 训练模型","textPreview":"• 加载 PyTorch 训练模型","textChars":17,"textLines":1,"bbox":[124,358,370,34]}
+{"kind":"textbox","id":"sh/p0bu183y","slide":6,"text":"• OpenCV 绘制检测结果","textPreview":"• OpenCV 绘制检测结果","textChars":15,"textLines":1,"bbox":[124,396,370,34]}
+{"kind":"textbox","id":"sh/4z2ds32d","slide":6,"text":"• 适合展示真实系统","textPreview":"• 适合展示真实系统","textChars":10,"textLines":1,"bbox":[124,434,370,34]}
+{"kind":"shape","id":"sh/u10r6p4r","slide":6,"bbox":[680,215,500,340]}
+{"kind":"textbox","id":"sh/v298zalc","slide":6,"text":"静态版","textPreview":"静态版","textChars":3,"textLines":1,"bbox":[720,248,220,40]}
+{"kind":"textbox","id":"sh/wni98fmx","slide":6,"text":"• 单个 HTML 文件","textPreview":"• 单个 HTML 文件","textChars":12,"textLines":1,"bbox":[722,320,370,34]}
+{"kind":"textbox","id":"sh/hobq1k32","slide":6,"text":"• 无需启动服务器","textPreview":"• 无需启动服务器","textChars":9,"textLines":1,"bbox":[722,358,370,34]}
+{"kind":"textbox","id":"sh/ipkrap4n","slide":6,"text":"• 本地上传并画框","textPreview":"• 本地上传并画框","textChars":9,"textLines":1,"bbox":[722,396,370,34]}
+{"kind":"textbox","id":"sh/jqt83ul8","slide":6,"text":"• 适合备用演示","textPreview":"• 适合备用演示","textChars":8,"textLines":1,"bbox":[722,434,370,34]}
+{"kind":"notes","id":"nt/hlpnk5","slide":6,"text":""}
+{"kind":"slide","id":"sl/0dfa2t","slide":7,"title":"系统页面支持上传、检测、统计和车牌裁剪","textShapes":8}
+{"kind":"textbox","id":"sh/b6xona1w","slide":7,"text":"系统页面支持上传、检测、统计和车牌裁剪","textPreview":"系统页面支持上传、检测、统计和车牌裁剪","textChars":19,"textLines":1,"bbox":[64,50,880,58]}
+{"kind":"textbox","id":"sh/w765wf2h","slide":7,"text":"演示时重点展示从输入到输出的完整流程","textPreview":"演示时重点展示从输入到输出的完整流程","textChars":18,"textLines":1,"bbox":[66,110,820,34]}
+{"kind":"shape","id":"sh/x8f6p0j2","slide":7,"bbox":[64,154,1152,2]}
+{"kind":"shape","id":"sh/nidojq10","slide":7,"bbox":[675,205,430,350]}
+{"kind":"textbox","id":"sh/o365sv2l","slide":7,"text":"页面输出内容","textPreview":"页面输出内容","textChars":6,"textLines":1,"bbox":[714,240,260,36]}
+{"kind":"textbox","id":"sh/94f6l0j6","slide":7,"text":"• 车辆/车牌数量","textPreview":"• 车辆/车牌数量","textChars":9,"textLines":1,"bbox":[716,310,300,34]}
+{"kind":"textbox","id":"sh/ed4nmlkj","slide":7,"text":"• 目标置信度","textPreview":"• 目标置信度","textChars":7,"textLines":1,"bbox":[716,352,300,34]}
+{"kind":"textbox","id":"sh/fedofq1o","slide":7,"text":"• 检测框坐标","textPreview":"• 检测框坐标","textChars":7,"textLines":1,"bbox":[716,394,300,34]}
+{"kind":"textbox","id":"sh/be1o3a9s","slide":7,"text":"• 车牌裁剪区域","textPreview":"• 车牌裁剪区域","textChars":8,"textLines":1,"bbox":[716,436,300,34]}
+{"kind":"textbox","id":"sh/qd8na5s7","slide":7,"text":"• 结果图保存","textPreview":"• 结果图保存","textChars":7,"textLines":1,"bbox":[716,478,300,34]}
+{"kind":"image","id":"im/76tsj6hc","slide":7,"name":"","alt":"检测样例图","bbox":[80,195,520,380]}
+{"kind":"notes","id":"nt/0dfa2t","slide":7,"text":""}
+{"kind":"slide","id":"sl/dgc9wz","slide":8,"title":"训练结果显示模型在大数据集上稳定收敛","textShapes":6}
+{"kind":"textbox","id":"sh/e1ofe98r","slide":8,"text":"训练结果显示模型在大数据集上稳定收敛","textPreview":"训练结果显示模型在大数据集上稳定收敛","textChars":18,"textLines":1,"bbox":[64,50,880,58]}
+{"kind":"textbox","id":"sh/14fe9ori","slide":8,"text":"测试集损失优于小数据训练版本","textPreview":"测试集损失优于小数据训练版本","textChars":14,"textLines":1,"bbox":[66,110,820,34]}
+{"kind":"shape","id":"sh/036xgjqx","slide":8,"bbox":[64,154,1152,2]}
+{"kind":"shape","id":"sh/qx4fa98v","slide":8,"bbox":[800,225,330,250]}
+{"kind":"textbox","id":"sh/d0fe54rm","slide":8,"text":"关键指标","textPreview":"关键指标","textChars":4,"textLines":1,"bbox":[832,252,220,36]}
+{"kind":"textbox","id":"sh/sz6xcjq1","slide":8,"text":"最佳验证损失 0.1420","textPreview":"最佳验证损失 0.1420","textChars":13,"textLines":1,"bbox":[834,325,260,32]}
+{"kind":"textbox","id":"sh/buhgfy9k","slide":8,"text":"测试集损失 0.1196","textPreview":"测试集损失 0.1196","textChars":12,"textLines":1,"bbox":[834,380,260,32]}
+{"kind":"textbox","id":"sh/at8fmt8z","slide":8,"text":"训练数据 25554 张","textPreview":"训练数据 25554 张","textChars":12,"textLines":1,"bbox":[834,435,260,32]}
+{"kind":"chart","id":"ch/fih8rmpg","slide":8,"name":"","chartType":"line","bbox":[82,200,660,360]}
+{"kind":"notes","id":"nt/dgc9wz","slide":8,"text":""}
+{"kind":"slide","id":"sl/84ahos","slide":9,"title":"项目亮点在于完成了从训练到应用的完整闭环","textShapes":12}
+{"kind":"textbox","id":"sh/jy9knyxg","slide":9,"text":"项目亮点在于完成了从训练到应用的完整闭环","textPreview":"项目亮点在于完成了从训练到应用的完整闭环","textChars":20,"textLines":1,"bbox":[64,50,880,58]}
+{"kind":"textbox","id":"sh/kzi1w3y1","slide":9,"text":"不足也清楚，后续可以继续加强车辆整体检测和字符识别","textPreview":"不足也清楚，后续可以继续加强车辆整体检测和字符识别","textChars":25,"textLines":1,"bbox":[66,110,820,34]}
+{"kind":"shape","id":"sh/50b2p8fm","slide":9,"bbox":[64,154,1152,2]}
+{"kind":"shape","id":"sh/61kjydg7","slide":9,"bbox":[84,205,500,360]}
+{"kind":"textbox","id":"sh/72tkrixs","slide":9,"text":"亮点","textPreview":"亮点","textChars":2,"textLines":1,"bbox":[124,238,160,38]}
+{"kind":"textbox","id":"sh/s3210nyd","slide":9,"text":"• 多源数据集合并","textPreview":"• 多源数据集合并","textChars":9,"textLines":1,"bbox":[126,310,360,34]}
+{"kind":"textbox","id":"sh/tob2t8fi","slide":9,"text":"• 2.5 万张图像训练","textPreview":"• 2.5 万张图像训练","textChars":12,"textLines":1,"bbox":[126,348,360,34]}
+{"kind":"textbox","id":"sh/m5gjm9gn","slide":9,"text":"• 双版本演示入口","textPreview":"• 双版本演示入口","textChars":9,"textLines":1,"bbox":[126,386,360,34]}
+{"kind":"textbox","id":"sh/n6p0feh8","slide":9,"text":"• 检测结果可视化完整","textPreview":"• 检测结果可视化完整","textChars":11,"textLines":1,"bbox":[126,424,360,34]}
+{"kind":"shape","id":"sh/jq5ojy1s","slide":9,"bbox":[682,205,500,360]}
+{"kind":"textbox","id":"sh/ipw7atkn","slide":9,"text":"后续改进","textPreview":"后续改进","textChars":4,"textLines":1,"bbox":[722,238,180,38]}
+{"kind":"textbox","id":"sh/5sn6lojy","slide":9,"text":"• 加入更多校园场景数据","textPreview":"• 加入更多校园场景数据","textChars":12,"textLines":1,"bbox":[724,310,360,34]}
+{"kind":"textbox","id":"sh/4repcj2d","slide":9,"text":"• 替换为完整 YOLOv5/YOLOv8","textPreview":"• 替换为完整 YOLOv5/YOLOv8","textChars":21,"textLines":1,"bbox":[724,348,360,34]}
+{"kind":"textbox","id":"sh/vmlofe1w","slide":9,"text":"• 增加车牌字符识别","textPreview":"• 增加车牌字符识别","textChars":10,"textLines":1,"bbox":[724,386,360,34]}
+{"kind":"textbox","id":"sh/ulc769kb","slide":9,"text":"• 扩展实时视频检测","textPreview":"• 扩展实时视频检测","textChars":10,"textLines":1,"bbox":[724,424,360,34]}
+{"kind":"notes","id":"nt/84ahos","slide":9,"text":""}
+{"kind":"slide","id":"sl/aqvht0","slide":10,"title":"分工围绕模型、系统、材料和演示展开","textShapes":15}
+{"kind":"textbox","id":"sh/mx8zyh0v","slide":10,"text":"分工围绕模型、系统、材料和演示展开","textPreview":"分工围绕模型、系统、材料和演示展开","textChars":17,"textLines":1,"bbox":[64,50,880,58]}
+{"kind":"textbox","id":"sh/90jitwz6","slide":10,"text":"贡献比例可按实际小组成员姓名替换","textPreview":"贡献比例可按实际小组成员姓名替换","textChars":16,"textLines":1,"bbox":[66,110,820,34]}
+{"kind":"shape","id":"sh/8zqhkril","slide":10,"bbox":[64,154,1152,2]}
+{"kind":"shape","id":"sh/zah0nmh4","slide":10,"bbox":[88,220,1090,260]}
+{"kind":"textbox","id":"sh/y98zuh0j","slide":10,"text":"成员A","textPreview":"成员A","textChars":3,"textLines":1,"bbox":[125,250,120,30]}
+{"kind":"textbox","id":"sh/lwzipcza","slide":10,"text":"需求分析、报告撰写、材料整理","textPreview":"需求分析、报告撰写、材料整理","textChars":14,"textLines":1,"bbox":[290,250,600,30]}
+{"kind":"textbox","id":"sh/0vqhw7ip","slide":10,"text":"25%","textPreview":"25%","textChars":3,"textLines":1,"bbox":[980,250,100,30]}
+{"kind":"textbox","id":"sh/b6x0j2h8","slide":10,"text":"成员B","textPreview":"成员B","textChars":3,"textLines":1,"bbox":[125,305,120,30]}
+{"kind":"textbox","id":"sh/q5ozqx0n","slide":10,"text":"数据集整理、模型训练、结果分析","textPreview":"数据集整理、模型训练、结果分析","textChars":15,"textLines":1,"bbox":[290,305,600,30]}
+{"kind":"textbox","id":"sh/w7qt4rqt","slide":10,"text":"30%","textPreview":"30%","textChars":3,"textLines":1,"bbox":[980,305,100,30]}
+{"kind":"textbox","id":"sh/h8zuxwre","slide":10,"text":"成员C","textPreview":"成员C","textChars":3,"textLines":1,"bbox":[125,360,120,30]}
+{"kind":"textbox","id":"sh/u58b2h8n","slide":10,"text":"后端接口、检测模块、OpenCV 可视化","textPreview":"后端接口、检测模块、OpenCV 可视化","textChars":20,"textLines":1,"bbox":[290,360,600,30]}
+{"kind":"textbox","id":"sh/v6hsvm98","slide":10,"text":"25%","textPreview":"25%","textChars":3,"textLines":1,"bbox":[980,360,100,30]}
+{"kind":"textbox","id":"sh/8j6t07qx","slide":10,"text":"成员D","textPreview":"成员D","textChars":3,"textLines":1,"bbox":[125,415,120,30]}
+{"kind":"textbox","id":"sh/9kzatcr2","slide":10,"text":"前端页面、静态版、PPT 和视频","textPreview":"前端页面、静态版、PPT 和视频","textChars":16,"textLines":1,"bbox":[290,415,600,30]}
+{"kind":"textbox","id":"sh/mhobyh8r","slide":10,"text":"20%","textPreview":"20%","textChars":3,"textLines":1,"bbox":[980,415,100,30]}
+{"kind":"textbox","id":"sh/7ixsrm9c","slide":10,"text":"成员A：成员B：成员C：成员D = 2.5：3.0：2.5：2.0","textPreview":"成员A：成员B：成员C：成员D = 2.5：3.0：2.5：2.0","textChars":33,"textLines":1,"bbox":[130,535,720,32]}
+{"kind":"notes","id":"nt/aqvht0","slide":10,"text":""}
+{"kind":"slide","id":"sl/zyrzmt","slide":11,"title":"最终交付形成了可运行、可展示、可复现的视觉 AI 课程项目","textShapes":5}
+{"kind":"textbox","id":"sh/2l8nmxg7","slide":11,"text":"最终交付形成了可运行、可展示、可复现的视觉 AI 课程项目","textPreview":"最终交付形成了可运行、可展示、可复现的视觉 AI 课程项目","textChars":29,"textLines":1,"bbox":[72,138,1040,124]}
+{"kind":"textbox","id":"sh/poj6xsfy","slide":11,"text":"下一步可以接入完整 YOLO 权重、视频流检测和车牌字符识别，把原型扩展为更接近真实校园车辆管理系统的应用。","textPreview":"下一步可以接入完整 YOLO 权重、视频流检测和车牌字符识别，把原型扩展为更接近真实校园车辆管理系统的应用。","textChars":54,"textLines":1,"bbox":[78,330,880,82]}
+{"kind":"shape","id":"sh/onq5o7yd","slide":11,"bbox":[82,500,320,82]}
+{"kind":"textbox","id":"sh/fihorixg","slide":11,"text":"非静态版 + 静态版","textPreview":"非静态版 + 静态版","textChars":10,"textLines":1,"bbox":[110,525,260,32]}
+{"kind":"shape","id":"sh/ex8nidgb","slide":11,"bbox":[444,500,320,82]}
+{"kind":"textbox","id":"sh/1kz6tsfm","slide":11,"text":"模型和数据可复现","textPreview":"模型和数据可复现","textChars":8,"textLines":1,"bbox":[472,525,260,32]}
+{"kind":"shape","id":"sh/gjq5kny1","slide":11,"bbox":[806,500,320,82]}
+{"kind":"textbox","id":"sh/rux4nixk","slide":11,"text":"报告和 PPT 已整理","textPreview":"报告和 PPT 已整理","textChars":11,"textLines":1,"bbox":[834,525,260,32]}
+{"kind":"notes","id":"nt/zyrzmt","slide":11,"text":""}

@@ -1,0 +1,29 @@
+﻿# raw datasets and runtime files
+datasets/
+uploads/
+__pycache__/
+*.pyc
+*.pyo
+
+# logs
+*.log
+*.err
+server*.log
+server*.err
+
+# local packaged copies
+submit_package/
+校园车辆与车牌检测系统-提交包.zip
+
+# generated ad-hoc detection outputs, keep curated samples/screenshots in deliverables
+outputs/*.jpg
+outputs/*.png
+!outputs/samples/
+!outputs/samples/**
+
+# virtual environments
+.venv/
+venv/
+env/
+
+deliverables/ppt_work/
