@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/aghj39",
-    "id": "aghj39",
+    "aid": "sl/013366",
+    "id": "013366",
     "slide": 3,
-    "layoutId": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+    "layoutId": "a857b1a4-faf1-41ac-825d-aa5fe767c72b",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+    "masterLayoutId": "a9269495-5ddd-4567-bcde-52dbfad40e8c",
     "masterLayoutName": "Master",
     "backgroundColor": "#FFFFFF",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+      "id": "a857b1a4-faf1-41ac-825d-aa5fe767c72b",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+      "parentLayoutId": "a9269495-5ddd-4567-bcde-52dbfad40e8c",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "368012da-b264-4b8e-9d25-45db87a40646",
+      "id": "a9269495-5ddd-4567-bcde-52dbfad40e8c",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,17 +64,17 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/43atwr2l",
+      "aid": "sh/58nips7a",
       "id": "1",
       "bbox": [
         64,
-        50,
-        880,
-        58
+        42,
+        1000,
+        56
       ],
       "geometry": "rect",
-      "text": "系统目标覆盖训练、推理和演示三个环节",
-      "textPreview": "系统目标覆盖训练、推理和演示三个环节",
+      "text": "项目不是单纯识别车牌，而是识别后能找车",
+      "textPreview": "项目不是单纯识别车牌，而是识别后能找车",
       "resolvedFontSize": 36,
       "resolvedTextStyle": {
         "fontSize": 36,
@@ -94,14 +94,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "系统目标覆盖训练、推理和演示三个环节"
+            "text": "项目不是单纯识别车牌，而是识别后能找车"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "系统目标覆盖训练、推理和演示三个环节",
+          "text": "项目不是单纯识别车牌，而是识别后能找车",
           "resolvedTextStyle": {
             "fontSize": 36,
             "color": "#111827",
@@ -111,7 +111,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "系统目标覆盖训练、推理和演示三个环节",
+              "text": "项目不是单纯识别车牌，而是识别后能找车",
               "fontSize": 36,
               "color": "#111827",
               "bold": true,
@@ -127,22 +127,22 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/321s3m10",
+      "aid": "sh/i5wjex8z",
       "id": "2",
       "bbox": [
         66,
-        110,
-        820,
-        34
+        100,
+        980,
+        30
       ],
       "geometry": "rect",
-      "text": "最终交付不是单个模型，而是可展示的应用系统",
-      "textPreview": "最终交付不是单个模型，而是可展示的应用系统",
+      "text": "从课程视觉 AI 任务扩展到企业/校园门岗车辆管理场景",
+      "textPreview": "从课程视觉 AI 任务扩展到企业/校园门岗车辆管理场景",
       "resolvedFontSize": 18,
       "resolvedTextStyle": {
         "fontSize": 18,
         "typeface": "+mn-lt",
-        "color": "#667085",
+        "color": "#64748B",
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -156,25 +156,25 @@
         "lines": [
           {
             "index": 1,
-            "text": "最终交付不是单个模型，而是可展示的应用系统"
+            "text": "从课程视觉 AI 任务扩展到企业/校园门岗车辆管理场景"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "最终交付不是单个模型，而是可展示的应用系统",
+          "text": "从课程视觉 AI 任务扩展到企业/校园门岗车辆管理场景",
           "resolvedTextStyle": {
             "fontSize": 18,
-            "color": "#667085",
+            "color": "#64748B",
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "最终交付不是单个模型，而是可展示的应用系统",
+              "text": "从课程视觉 AI 任务扩展到企业/校园门岗车辆管理场景",
               "fontSize": 18,
-              "color": "#667085",
+              "color": "#64748B",
               "alignment": "left"
             }
           ],
@@ -187,57 +187,39 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/21sbuhkf",
+      "aid": "sh/j650nipk",
       "id": "3",
       "bbox": [
         64,
-        154,
+        142,
         1152,
         2
       ],
       "geometry": "rect",
-      "fillColor": "#D1D5DB",
-      "lineColor": "#D1D5DB",
+      "fillColor": "#CBD5E1",
+      "lineColor": "#CBD5E1",
       "lineWidth": 0
     },
     {
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/d83a9wj2",
+      "aid": "sh/w3e1cnqt",
       "id": "4",
       "bbox": [
-        78,
-        238,
-        246,
-        250
+        92,
+        205,
+        650,
+        30
       ],
       "geometry": "rect",
-      "fillColor": "#F3F4F6",
-      "lineColor": "#D1D5DB",
-      "lineWidth": 1
-    },
-    {
-      "order": 5,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/c7ut0b2x",
-      "id": "5",
-      "bbox": [
-        102,
-        264,
-        72,
-        44
-      ],
-      "geometry": "rect",
-      "text": "01",
-      "textPreview": "01",
-      "resolvedFontSize": 34,
+      "text": "• 入口：上传车辆图片，检测车辆和车牌区域",
+      "textPreview": "• 入口：上传车辆图片，检测车辆和车牌区域",
+      "resolvedFontSize": 24,
       "resolvedTextStyle": {
-        "fontSize": 34,
+        "fontSize": 24,
         "typeface": "+mn-lt",
-        "color": "#2563EB",
-        "bold": true,
+        "color": "#111827",
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -251,27 +233,85 @@
         "lines": [
           {
             "index": 1,
-            "text": "01"
+            "text": "• 入口：上传车辆图片，检测车辆和车牌区域"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "01",
+          "text": "• 入口：上传车辆图片，检测车辆和车牌区域",
           "resolvedTextStyle": {
-            "fontSize": 34,
-            "color": "#2563EB",
-            "bold": true,
+            "fontSize": 24,
+            "color": "#111827",
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "01",
-              "fontSize": 34,
-              "color": "#2563EB",
-              "bold": true,
+              "text": "• 入口：上传车辆图片，检测车辆和车牌区域",
+              "fontSize": 24,
+              "color": "#111827",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4nils7e",
+      "id": "5",
+      "bbox": [
+        92,
+        253,
+        650,
+        30
+      ],
+      "geometry": "rect",
+      "text": "• 识别：输出车牌号、置信度、车牌裁剪和结果图",
+      "textPreview": "• 识别：输出车牌号、置信度、车牌裁剪和结果图",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 识别：输出车牌号、置信度、车牌裁剪和结果图"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• 识别：输出车牌号、置信度、车牌裁剪和结果图",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#111827",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 识别：输出车牌号、置信度、车牌裁剪和结果图",
+              "fontSize": 24,
+              "color": "#111827",
               "alignment": "left"
             }
           ],
@@ -284,23 +324,22 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/r6ls761c",
+      "aid": "sh/uhczad8n",
       "id": "6",
       "bbox": [
-        102,
-        332,
-        180,
-        36
+        92,
+        301,
+        650,
+        30
       ],
       "geometry": "rect",
-      "text": "上传图片",
-      "textPreview": "上传图片",
-      "resolvedFontSize": 28,
+      "text": "• 管理：根据车牌号自动匹配车辆档案",
+      "textPreview": "• 管理：根据车牌号自动匹配车辆档案",
+      "resolvedFontSize": 24,
       "resolvedTextStyle": {
-        "fontSize": 28,
+        "fontSize": 24,
         "typeface": "+mn-lt",
         "color": "#111827",
-        "bold": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -314,27 +353,25 @@
         "lines": [
           {
             "index": 1,
-            "text": "上传图片"
+            "text": "• 管理：根据车牌号自动匹配车辆档案"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "上传图片",
+          "text": "• 管理：根据车牌号自动匹配车辆档案",
           "resolvedTextStyle": {
-            "fontSize": 28,
+            "fontSize": 24,
             "color": "#111827",
-            "bold": true,
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "上传图片",
-              "fontSize": 28,
+              "text": "• 管理：根据车牌号自动匹配车辆档案",
+              "fontSize": 24,
               "color": "#111827",
-              "bold": true,
               "alignment": "left"
             }
           ],
@@ -347,22 +384,22 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/q5sby1kr",
+      "aid": "sh/vil0jip8",
       "id": "7",
       "bbox": [
-        102,
-        392,
-        184,
-        74
+        92,
+        349,
+        650,
+        30
       ],
       "geometry": "rect",
-      "text": "选择车辆图片并预览原图",
-      "textPreview": "选择车辆图片并预览原图",
-      "resolvedFontSize": 20,
+      "text": "• 展示：返回车主部门、车辆类型、通行权限、车辆状态和最近通行记录",
+      "textPreview": "• 展示：返回车主部门、车辆类型、通行权限、车辆状态和最近通行记录",
+      "resolvedFontSize": 24,
       "resolvedTextStyle": {
-        "fontSize": 20,
+        "fontSize": 24,
         "typeface": "+mn-lt",
-        "color": "#667085",
+        "color": "#111827",
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -372,33 +409,37 @@
         }
       },
       "textLayout": {
-        "lineCount": 2,
+        "lineCount": 3,
         "lines": [
           {
             "index": 1,
-            "text": "选择车辆图片并预"
+            "text": "•"
           },
           {
             "index": 2,
-            "text": "览原图"
+            "text": "展示：返回车主部门、车辆类型、通行权限、车辆状态和最"
+          },
+          {
+            "index": 3,
+            "text": "近通行记录"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "选择车辆图片并预览原图",
+          "text": "• 展示：返回车主部门、车辆类型、通行权限、车辆状态和最近通行记录",
           "resolvedTextStyle": {
-            "fontSize": 20,
-            "color": "#667085",
+            "fontSize": 24,
+            "color": "#111827",
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "选择车辆图片并预览原图",
-              "fontSize": 20,
-              "color": "#667085",
+              "text": "• 展示：返回车主部门、车辆类型、通行权限、车辆状态和最近通行记录",
+              "fontSize": 24,
+              "color": "#111827",
               "alignment": "left"
             }
           ],
@@ -411,41 +452,41 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/tczaxcjy",
+      "aid": "sh/gzy1o76x",
       "id": "8",
       "bbox": [
-        370,
-        238,
-        246,
-        250
+        820,
+        205,
+        310,
+        300
       ],
-      "geometry": "rect",
-      "fillColor": "#F3F4F6",
-      "lineColor": "#D1D5DB",
+      "geometry": "roundRect",
+      "fillColor": "#EFF6FF",
+      "lineColor": "#CBD5E1",
       "lineWidth": 1
     },
     {
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/sbq9o72d",
+      "aid": "sh/107ixc7i",
       "id": "9",
       "bbox": [
-        394,
-        264,
-        72,
-        44
+        852,
+        250,
+        250,
+        38
       ],
       "geometry": "rect",
-      "text": "02",
-      "textPreview": "02",
-      "resolvedFontSize": 34,
+      "text": "识别 → 查询 → 处置",
+      "textPreview": "识别 → 查询 → 处置",
+      "resolvedFontSize": 30,
       "resolvedTextStyle": {
-        "fontSize": 34,
+        "fontSize": 30,
         "typeface": "+mn-lt",
         "color": "#2563EB",
         "bold": true,
-        "alignment": "left",
+        "alignment": "center",
         "insets": {
           "top": 4.8,
           "right": 9.6,
@@ -454,32 +495,36 @@
         }
       },
       "textLayout": {
-        "lineCount": 1,
+        "lineCount": 2,
         "lines": [
           {
             "index": 1,
-            "text": "02"
+            "text": "识别 → 查询 →"
+          },
+          {
+            "index": 2,
+            "text": "处置"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "02",
+          "text": "识别 → 查询 → 处置",
           "resolvedTextStyle": {
-            "fontSize": 34,
+            "fontSize": 30,
             "color": "#2563EB",
             "bold": true,
-            "alignment": "left"
+            "alignment": "center"
           },
           "runs": [
             {
               "index": 1,
-              "text": "02",
-              "fontSize": 34,
+              "text": "识别 → 查询 → 处置",
+              "fontSize": 30,
               "color": "#2563EB",
               "bold": true,
-              "alignment": "left"
+              "alignment": "center"
             }
           ],
           "marginLeft": 0
@@ -491,24 +536,23 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/a1w36x8j",
+      "aid": "sh/587ulova",
       "id": "10",
       "bbox": [
-        394,
-        332,
-        180,
-        36
+        858,
+        330,
+        235,
+        110
       ],
       "geometry": "rect",
-      "text": "目标检测",
-      "textPreview": "目标检测",
-      "resolvedFontSize": 28,
+      "text": "门岗人员不只看到车牌框，还能知道这辆车是谁的、能不能进、是否需要人工核验。",
+      "textPreview": "门岗人员不只看到车牌框，还能知道这辆车是谁的、能不能进、是否需要人工核验。",
+      "resolvedFontSize": 22,
       "resolvedTextStyle": {
-        "fontSize": 28,
+        "fontSize": 22,
         "typeface": "+mn-lt",
         "color": "#111827",
-        "bold": true,
-        "alignment": "left",
+        "alignment": "center",
         "insets": {
           "top": 4.8,
           "right": 9.6,
@@ -517,32 +561,46 @@
         }
       },
       "textLayout": {
-        "lineCount": 1,
+        "lineCount": 5,
         "lines": [
           {
             "index": 1,
-            "text": "目标检测"
+            "text": "门岗人员不只看到车"
+          },
+          {
+            "index": 2,
+            "text": "牌框，还能知道这辆"
+          },
+          {
+            "index": 3,
+            "text": "车是谁的、能不能进"
+          },
+          {
+            "index": 4,
+            "text": "、是否需要人工核验"
+          },
+          {
+            "index": 5,
+            "text": "。"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "目标检测",
+          "text": "门岗人员不只看到车牌框，还能知道这辆车是谁的、能不能进、是否需要人工核验。",
           "resolvedTextStyle": {
-            "fontSize": 28,
+            "fontSize": 22,
             "color": "#111827",
-            "bold": true,
-            "alignment": "left"
+            "alignment": "center"
           },
           "runs": [
             {
               "index": 1,
-              "text": "目标检测",
-              "fontSize": 28,
+              "text": "门岗人员不只看到车牌框，还能知道这辆车是谁的、能不能进、是否需要人工核验。",
+              "fontSize": 22,
               "color": "#111827",
-              "bold": true,
-              "alignment": "left"
+              "alignment": "center"
             }
           ],
           "marginLeft": 0
@@ -554,105 +612,23 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/v25kz2p4",
+      "aid": "sh/47ydcjup",
       "id": "11",
       "bbox": [
-        394,
-        392,
-        184,
-        74
+        980,
+        684,
+        230,
+        20
       ],
       "geometry": "rect",
-      "text": "定位车辆和车牌候选区域",
-      "textPreview": "定位车辆和车牌候选区域",
-      "resolvedFontSize": 20,
+      "text": "企业车牌识别与车辆管理系统 · 3",
+      "textPreview": "企业车牌识别与车辆管理系统 · 3",
+      "resolvedFontSize": 12,
       "resolvedTextStyle": {
-        "fontSize": 20,
+        "fontSize": 12,
         "typeface": "+mn-lt",
-        "color": "#667085",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 2,
-        "lines": [
-          {
-            "index": 1,
-            "text": "定位车辆和车牌候"
-          },
-          {
-            "index": 2,
-            "text": "选区域"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "定位车辆和车牌候选区域",
-          "resolvedTextStyle": {
-            "fontSize": 20,
-            "color": "#667085",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "定位车辆和车牌候选区域",
-              "fontSize": 20,
-              "color": "#667085",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 12,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/w3el876p",
-      "id": "12",
-      "bbox": [
-        662,
-        238,
-        246,
-        250
-      ],
-      "geometry": "rect",
-      "fillColor": "#F3F4F6",
-      "lineColor": "#D1D5DB",
-      "lineWidth": 1
-    },
-    {
-      "order": 13,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/h4nm1s7a",
-      "id": "13",
-      "bbox": [
-        686,
-        264,
-        72,
-        44
-      ],
-      "geometry": "rect",
-      "text": "03",
-      "textPreview": "03",
-      "resolvedFontSize": 34,
-      "resolvedTextStyle": {
-        "fontSize": 34,
-        "typeface": "+mn-lt",
-        "color": "#2563EB",
-        "bold": true,
-        "alignment": "left",
+        "color": "#64748B",
+        "alignment": "right",
         "insets": {
           "top": 4.8,
           "right": 9.6,
@@ -665,362 +641,26 @@
         "lines": [
           {
             "index": 1,
-            "text": "03"
+            "text": "企业车牌识别与车辆管理系统 · 3"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "03",
+          "text": "企业车牌识别与车辆管理系统 · 3",
           "resolvedTextStyle": {
-            "fontSize": 34,
-            "color": "#2563EB",
-            "bold": true,
-            "alignment": "left"
+            "fontSize": 12,
+            "color": "#64748B",
+            "alignment": "right"
           },
           "runs": [
             {
               "index": 1,
-              "text": "03",
-              "fontSize": 34,
-              "color": "#2563EB",
-              "bold": true,
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 14,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/i5w3axov",
-      "id": "14",
-      "bbox": [
-        686,
-        332,
-        180,
-        36
-      ],
-      "geometry": "rect",
-      "text": "结果展示",
-      "textPreview": "结果展示",
-      "resolvedFontSize": 28,
-      "resolvedTextStyle": {
-        "fontSize": 28,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "bold": true,
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "结果展示"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "结果展示",
-          "resolvedTextStyle": {
-            "fontSize": 28,
-            "color": "#111827",
-            "bold": true,
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "结果展示",
-              "fontSize": 28,
-              "color": "#111827",
-              "bold": true,
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 15,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/j65432p0",
-      "id": "15",
-      "bbox": [
-        686,
-        392,
-        184,
-        74
-      ],
-      "geometry": "rect",
-      "text": "绘制检测框、置信度和坐标",
-      "textPreview": "绘制检测框、置信度和坐标",
-      "resolvedFontSize": 20,
-      "resolvedTextStyle": {
-        "fontSize": 20,
-        "typeface": "+mn-lt",
-        "color": "#667085",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 2,
-        "lines": [
-          {
-            "index": 1,
-            "text": "绘制检测框、置信"
-          },
-          {
-            "index": 2,
-            "text": "度和坐标"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "绘制检测框、置信度和坐标",
-          "resolvedTextStyle": {
-            "fontSize": 20,
-            "color": "#667085",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "绘制检测框、置信度和坐标",
-              "fontSize": 20,
-              "color": "#667085",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 16,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/47elc76l",
-      "id": "16",
-      "bbox": [
-        954,
-        238,
-        246,
-        250
-      ],
-      "geometry": "rect",
-      "fillColor": "#F3F4F6",
-      "lineColor": "#D1D5DB",
-      "lineWidth": 1
-    },
-    {
-      "order": 17,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/5s7m5c76",
-      "id": "17",
-      "bbox": [
-        978,
-        264,
-        72,
-        44
-      ],
-      "geometry": "rect",
-      "text": "04",
-      "textPreview": "04",
-      "resolvedFontSize": 34,
-      "resolvedTextStyle": {
-        "fontSize": 34,
-        "typeface": "+mn-lt",
-        "color": "#2563EB",
-        "bold": true,
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "04"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "04",
-          "resolvedTextStyle": {
-            "fontSize": 34,
-            "color": "#2563EB",
-            "bold": true,
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "04",
-              "fontSize": 34,
-              "color": "#2563EB",
-              "bold": true,
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 18,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/6tg3ehor",
-      "id": "18",
-      "bbox": [
-        978,
-        332,
-        180,
-        36
-      ],
-      "geometry": "rect",
-      "text": "材料交付",
-      "textPreview": "材料交付",
-      "resolvedFontSize": 28,
-      "resolvedTextStyle": {
-        "fontSize": 28,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "bold": true,
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "材料交付"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "材料交付",
-          "resolvedTextStyle": {
-            "fontSize": 28,
-            "color": "#111827",
-            "bold": true,
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "材料交付",
-              "fontSize": 28,
-              "color": "#111827",
-              "bold": true,
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 19,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/rup47mpc",
-      "id": "19",
-      "bbox": [
-        978,
-        392,
-        184,
-        74
-      ],
-      "geometry": "rect",
-      "text": "报告、PPT、演示版本和样例图",
-      "textPreview": "报告、PPT、演示版本和样例图",
-      "resolvedFontSize": 20,
-      "resolvedTextStyle": {
-        "fontSize": 20,
-        "typeface": "+mn-lt",
-        "color": "#667085",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 2,
-        "lines": [
-          {
-            "index": 1,
-            "text": "报告、PPT、演示"
-          },
-          {
-            "index": 2,
-            "text": "版本和样例图"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "报告、PPT、演示版本和样例图",
-          "resolvedTextStyle": {
-            "fontSize": 20,
-            "color": "#667085",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "报告、PPT、演示版本和样例图",
-              "fontSize": 20,
-              "color": "#667085",
-              "alignment": "left"
+              "text": "企业车牌识别与车辆管理系统 · 3",
+              "fontSize": 12,
+              "color": "#64748B",
+              "alignment": "right"
             }
           ],
           "marginLeft": 0

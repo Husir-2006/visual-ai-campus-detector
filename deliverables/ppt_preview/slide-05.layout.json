@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/iw0csp",
-    "id": "iw0csp",
+    "aid": "sl/91ozl6",
+    "id": "91ozl6",
     "slide": 5,
-    "layoutId": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+    "layoutId": "a857b1a4-faf1-41ac-825d-aa5fe767c72b",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+    "masterLayoutId": "a9269495-5ddd-4567-bcde-52dbfad40e8c",
     "masterLayoutName": "Master",
     "backgroundColor": "#FFFFFF",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+      "id": "a857b1a4-faf1-41ac-825d-aa5fe767c72b",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+      "parentLayoutId": "a9269495-5ddd-4567-bcde-52dbfad40e8c",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "368012da-b264-4b8e-9d25-45db87a40646",
+      "id": "a9269495-5ddd-4567-bcde-52dbfad40e8c",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,17 +64,17 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/wnmxgfq1",
+      "aid": "sh/ho7ah4rq",
       "id": "1",
       "bbox": [
         64,
-        50,
-        880,
-        58
+        42,
+        1000,
+        56
       ],
       "geometry": "rect",
-      "text": "模型采用轻量 YOLO 风格网格检测结构",
-      "textPreview": "模型采用轻量 YOLO 风格网格检测结构",
+      "text": "多源公开数据集合并后形成 25554 张训练图片",
+      "textPreview": "多源公开数据集合并后形成 25554 张训练图片",
       "resolvedFontSize": 36,
       "resolvedTextStyle": {
         "fontSize": 36,
@@ -94,14 +94,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "模型采用轻量 YOLO 风格网格检测结构"
+            "text": "多源公开数据集合并后形成 25554 张训练图片"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "模型采用轻量 YOLO 风格网格检测结构",
+          "text": "多源公开数据集合并后形成 25554 张训练图片",
           "resolvedTextStyle": {
             "fontSize": 36,
             "color": "#111827",
@@ -111,7 +111,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "模型采用轻量 YOLO 风格网格检测结构",
+              "text": "多源公开数据集合并后形成 25554 张训练图片",
               "fontSize": 36,
               "color": "#111827",
               "bold": true,
@@ -127,22 +127,22 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bmdw7a9g",
+      "aid": "sh/ulwr698z",
       "id": "2",
       "bbox": [
         66,
-        110,
-        820,
-        34
+        100,
+        980,
+        30
       ],
       "geometry": "rect",
-      "text": "在课程电脑上可训练、可推理、可解释",
-      "textPreview": "在课程电脑上可训练、可推理、可解释",
+      "text": "数据集不放入最终 zip，只在报告中写明来源和规模",
+      "textPreview": "数据集不放入最终 zip，只在报告中写明来源和规模",
       "resolvedFontSize": 18,
       "resolvedTextStyle": {
         "fontSize": 18,
         "typeface": "+mn-lt",
-        "color": "#667085",
+        "color": "#64748B",
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -156,25 +156,25 @@
         "lines": [
           {
             "index": 1,
-            "text": "在课程电脑上可训练、可推理、可解释"
+            "text": "数据集不放入最终 zip，只在报告中写明来源和规模"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "在课程电脑上可训练、可推理、可解释",
+          "text": "数据集不放入最终 zip，只在报告中写明来源和规模",
           "resolvedTextStyle": {
             "fontSize": 18,
-            "color": "#667085",
+            "color": "#64748B",
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "在课程电脑上可训练、可推理、可解释",
+              "text": "数据集不放入最终 zip，只在报告中写明来源和规模",
               "fontSize": 18,
-              "color": "#667085",
+              "color": "#64748B",
               "alignment": "left"
             }
           ],
@@ -187,123 +187,77 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/al4fe58v",
+      "aid": "sh/vmpsfe9k",
       "id": "3",
       "bbox": [
         64,
-        154,
+        142,
         1152,
         2
       ],
       "geometry": "rect",
-      "fillColor": "#D1D5DB",
-      "lineColor": "#D1D5DB",
+      "fillColor": "#CBD5E1",
+      "lineColor": "#CBD5E1",
       "lineWidth": 0
     },
     {
       "order": 4,
-      "kind": "shape",
+      "kind": "image",
       "scope": "slide",
-      "aid": "sh/lcfedkri",
+      "aid": "im/dszmxs76",
       "id": "4",
       "bbox": [
-        92,
-        265,
-        220,
-        120
+        80,
+        190,
+        760,
+        440
       ],
-      "geometry": "rect",
-      "fillColor": "#F9FAFB",
-      "lineColor": "#D1D5DB",
-      "lineWidth": 1
+      "alt": "数据集整理开发截图",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "339ede9c-affe-407c-b757-999a61436485",
+        "contentType": "image/png",
+        "byteLength": 86428
+      }
     },
     {
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/kb6xkfqx",
+      "aid": "sh/9knad4re",
       "id": "5",
       "bbox": [
-        114,
-        302,
-        176,
-        42
+        900,
+        220,
+        250,
+        350
       ],
-      "geometry": "rect",
-      "text": "输入图片 256×256",
-      "textPreview": "输入图片 256×256",
-      "resolvedFontSize": 24,
-      "resolvedTextStyle": {
-        "fontSize": 24,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "bold": true,
-        "alignment": "center",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 2,
-        "lines": [
-          {
-            "index": 1,
-            "text": "输入图片"
-          },
-          {
-            "index": 2,
-            "text": "256×256"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "输入图片 256×256",
-          "resolvedTextStyle": {
-            "fontSize": 24,
-            "color": "#111827",
-            "bold": true,
-            "alignment": "center"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "输入图片 256×256",
-              "fontSize": 24,
-              "color": "#111827",
-              "bold": true,
-              "alignment": "center"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
+      "geometry": "roundRect",
+      "fillColor": "#F8FAFC",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
     },
     {
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/jaxwbu9c",
+      "aid": "sh/mhwr2p83",
       "id": "6",
       "bbox": [
-        324,
-        304,
-        42,
-        42
+        932,
+        252,
+        170,
+        34
       ],
       "geometry": "rect",
-      "text": "→",
-      "textPreview": "→",
-      "resolvedFontSize": 34,
+      "text": "数据划分",
+      "textPreview": "数据划分",
+      "resolvedFontSize": 28,
       "resolvedTextStyle": {
-        "fontSize": 34,
+        "fontSize": 28,
         "typeface": "+mn-lt",
-        "color": "#667085",
+        "color": "#111827",
         "bold": true,
         "alignment": "left",
         "insets": {
@@ -318,26 +272,26 @@
         "lines": [
           {
             "index": 1,
-            "text": "→"
+            "text": "数据划分"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "→",
+          "text": "数据划分",
           "resolvedTextStyle": {
-            "fontSize": 34,
-            "color": "#667085",
+            "fontSize": 28,
+            "color": "#111827",
             "bold": true,
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "→",
-              "fontSize": 34,
-              "color": "#667085",
+              "text": "数据划分",
+              "fontSize": 28,
+              "color": "#111827",
               "bold": true,
               "alignment": "left"
             }
@@ -351,102 +305,22 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ypofip8r",
+      "aid": "sh/7i58bu98",
       "id": "7",
       "bbox": [
-        372,
-        265,
-        220,
-        120
+        934,
+        330,
+        170,
+        30
       ],
       "geometry": "rect",
-      "fillColor": "#EFF6FF",
-      "lineColor": "#D1D5DB",
-      "lineWidth": 1
-    },
-    {
-      "order": 8,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/1gbe10re",
-      "id": "8",
-      "bbox": [
-        394,
-        302,
-        176,
-        42
-      ],
-      "geometry": "rect",
-      "text": "CNN 特征提取",
-      "textPreview": "CNN 特征提取",
-      "resolvedFontSize": 24,
+      "text": "训练集 22094",
+      "textPreview": "训练集 22094",
+      "resolvedFontSize": 23,
       "resolvedTextStyle": {
-        "fontSize": 24,
+        "fontSize": 23,
         "typeface": "+mn-lt",
-        "color": "#111827",
-        "bold": true,
-        "alignment": "center",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "CNN 特征提取"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "CNN 特征提取",
-          "resolvedTextStyle": {
-            "fontSize": 24,
-            "color": "#111827",
-            "bold": true,
-            "alignment": "center"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "CNN 特征提取",
-              "fontSize": 24,
-              "color": "#111827",
-              "bold": true,
-              "alignment": "center"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 9,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/0f2x8vqt",
-      "id": "9",
-      "bbox": [
-        604,
-        304,
-        42,
-        42
-      ],
-      "geometry": "rect",
-      "text": "→",
-      "textPreview": "→",
-      "resolvedFontSize": 34,
-      "resolvedTextStyle": {
-        "fontSize": 34,
-        "typeface": "+mn-lt",
-        "color": "#667085",
+        "color": "#16865B",
         "bold": true,
         "alignment": "left",
         "insets": {
@@ -461,26 +335,152 @@
         "lines": [
           {
             "index": 1,
-            "text": "→"
+            "text": "训练集 22094"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "→",
+          "text": "训练集 22094",
           "resolvedTextStyle": {
-            "fontSize": 34,
-            "color": "#667085",
+            "fontSize": 23,
+            "color": "#16865B",
             "bold": true,
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "→",
-              "fontSize": 34,
-              "color": "#667085",
+              "text": "训练集 22094",
+              "fontSize": 23,
+              "color": "#16865B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sfi9g3qd",
+      "id": "8",
+      "bbox": [
+        934,
+        390,
+        170,
+        30
+      ],
+      "geometry": "rect",
+      "text": "验证集 2310",
+      "textPreview": "验证集 2310",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#2563EB",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "验证集 2310"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "验证集 2310",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#2563EB",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "验证集 2310",
+              "fontSize": 23,
+              "color": "#2563EB",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dgrapory",
+      "id": "9",
+      "bbox": [
+        934,
+        450,
+        170,
+        30
+      ],
+      "geometry": "rect",
+      "text": "测试集 1150",
+      "textPreview": "测试集 1150",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#D97706",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "测试集 1150"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "测试集 1150",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#D97706",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "测试集 1150",
+              "fontSize": 23,
+              "color": "#D97706",
               "bold": true,
               "alignment": "left"
             }
@@ -494,254 +494,23 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/i5sbe1oz",
+      "aid": "sh/9ozy5wjq",
       "id": "10",
       "bbox": [
-        652,
-        265,
-        220,
-        120
-      ],
-      "geometry": "rect",
-      "fillColor": "#F9FAFB",
-      "lineColor": "#D1D5DB",
-      "lineWidth": 1
-    },
-    {
-      "order": 11,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/jq1c76p4",
-      "id": "11",
-      "bbox": [
-        674,
-        302,
-        176,
-        42
-      ],
-      "geometry": "rect",
-      "text": "10×10 网格预测",
-      "textPreview": "10×10 网格预测",
-      "resolvedFontSize": 24,
-      "resolvedTextStyle": {
-        "fontSize": 24,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "bold": true,
-        "alignment": "center",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 2,
-        "lines": [
-          {
-            "index": 1,
-            "text": "10×10"
-          },
-          {
-            "index": 2,
-            "text": "网格预测"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "10×10 网格预测",
-          "resolvedTextStyle": {
-            "fontSize": 24,
-            "color": "#111827",
-            "bold": true,
-            "alignment": "center"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "10×10 网格预测",
-              "fontSize": 24,
-              "color": "#111827",
-              "bold": true,
-              "alignment": "center"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 12,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/kratgb6p",
-      "id": "12",
-      "bbox": [
-        884,
-        304,
-        42,
-        42
-      ],
-      "geometry": "rect",
-      "text": "→",
-      "textPreview": "→",
-      "resolvedFontSize": 34,
-      "resolvedTextStyle": {
-        "fontSize": 34,
-        "typeface": "+mn-lt",
-        "color": "#667085",
-        "bold": true,
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "→"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "→",
-          "resolvedTextStyle": {
-            "fontSize": 34,
-            "color": "#667085",
-            "bold": true,
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "→",
-              "fontSize": 34,
-              "color": "#667085",
-              "bold": true,
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 13,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/5s3u9g7a",
-      "id": "13",
-      "bbox": [
-        932,
-        265,
-        220,
-        120
-      ],
-      "geometry": "rect",
-      "fillColor": "#F9FAFB",
-      "lineColor": "#D1D5DB",
-      "lineWidth": 1
-    },
-    {
-      "order": 14,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/6tcbi1ov",
-      "id": "14",
-      "bbox": [
-        954,
-        302,
-        176,
-        42
-      ],
-      "geometry": "rect",
-      "text": "输出目标框和类别",
-      "textPreview": "输出目标框和类别",
-      "resolvedFontSize": 24,
-      "resolvedTextStyle": {
-        "fontSize": 24,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "bold": true,
-        "alignment": "center",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 2,
-        "lines": [
-          {
-            "index": 1,
-            "text": "输出目标框和"
-          },
-          {
-            "index": 2,
-            "text": "类别"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "输出目标框和类别",
-          "resolvedTextStyle": {
-            "fontSize": 24,
-            "color": "#111827",
-            "bold": true,
-            "alignment": "center"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "输出目标框和类别",
-              "fontSize": 24,
-              "color": "#111827",
-              "bold": true,
-              "alignment": "center"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 15,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/7ulcb6pg",
-      "id": "15",
-      "bbox": [
-        118,
-        470,
         980,
-        34
+        684,
+        230,
+        20
       ],
       "geometry": "rect",
-      "text": "• 每个网格预测目标置信度、边界框坐标和类别概率",
-      "textPreview": "• 每个网格预测目标置信度、边界框坐标和类别概率",
-      "resolvedFontSize": 22,
+      "text": "企业车牌识别与车辆管理系统 · 5",
+      "textPreview": "企业车牌识别与车辆管理系统 · 5",
+      "resolvedFontSize": 12,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 12,
         "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
+        "color": "#64748B",
+        "alignment": "right",
         "insets": {
           "top": 4.8,
           "right": 9.6,
@@ -754,146 +523,26 @@
         "lines": [
           {
             "index": 1,
-            "text": "• 每个网格预测目标置信度、边界框坐标和类别概率"
+            "text": "企业车牌识别与车辆管理系统 · 5"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "• 每个网格预测目标置信度、边界框坐标和类别概率",
+          "text": "企业车牌识别与车辆管理系统 · 5",
           "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
-            "alignment": "left"
+            "fontSize": 12,
+            "color": "#64748B",
+            "alignment": "right"
           },
           "runs": [
             {
               "index": 1,
-              "text": "• 每个网格预测目标置信度、边界框坐标和类别概率",
-              "fontSize": 22,
-              "color": "#111827",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 16,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/svutkb61",
-      "id": "16",
-      "bbox": [
-        118,
-        508,
-        980,
-        34
-      ],
-      "geometry": "rect",
-      "text": "• 损失函数包含目标置信度、边界框回归和类别分类",
-      "textPreview": "• 损失函数包含目标置信度、边界框回归和类别分类",
-      "resolvedFontSize": 22,
-      "resolvedTextStyle": {
-        "fontSize": 22,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "• 损失函数包含目标置信度、边界框回归和类别分类"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "• 损失函数包含目标置信度、边界框回归和类别分类",
-          "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• 损失函数包含目标置信度、边界框回归和类别分类",
-              "fontSize": 22,
-              "color": "#111827",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 17,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/tw3udg7m",
-      "id": "17",
-      "bbox": [
-        118,
-        546,
-        980,
-        34
-      ],
-      "geometry": "rect",
-      "text": "• 训练时加入亮度、对比度、噪声和模糊增强",
-      "textPreview": "• 训练时加入亮度、对比度、噪声和模糊增强",
-      "resolvedFontSize": 22,
-      "resolvedTextStyle": {
-        "fontSize": 22,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "• 训练时加入亮度、对比度、噪声和模糊增强"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "• 训练时加入亮度、对比度、噪声和模糊增强",
-          "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• 训练时加入亮度、对比度、噪声和模糊增强",
-              "fontSize": 22,
-              "color": "#111827",
-              "alignment": "left"
+              "text": "企业车牌识别与车辆管理系统 · 5",
+              "fontSize": 12,
+              "color": "#64748B",
+              "alignment": "right"
             }
           ],
           "marginLeft": 0

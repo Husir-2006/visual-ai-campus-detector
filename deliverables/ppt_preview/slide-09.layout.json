@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/84ahos",
-    "id": "84ahos",
+    "aid": "sl/etw2i3",
+    "id": "etw2i3",
     "slide": 9,
-    "layoutId": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+    "layoutId": "a857b1a4-faf1-41ac-825d-aa5fe767c72b",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+    "masterLayoutId": "a9269495-5ddd-4567-bcde-52dbfad40e8c",
     "masterLayoutName": "Master",
     "backgroundColor": "#FFFFFF",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+      "id": "a857b1a4-faf1-41ac-825d-aa5fe767c72b",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+      "parentLayoutId": "a9269495-5ddd-4567-bcde-52dbfad40e8c",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "368012da-b264-4b8e-9d25-45db87a40646",
+      "id": "a9269495-5ddd-4567-bcde-52dbfad40e8c",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,17 +64,17 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/jy9knyxg",
+      "aid": "sh/qxcvq9cf",
       "id": "1",
       "bbox": [
         64,
-        50,
-        880,
-        58
+        42,
+        1000,
+        56
       ],
       "geometry": "rect",
-      "text": "项目亮点在于完成了从训练到应用的完整闭环",
-      "textPreview": "项目亮点在于完成了从训练到应用的完整闭环",
+      "text": "至少五张运行截图覆盖不同车牌样例",
+      "textPreview": "至少五张运行截图覆盖不同车牌样例",
       "resolvedFontSize": 36,
       "resolvedTextStyle": {
         "fontSize": 36,
@@ -94,14 +94,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "项目亮点在于完成了从训练到应用的完整闭环"
+            "text": "至少五张运行截图覆盖不同车牌样例"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "项目亮点在于完成了从训练到应用的完整闭环",
+          "text": "至少五张运行截图覆盖不同车牌样例",
           "resolvedTextStyle": {
             "fontSize": 36,
             "color": "#111827",
@@ -111,7 +111,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "项目亮点在于完成了从训练到应用的完整闭环",
+              "text": "至少五张运行截图覆盖不同车牌样例",
               "fontSize": 36,
               "color": "#111827",
               "bold": true,
@@ -127,22 +127,22 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/kzi1w3y1",
+      "aid": "sh/dk3ulov6",
       "id": "2",
       "bbox": [
         66,
-        110,
-        820,
-        34
+        100,
+        980,
+        30
       ],
       "geometry": "rect",
-      "text": "不足也清楚，后续可以继续加强车辆整体检测和字符识别",
-      "textPreview": "不足也清楚，后续可以继续加强车辆整体检测和字符识别",
+      "text": "不同图片均通过本地 Flask 页面实际上传识别",
+      "textPreview": "不同图片均通过本地 Flask 页面实际上传识别",
       "resolvedFontSize": 18,
       "resolvedTextStyle": {
         "fontSize": 18,
         "typeface": "+mn-lt",
-        "color": "#667085",
+        "color": "#64748B",
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -156,25 +156,25 @@
         "lines": [
           {
             "index": 1,
-            "text": "不足也清楚，后续可以继续加强车辆整体检测和字符识别"
+            "text": "不同图片均通过本地 Flask 页面实际上传识别"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "不足也清楚，后续可以继续加强车辆整体检测和字符识别",
+          "text": "不同图片均通过本地 Flask 页面实际上传识别",
           "resolvedTextStyle": {
             "fontSize": 18,
-            "color": "#667085",
+            "color": "#64748B",
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "不足也清楚，后续可以继续加强车辆整体检测和字符识别",
+              "text": "不同图片均通过本地 Flask 页面实际上传识别",
               "fontSize": 18,
-              "color": "#667085",
+              "color": "#64748B",
               "alignment": "left"
             }
           ],
@@ -187,56 +187,77 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/50b2p8fm",
+      "aid": "sh/czudsjul",
       "id": "3",
       "bbox": [
         64,
-        154,
+        142,
         1152,
         2
       ],
       "geometry": "rect",
-      "fillColor": "#D1D5DB",
-      "lineColor": "#D1D5DB",
+      "fillColor": "#CBD5E1",
+      "lineColor": "#CBD5E1",
       "lineWidth": 0
     },
     {
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/61kjydg7",
+      "aid": "sh/zmlwnydw",
       "id": "4",
       "bbox": [
-        84,
-        205,
-        500,
-        360
+        70,
+        175,
+        525,
+        210
       ],
-      "geometry": "rect",
-      "fillColor": "#F9FAFB",
-      "lineColor": "#D1D5DB",
+      "geometry": "roundRect",
+      "fillColor": "#F8FAFC",
+      "lineColor": "#CBD5E1",
       "lineWidth": 1
     },
     {
       "order": 5,
-      "kind": "shape",
+      "kind": "image",
       "scope": "slide",
-      "aid": "sh/72tkrixs",
+      "aid": "im/fu5kjmhg",
       "id": "5",
       "bbox": [
-        124,
-        238,
-        160,
-        38
+        82,
+        207,
+        500,
+        150
+      ],
+      "alt": "BB8986",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "6a7c6c13-3f17-410a-bf1d-ce5a0f95c4e8",
+        "contentType": "image/png",
+        "byteLength": 662976
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lonepov2",
+      "id": "6",
+      "bbox": [
+        88,
+        183,
+        180,
+        24
       ],
       "geometry": "rect",
-      "text": "亮点",
-      "textPreview": "亮点",
-      "resolvedFontSize": 30,
+      "text": "BB8986",
+      "textPreview": "BB8986",
+      "resolvedFontSize": 18,
       "resolvedTextStyle": {
-        "fontSize": 30,
+        "fontSize": 18,
         "typeface": "+mn-lt",
-        "color": "#16865B",
+        "color": "#2563EB",
         "bold": true,
         "alignment": "left",
         "insets": {
@@ -251,87 +272,27 @@
         "lines": [
           {
             "index": 1,
-            "text": "亮点"
+            "text": "BB8986"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "亮点",
+          "text": "BB8986",
           "resolvedTextStyle": {
-            "fontSize": 30,
-            "color": "#16865B",
+            "fontSize": 18,
+            "color": "#2563EB",
             "bold": true,
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "亮点",
-              "fontSize": 30,
-              "color": "#16865B",
+              "text": "BB8986",
+              "fontSize": 18,
+              "color": "#2563EB",
               "bold": true,
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 6,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/s3210nyd",
-      "id": "6",
-      "bbox": [
-        126,
-        310,
-        360,
-        34
-      ],
-      "geometry": "rect",
-      "text": "• 多源数据集合并",
-      "textPreview": "• 多源数据集合并",
-      "resolvedFontSize": 22,
-      "resolvedTextStyle": {
-        "fontSize": 22,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "• 多源数据集合并"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "• 多源数据集合并",
-          "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• 多源数据集合并",
-              "fontSize": 22,
-              "color": "#111827",
               "alignment": "left"
             }
           ],
@@ -344,219 +305,60 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/tob2t8fi",
+      "aid": "sh/0nedw3uh",
       "id": "7",
       "bbox": [
-        126,
-        348,
-        360,
-        34
+        645,
+        175,
+        525,
+        210
       ],
-      "geometry": "rect",
-      "text": "• 2.5 万张图像训练",
-      "textPreview": "• 2.5 万张图像训练",
-      "resolvedFontSize": 22,
-      "resolvedTextStyle": {
-        "fontSize": 22,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "• 2.5 万张图像训练"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "• 2.5 万张图像训练",
-          "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• 2.5 万张图像训练",
-              "fontSize": 22,
-              "color": "#111827",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
+      "geometry": "roundRect",
+      "fillColor": "#F8FAFC",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
     },
     {
       "order": 8,
-      "kind": "shape",
+      "kind": "image",
       "scope": "slide",
-      "aid": "sh/m5gjm9gn",
+      "aid": "im/2xw3u1g7",
       "id": "8",
       "bbox": [
-        126,
-        386,
-        360,
-        34
+        657,
+        207,
+        500,
+        150
       ],
-      "geometry": "rect",
-      "text": "• 双版本演示入口",
-      "textPreview": "• 双版本演示入口",
-      "resolvedFontSize": 22,
-      "resolvedTextStyle": {
-        "fontSize": 22,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "• 双版本演示入口"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "• 双版本演示入口",
-          "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• 双版本演示入口",
-              "fontSize": 22,
-              "color": "#111827",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
+      "alt": "589222",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "8cf8527a-04ed-4629-8c38-392350e0aa77",
+        "contentType": "image/png",
+        "byteLength": 638923
+      }
     },
     {
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/n6p0feh8",
+      "aid": "sh/epsvipw7",
       "id": "9",
       "bbox": [
-        126,
-        424,
-        360,
-        34
-      ],
-      "geometry": "rect",
-      "text": "• 检测结果可视化完整",
-      "textPreview": "• 检测结果可视化完整",
-      "resolvedFontSize": 22,
-      "resolvedTextStyle": {
-        "fontSize": 22,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "• 检测结果可视化完整"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "• 检测结果可视化完整",
-          "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• 检测结果可视化完整",
-              "fontSize": 22,
-              "color": "#111827",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 10,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/jq5ojy1s",
-      "id": "10",
-      "bbox": [
-        682,
-        205,
-        500,
-        360
-      ],
-      "geometry": "rect",
-      "fillColor": "#F9FAFB",
-      "lineColor": "#D1D5DB",
-      "lineWidth": 1
-    },
-    {
-      "order": 11,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/ipw7atkn",
-      "id": "11",
-      "bbox": [
-        722,
-        238,
+        663,
+        183,
         180,
-        38
+        24
       ],
       "geometry": "rect",
-      "text": "后续改进",
-      "textPreview": "后续改进",
-      "resolvedFontSize": 30,
+      "text": "589222",
+      "textPreview": "589222",
+      "resolvedFontSize": 18,
       "resolvedTextStyle": {
-        "fontSize": 30,
+        "fontSize": 18,
         "typeface": "+mn-lt",
-        "color": "#EA7A24",
+        "color": "#2563EB",
         "bold": true,
         "alignment": "left",
         "insets": {
@@ -571,26 +373,26 @@
         "lines": [
           {
             "index": 1,
-            "text": "后续改进"
+            "text": "589222"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "后续改进",
+          "text": "589222",
           "resolvedTextStyle": {
-            "fontSize": 30,
-            "color": "#EA7A24",
+            "fontSize": 18,
+            "color": "#2563EB",
             "bold": true,
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "后续改进",
-              "fontSize": 30,
-              "color": "#EA7A24",
+              "text": "589222",
+              "fontSize": 18,
+              "color": "#2563EB",
               "bold": true,
               "alignment": "left"
             }
@@ -601,25 +403,64 @@
       "lineWidth": 0
     },
     {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gb2tofuh",
+      "id": "10",
+      "bbox": [
+        70,
+        415,
+        525,
+        210
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F8FAFC",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/uhsrypcb",
+      "id": "11",
+      "bbox": [
+        82,
+        447,
+        500,
+        150
+      ],
+      "alt": "XCJ-S77",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "4a4532f9-66f2-4a08-9586-1fe3fa0a906f",
+        "contentType": "image/png",
+        "byteLength": 783269
+      }
+    },
+    {
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/5sn6lojy",
+      "aid": "sh/u9kbm5cb",
       "id": "12",
       "bbox": [
-        724,
-        310,
-        360,
-        34
+        88,
+        423,
+        180,
+        24
       ],
       "geometry": "rect",
-      "text": "• 加入更多校园场景数据",
-      "textPreview": "• 加入更多校园场景数据",
-      "resolvedFontSize": 22,
+      "text": "XCJ-S77",
+      "textPreview": "XCJ-S77",
+      "resolvedFontSize": 18,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 18,
         "typeface": "+mn-lt",
-        "color": "#111827",
+        "color": "#2563EB",
+        "bold": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -633,25 +474,27 @@
         "lines": [
           {
             "index": 1,
-            "text": "• 加入更多校园场景数据"
+            "text": "XCJ-S77"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "• 加入更多校园场景数据",
+          "text": "XCJ-S77",
           "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
+            "fontSize": 18,
+            "color": "#2563EB",
+            "bold": true,
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "• 加入更多校园场景数据",
-              "fontSize": 22,
-              "color": "#111827",
+              "text": "XCJ-S77",
+              "fontSize": 18,
+              "color": "#2563EB",
+              "bold": true,
               "alignment": "left"
             }
           ],
@@ -664,142 +507,61 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4repcj2d",
+      "aid": "sh/vatcvadw",
       "id": "13",
       "bbox": [
-        724,
-        348,
-        360,
-        34
+        645,
+        415,
+        525,
+        210
       ],
-      "geometry": "rect",
-      "text": "• 替换为完整 YOLOv5/YOLOv8",
-      "textPreview": "• 替换为完整 YOLOv5/YOLOv8",
-      "resolvedFontSize": 22,
-      "resolvedTextStyle": {
-        "fontSize": 22,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "• 替换为完整 YOLOv5/YOLOv8"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "• 替换为完整 YOLOv5/YOLOv8",
-          "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• 替换为完整 YOLOv5/YOLOv8",
-              "fontSize": 22,
-              "color": "#111827",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
+      "geometry": "roundRect",
+      "fillColor": "#F8FAFC",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
     },
     {
       "order": 14,
-      "kind": "shape",
+      "kind": "image",
       "scope": "slide",
-      "aid": "sh/vmlofe1w",
+      "aid": "im/7uhs3ad0",
       "id": "14",
       "bbox": [
-        724,
-        386,
-        360,
-        34
+        657,
+        447,
+        500,
+        150
       ],
-      "geometry": "rect",
-      "text": "• 增加车牌字符识别",
-      "textPreview": "• 增加车牌字符识别",
-      "resolvedFontSize": 22,
-      "resolvedTextStyle": {
-        "fontSize": 22,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "• 增加车牌字符识别"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "• 增加车牌字符识别",
-          "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• 增加车牌字符识别",
-              "fontSize": 22,
-              "color": "#111827",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
+      "alt": "EVSROCK",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "215a263b-3a0f-42d5-b813-833b47bf6f3a",
+        "contentType": "image/png",
+        "byteLength": 554187
+      }
     },
     {
       "order": 15,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ulc769kb",
+      "aid": "sh/50vu1kby",
       "id": "15",
       "bbox": [
-        724,
-        424,
-        360,
-        34
+        663,
+        423,
+        180,
+        24
       ],
       "geometry": "rect",
-      "text": "• 扩展实时视频检测",
-      "textPreview": "• 扩展实时视频检测",
-      "resolvedFontSize": 22,
+      "text": "EVSROCK",
+      "textPreview": "EVSROCK",
+      "resolvedFontSize": 18,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 18,
         "typeface": "+mn-lt",
-        "color": "#111827",
+        "color": "#2563EB",
+        "bold": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -813,26 +575,88 @@
         "lines": [
           {
             "index": 1,
-            "text": "• 扩展实时视频检测"
+            "text": "EVSROCK"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "• 扩展实时视频检测",
+          "text": "EVSROCK",
           "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
+            "fontSize": 18,
+            "color": "#2563EB",
+            "bold": true,
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "• 扩展实时视频检测",
-              "fontSize": 22,
-              "color": "#111827",
+              "text": "EVSROCK",
+              "fontSize": 18,
+              "color": "#2563EB",
+              "bold": true,
               "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/idkbqpcn",
+      "id": "16",
+      "bbox": [
+        980,
+        684,
+        230,
+        20
+      ],
+      "geometry": "rect",
+      "text": "企业车牌识别与车辆管理系统 · 9",
+      "textPreview": "企业车牌识别与车辆管理系统 · 9",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#64748B",
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "企业车牌识别与车辆管理系统 · 9"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "企业车牌识别与车辆管理系统 · 9",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#64748B",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "企业车牌识别与车辆管理系统 · 9",
+              "fontSize": 12,
+              "color": "#64748B",
+              "alignment": "right"
             }
           ],
           "marginLeft": 0

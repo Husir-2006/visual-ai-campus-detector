@@ -1,164 +1,213 @@
-{"kind":"deck","id":"pr/fdkhdo","name":"Deck"}
-{"kind":"layout","layoutId":"368012da-b264-4b8e-9d25-45db87a40646","name":"Master","type":"master"}
-{"kind":"layout","layoutId":"09653692-eecc-452b-b9f5-5cb9812ec5cd","name":"Title Slide","type":"title"}
-{"kind":"slide","id":"sl/rxic1s","slide":1,"title":"基于 YOLO 的校园车辆与车牌检测系统","textShapes":8}
-{"kind":"textbox","id":"sh/ob2tozah","slide":1,"text":"基于 YOLO 的校园车辆与车牌检测系统","textPreview":"基于 YOLO 的校园车辆与车牌检测系统","textChars":20,"textLines":1,"bbox":[72,120,1020,120]}
-{"kind":"textbox","id":"sh/natsfutw","slide":1,"text":"创新应用综合实训 · 视觉 AI 应用项目","textPreview":"创新应用综合实训 · 视觉 AI 应用项目","textChars":21,"textLines":1,"bbox":[76,265,760,38]}
-{"kind":"shape","id":"sh/29krmpsb","slide":1,"bbox":[76,385,300,96]}
-{"kind":"textbox","id":"sh/18badkbq","slide":1,"text":"25554","textPreview":"25554","textChars":5,"textLines":1,"bbox":[104,402,160,44]}
-{"kind":"textbox","id":"sh/g729kfa5","slide":1,"text":"张合并训练图片","textPreview":"张合并训练图片","textChars":7,"textLines":1,"bbox":[106,452,220,28]}
-{"kind":"shape","id":"sh/f6tsbatk","slide":1,"bbox":[410,385,300,96]}
-{"kind":"textbox","id":"sh/e5kri5sf","slide":1,"text":"0.1196","textPreview":"0.1196","textChars":6,"textLines":1,"bbox":[438,402,190,44]}
-{"kind":"textbox","id":"sh/l4fap4ra","slide":1,"text":"测试集损失","textPreview":"测试集损失","textChars":5,"textLines":1,"bbox":[440,452,180,28]}
-{"kind":"shape","id":"sh/k36twjap","slide":1,"bbox":[744,385,300,96]}
-{"kind":"textbox","id":"sh/mt43ipgj","slide":1,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[772,402,90,44]}
-{"kind":"textbox","id":"sh/nud4buh4","slide":1,"text":"套演示版本","textPreview":"套演示版本","textChars":5,"textLines":1,"bbox":[774,452,180,28]}
-{"kind":"notes","id":"nt/rxic1s","slide":1,"text":""}
-{"kind":"slide","id":"sl/bq5m8j","slide":2,"title":"项目要解决的是校园车辆图片的自动识别问题","textShapes":6}
-{"kind":"textbox","id":"sh/18jq9czy","slide":2,"text":"项目要解决的是校园车辆图片的自动识别问题","textPreview":"项目要解决的是校园车辆图片的自动识别问题","textChars":20,"textLines":1,"bbox":[64,50,880,58]}
-{"kind":"textbox","id":"sh/elsreh0n","slide":2,"text":"从人工查看图片，转向自动定位车辆和车牌区域","textPreview":"从人工查看图片，转向自动定位车辆和车牌区域","textChars":21,"textLines":1,"bbox":[66,110,820,34]}
-{"kind":"shape","id":"sh/z6187mhs","slide":2,"bbox":[64,154,1152,2]}
-{"kind":"textbox","id":"sh/8ba9krip","slide":2,"text":"• 校园门口、停车场、道路监控都存在车辆通行记录需求","textPreview":"• 校园门口、停车场、道路监控都存在车辆通行记录需求","textChars":26,"textLines":1,"bbox":[92,220,920,34]}
-{"kind":"textbox","id":"sh/9c3qdwza","slide":2,"text":"• 人工查看图片效率低，难以快速统计数量和定位车牌","textPreview":"• 人工查看图片效率低，难以快速统计数量和定位车牌","textChars":25,"textLines":1,"bbox":[92,262,920,34]}
-{"kind":"textbox","id":"sh/m9srih0j","slide":2,"text":"• 目标检测可以输出位置、类别和置信度，适合做课程视觉 AI 应用","textPreview":"• 目标检测可以输出位置、类别和置信度，适合做课程视觉 AI 应用","textChars":33,"textLines":1,"bbox":[92,304,920,34]}
-{"kind":"textbox","id":"sh/na18bmh4","slide":2,"text":"• 本项目重点完成“能训练、能检测、能展示、能交付”的完整闭环","textPreview":"• 本项目重点完成“能训练、能检测、能展示、能交付”的完整闭环","textChars":31,"textLines":1,"bbox":[92,346,920,34]}
-{"kind":"notes","id":"nt/bq5m8j","slide":2,"text":""}
-{"kind":"slide","id":"sl/aghj39","slide":3,"title":"系统目标覆盖训练、推理和演示三个环节","textShapes":14}
-{"kind":"textbox","id":"sh/43atwr2l","slide":3,"text":"系统目标覆盖训练、推理和演示三个环节","textPreview":"系统目标覆盖训练、推理和演示三个环节","textChars":18,"textLines":1,"bbox":[64,50,880,58]}
-{"kind":"textbox","id":"sh/321s3m10","slide":3,"text":"最终交付不是单个模型，而是可展示的应用系统","textPreview":"最终交付不是单个模型，而是可展示的应用系统","textChars":21,"textLines":1,"bbox":[66,110,820,34]}
-{"kind":"shape","id":"sh/21sbuhkf","slide":3,"bbox":[64,154,1152,2]}
-{"kind":"shape","id":"sh/d83a9wj2","slide":3,"bbox":[78,238,246,250]}
-{"kind":"textbox","id":"sh/c7ut0b2x","slide":3,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[102,264,72,44]}
-{"kind":"textbox","id":"sh/r6ls761c","slide":3,"text":"上传图片","textPreview":"上传图片","textChars":4,"textLines":1,"bbox":[102,332,180,36]}
-{"kind":"textbox","id":"sh/q5sby1kr","slide":3,"text":"选择车辆图片并预览原图","textPreview":"选择车辆图片并预览原图","textChars":11,"textLines":1,"bbox":[102,392,184,74]}
-{"kind":"shape","id":"sh/tczaxcjy","slide":3,"bbox":[370,238,246,250]}
-{"kind":"textbox","id":"sh/sbq9o72d","slide":3,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[394,264,72,44]}
-{"kind":"textbox","id":"sh/a1w36x8j","slide":3,"text":"目标检测","textPreview":"目标检测","textChars":4,"textLines":1,"bbox":[394,332,180,36]}
-{"kind":"textbox","id":"sh/v25kz2p4","slide":3,"text":"定位车辆和车牌候选区域","textPreview":"定位车辆和车牌候选区域","textChars":11,"textLines":1,"bbox":[394,392,184,74]}
-{"kind":"shape","id":"sh/w3el876p","slide":3,"bbox":[662,238,246,250]}
-{"kind":"textbox","id":"sh/h4nm1s7a","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[686,264,72,44]}
-{"kind":"textbox","id":"sh/i5w3axov","slide":3,"text":"结果展示","textPreview":"结果展示","textChars":4,"textLines":1,"bbox":[686,332,180,36]}
-{"kind":"textbox","id":"sh/j65432p0","slide":3,"text":"绘制检测框、置信度和坐标","textPreview":"绘制检测框、置信度和坐标","textChars":12,"textLines":1,"bbox":[686,392,184,74]}
-{"kind":"shape","id":"sh/47elc76l","slide":3,"bbox":[954,238,246,250]}
-{"kind":"textbox","id":"sh/5s7m5c76","slide":3,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[978,264,72,44]}
-{"kind":"textbox","id":"sh/6tg3ehor","slide":3,"text":"材料交付","textPreview":"材料交付","textChars":4,"textLines":1,"bbox":[978,332,180,36]}
-{"kind":"textbox","id":"sh/rup47mpc","slide":3,"text":"报告、PPT、演示版本和样例图","textPreview":"报告、PPT、演示版本和样例图","textChars":15,"textLines":1,"bbox":[978,392,184,74]}
-{"kind":"notes","id":"nt/aghj39","slide":3,"text":""}
-{"kind":"slide","id":"sl/4f5gix","slide":4,"title":"训练数据扩展到 2.5 万张，支撑模型结果更有说服力","textShapes":7}
-{"kind":"textbox","id":"sh/7i1o3a1o","slide":4,"text":"训练数据扩展到 2.5 万张，支撑模型结果更有说服力","textPreview":"训练数据扩展到 2.5 万张，支撑模型结果更有说服力","textChars":26,"textLines":1,"bbox":[64,50,880,58]}
-{"kind":"textbox","id":"sh/sjupcf29","slide":4,"text":"三类公开数据源合并为统一 YOLO 目录","textPreview":"三类公开数据源合并为统一 YOLO 目录","textChars":20,"textLines":1,"bbox":[66,110,820,34]}
-{"kind":"shape","id":"sh/tk365kju","slide":4,"bbox":[64,154,1152,2]}
-{"kind":"shape","id":"sh/ju1oza1s","slide":4,"bbox":[690,215,440,330]}
-{"kind":"textbox","id":"sh/kfa58v2d","slide":4,"text":"合并后数据划分","textPreview":"合并后数据划分","textChars":7,"textLines":1,"bbox":[728,248,300,36]}
-{"kind":"textbox","id":"sh/5gj610jy","slide":4,"text":"训练集 22094 张","textPreview":"训练集 22094 张","textChars":11,"textLines":1,"bbox":[730,320,300,32]}
-{"kind":"textbox","id":"sh/2pc7ipkb","slide":4,"text":"验证集 2310 张","textPreview":"验证集 2310 张","textChars":10,"textLines":1,"bbox":[730,375,300,32]}
-{"kind":"textbox","id":"sh/3qlobu1w","slide":4,"text":"测试集 1150 张","textPreview":"测试集 1150 张","textChars":10,"textLines":1,"bbox":[730,430,300,32]}
-{"kind":"textbox","id":"sh/j6x43ahs","slide":4,"text":"所有图片与标签统一复制到 datasets/combined，便于复现实验。","textPreview":"所有图片与标签统一复制到 datasets/combined，便于复现实验。","textChars":38,"textLines":1,"bbox":[730,500,330,56]}
-{"kind":"chart","id":"ch/upojitwn","slide":4,"name":"","chartType":"bar","bbox":[88,215,520,330]}
-{"kind":"notes","id":"nt/4f5gix","slide":4,"text":""}
-{"kind":"slide","id":"sl/iw0csp","slide":5,"title":"模型采用轻量 YOLO 风格网格检测结构","textShapes":12}
-{"kind":"textbox","id":"sh/wnmxgfq1","slide":5,"text":"模型采用轻量 YOLO 风格网格检测结构","textPreview":"模型采用轻量 YOLO 风格网格检测结构","textChars":20,"textLines":1,"bbox":[64,50,880,58]}
-{"kind":"textbox","id":"sh/bmdw7a9g","slide":5,"text":"在课程电脑上可训练、可推理、可解释","textPreview":"在课程电脑上可训练、可推理、可解释","textChars":17,"textLines":1,"bbox":[66,110,820,34]}
-{"kind":"shape","id":"sh/al4fe58v","slide":5,"bbox":[64,154,1152,2]}
-{"kind":"shape","id":"sh/lcfedkri","slide":5,"bbox":[92,265,220,120]}
-{"kind":"textbox","id":"sh/kb6xkfqx","slide":5,"text":"输入图片 256×256","textPreview":"输入图片 256×256","textChars":12,"textLines":1,"bbox":[114,302,176,42]}
-{"kind":"textbox","id":"sh/jaxwbu9c","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[324,304,42,42]}
-{"kind":"shape","id":"sh/ypofip8r","slide":5,"bbox":[372,265,220,120]}
-{"kind":"textbox","id":"sh/1gbe10re","slide":5,"text":"CNN 特征提取","textPreview":"CNN 特征提取","textChars":8,"textLines":1,"bbox":[394,302,176,42]}
-{"kind":"textbox","id":"sh/0f2x8vqt","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[604,304,42,42]}
-{"kind":"shape","id":"sh/i5sbe1oz","slide":5,"bbox":[652,265,220,120]}
-{"kind":"textbox","id":"sh/jq1c76p4","slide":5,"text":"10×10 网格预测","textPreview":"10×10 网格预测","textChars":10,"textLines":1,"bbox":[674,302,176,42]}
-{"kind":"textbox","id":"sh/kratgb6p","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[884,304,42,42]}
-{"kind":"shape","id":"sh/5s3u9g7a","slide":5,"bbox":[932,265,220,120]}
-{"kind":"textbox","id":"sh/6tcbi1ov","slide":5,"text":"输出目标框和类别","textPreview":"输出目标框和类别","textChars":8,"textLines":1,"bbox":[954,302,176,42]}
-{"kind":"textbox","id":"sh/7ulcb6pg","slide":5,"text":"• 每个网格预测目标置信度、边界框坐标和类别概率","textPreview":"• 每个网格预测目标置信度、边界框坐标和类别概率","textChars":24,"textLines":1,"bbox":[118,470,980,34]}
-{"kind":"textbox","id":"sh/svutkb61","slide":5,"text":"• 损失函数包含目标置信度、边界框回归和类别分类","textPreview":"• 损失函数包含目标置信度、边界框回归和类别分类","textChars":24,"textLines":1,"bbox":[118,508,980,34]}
-{"kind":"textbox","id":"sh/tw3udg7m","slide":5,"text":"• 训练时加入亮度、对比度、噪声和模糊增强","textPreview":"• 训练时加入亮度、对比度、噪声和模糊增强","textChars":21,"textLines":1,"bbox":[118,546,980,34]}
-{"kind":"notes","id":"nt/iw0csp","slide":5,"text":""}
-{"kind":"slide","id":"sl/hlpnk5","slide":6,"title":"非静态版完成真实模型推理，静态版保证现场演示稳定","textShapes":12}
-{"kind":"textbox","id":"sh/0rmd0n2l","slide":6,"text":"非静态版完成真实模型推理，静态版保证现场演示稳定","textPreview":"非静态版完成真实模型推理，静态版保证现场演示稳定","textChars":24,"textLines":1,"bbox":[64,50,880,58]}
-{"kind":"textbox","id":"sh/zqdc7i10","slide":6,"text":"两套入口降低答辩时的运行风险","textPreview":"两套入口降低答辩时的运行风险","textChars":14,"textLines":1,"bbox":[66,110,820,34]}
-{"kind":"shape","id":"sh/ep4vydkf","slide":6,"bbox":[64,154,1152,2]}
-{"kind":"shape","id":"sh/9wfedsj2","slide":6,"bbox":[82,215,500,340]}
-{"kind":"textbox","id":"sh/ov6d4n2h","slide":6,"text":"非静态版","textPreview":"非静态版","textChars":4,"textLines":1,"bbox":[122,248,220,40]}
-{"kind":"textbox","id":"sh/nuxwb21w","slide":6,"text":"• Flask 后端接口","textPreview":"• Flask 后端接口","textChars":12,"textLines":1,"bbox":[124,320,370,34]}
-{"kind":"textbox","id":"sh/mtov2xkr","slide":6,"text":"• 加载 PyTorch 训练模型","textPreview":"• 加载 PyTorch 训练模型","textChars":17,"textLines":1,"bbox":[124,358,370,34]}
-{"kind":"textbox","id":"sh/p0bu183y","slide":6,"text":"• OpenCV 绘制检测结果","textPreview":"• OpenCV 绘制检测结果","textChars":15,"textLines":1,"bbox":[124,396,370,34]}
-{"kind":"textbox","id":"sh/4z2ds32d","slide":6,"text":"• 适合展示真实系统","textPreview":"• 适合展示真实系统","textChars":10,"textLines":1,"bbox":[124,434,370,34]}
-{"kind":"shape","id":"sh/u10r6p4r","slide":6,"bbox":[680,215,500,340]}
-{"kind":"textbox","id":"sh/v298zalc","slide":6,"text":"静态版","textPreview":"静态版","textChars":3,"textLines":1,"bbox":[720,248,220,40]}
-{"kind":"textbox","id":"sh/wni98fmx","slide":6,"text":"• 单个 HTML 文件","textPreview":"• 单个 HTML 文件","textChars":12,"textLines":1,"bbox":[722,320,370,34]}
-{"kind":"textbox","id":"sh/hobq1k32","slide":6,"text":"• 无需启动服务器","textPreview":"• 无需启动服务器","textChars":9,"textLines":1,"bbox":[722,358,370,34]}
-{"kind":"textbox","id":"sh/ipkrap4n","slide":6,"text":"• 本地上传并画框","textPreview":"• 本地上传并画框","textChars":9,"textLines":1,"bbox":[722,396,370,34]}
-{"kind":"textbox","id":"sh/jqt83ul8","slide":6,"text":"• 适合备用演示","textPreview":"• 适合备用演示","textChars":8,"textLines":1,"bbox":[722,434,370,34]}
-{"kind":"notes","id":"nt/hlpnk5","slide":6,"text":""}
-{"kind":"slide","id":"sl/0dfa2t","slide":7,"title":"系统页面支持上传、检测、统计和车牌裁剪","textShapes":8}
-{"kind":"textbox","id":"sh/b6xona1w","slide":7,"text":"系统页面支持上传、检测、统计和车牌裁剪","textPreview":"系统页面支持上传、检测、统计和车牌裁剪","textChars":19,"textLines":1,"bbox":[64,50,880,58]}
-{"kind":"textbox","id":"sh/w765wf2h","slide":7,"text":"演示时重点展示从输入到输出的完整流程","textPreview":"演示时重点展示从输入到输出的完整流程","textChars":18,"textLines":1,"bbox":[66,110,820,34]}
-{"kind":"shape","id":"sh/x8f6p0j2","slide":7,"bbox":[64,154,1152,2]}
-{"kind":"shape","id":"sh/nidojq10","slide":7,"bbox":[675,205,430,350]}
-{"kind":"textbox","id":"sh/o365sv2l","slide":7,"text":"页面输出内容","textPreview":"页面输出内容","textChars":6,"textLines":1,"bbox":[714,240,260,36]}
-{"kind":"textbox","id":"sh/94f6l0j6","slide":7,"text":"• 车辆/车牌数量","textPreview":"• 车辆/车牌数量","textChars":9,"textLines":1,"bbox":[716,310,300,34]}
-{"kind":"textbox","id":"sh/ed4nmlkj","slide":7,"text":"• 目标置信度","textPreview":"• 目标置信度","textChars":7,"textLines":1,"bbox":[716,352,300,34]}
-{"kind":"textbox","id":"sh/fedofq1o","slide":7,"text":"• 检测框坐标","textPreview":"• 检测框坐标","textChars":7,"textLines":1,"bbox":[716,394,300,34]}
-{"kind":"textbox","id":"sh/be1o3a9s","slide":7,"text":"• 车牌裁剪区域","textPreview":"• 车牌裁剪区域","textChars":8,"textLines":1,"bbox":[716,436,300,34]}
-{"kind":"textbox","id":"sh/qd8na5s7","slide":7,"text":"• 结果图保存","textPreview":"• 结果图保存","textChars":7,"textLines":1,"bbox":[716,478,300,34]}
-{"kind":"image","id":"im/76tsj6hc","slide":7,"name":"","alt":"检测样例图","bbox":[80,195,520,380]}
-{"kind":"notes","id":"nt/0dfa2t","slide":7,"text":""}
-{"kind":"slide","id":"sl/dgc9wz","slide":8,"title":"训练结果显示模型在大数据集上稳定收敛","textShapes":6}
-{"kind":"textbox","id":"sh/e1ofe98r","slide":8,"text":"训练结果显示模型在大数据集上稳定收敛","textPreview":"训练结果显示模型在大数据集上稳定收敛","textChars":18,"textLines":1,"bbox":[64,50,880,58]}
-{"kind":"textbox","id":"sh/14fe9ori","slide":8,"text":"测试集损失优于小数据训练版本","textPreview":"测试集损失优于小数据训练版本","textChars":14,"textLines":1,"bbox":[66,110,820,34]}
-{"kind":"shape","id":"sh/036xgjqx","slide":8,"bbox":[64,154,1152,2]}
-{"kind":"shape","id":"sh/qx4fa98v","slide":8,"bbox":[800,225,330,250]}
-{"kind":"textbox","id":"sh/d0fe54rm","slide":8,"text":"关键指标","textPreview":"关键指标","textChars":4,"textLines":1,"bbox":[832,252,220,36]}
-{"kind":"textbox","id":"sh/sz6xcjq1","slide":8,"text":"最佳验证损失 0.1420","textPreview":"最佳验证损失 0.1420","textChars":13,"textLines":1,"bbox":[834,325,260,32]}
-{"kind":"textbox","id":"sh/buhgfy9k","slide":8,"text":"测试集损失 0.1196","textPreview":"测试集损失 0.1196","textChars":12,"textLines":1,"bbox":[834,380,260,32]}
-{"kind":"textbox","id":"sh/at8fmt8z","slide":8,"text":"训练数据 25554 张","textPreview":"训练数据 25554 张","textChars":12,"textLines":1,"bbox":[834,435,260,32]}
-{"kind":"chart","id":"ch/fih8rmpg","slide":8,"name":"","chartType":"line","bbox":[82,200,660,360]}
-{"kind":"notes","id":"nt/dgc9wz","slide":8,"text":""}
-{"kind":"slide","id":"sl/84ahos","slide":9,"title":"项目亮点在于完成了从训练到应用的完整闭环","textShapes":12}
-{"kind":"textbox","id":"sh/jy9knyxg","slide":9,"text":"项目亮点在于完成了从训练到应用的完整闭环","textPreview":"项目亮点在于完成了从训练到应用的完整闭环","textChars":20,"textLines":1,"bbox":[64,50,880,58]}
-{"kind":"textbox","id":"sh/kzi1w3y1","slide":9,"text":"不足也清楚，后续可以继续加强车辆整体检测和字符识别","textPreview":"不足也清楚，后续可以继续加强车辆整体检测和字符识别","textChars":25,"textLines":1,"bbox":[66,110,820,34]}
-{"kind":"shape","id":"sh/50b2p8fm","slide":9,"bbox":[64,154,1152,2]}
-{"kind":"shape","id":"sh/61kjydg7","slide":9,"bbox":[84,205,500,360]}
-{"kind":"textbox","id":"sh/72tkrixs","slide":9,"text":"亮点","textPreview":"亮点","textChars":2,"textLines":1,"bbox":[124,238,160,38]}
-{"kind":"textbox","id":"sh/s3210nyd","slide":9,"text":"• 多源数据集合并","textPreview":"• 多源数据集合并","textChars":9,"textLines":1,"bbox":[126,310,360,34]}
-{"kind":"textbox","id":"sh/tob2t8fi","slide":9,"text":"• 2.5 万张图像训练","textPreview":"• 2.5 万张图像训练","textChars":12,"textLines":1,"bbox":[126,348,360,34]}
-{"kind":"textbox","id":"sh/m5gjm9gn","slide":9,"text":"• 双版本演示入口","textPreview":"• 双版本演示入口","textChars":9,"textLines":1,"bbox":[126,386,360,34]}
-{"kind":"textbox","id":"sh/n6p0feh8","slide":9,"text":"• 检测结果可视化完整","textPreview":"• 检测结果可视化完整","textChars":11,"textLines":1,"bbox":[126,424,360,34]}
-{"kind":"shape","id":"sh/jq5ojy1s","slide":9,"bbox":[682,205,500,360]}
-{"kind":"textbox","id":"sh/ipw7atkn","slide":9,"text":"后续改进","textPreview":"后续改进","textChars":4,"textLines":1,"bbox":[722,238,180,38]}
-{"kind":"textbox","id":"sh/5sn6lojy","slide":9,"text":"• 加入更多校园场景数据","textPreview":"• 加入更多校园场景数据","textChars":12,"textLines":1,"bbox":[724,310,360,34]}
-{"kind":"textbox","id":"sh/4repcj2d","slide":9,"text":"• 替换为完整 YOLOv5/YOLOv8","textPreview":"• 替换为完整 YOLOv5/YOLOv8","textChars":21,"textLines":1,"bbox":[724,348,360,34]}
-{"kind":"textbox","id":"sh/vmlofe1w","slide":9,"text":"• 增加车牌字符识别","textPreview":"• 增加车牌字符识别","textChars":10,"textLines":1,"bbox":[724,386,360,34]}
-{"kind":"textbox","id":"sh/ulc769kb","slide":9,"text":"• 扩展实时视频检测","textPreview":"• 扩展实时视频检测","textChars":10,"textLines":1,"bbox":[724,424,360,34]}
-{"kind":"notes","id":"nt/84ahos","slide":9,"text":""}
-{"kind":"slide","id":"sl/aqvht0","slide":10,"title":"分工围绕模型、系统、材料和演示展开","textShapes":15}
-{"kind":"textbox","id":"sh/mx8zyh0v","slide":10,"text":"分工围绕模型、系统、材料和演示展开","textPreview":"分工围绕模型、系统、材料和演示展开","textChars":17,"textLines":1,"bbox":[64,50,880,58]}
-{"kind":"textbox","id":"sh/90jitwz6","slide":10,"text":"贡献比例可按实际小组成员姓名替换","textPreview":"贡献比例可按实际小组成员姓名替换","textChars":16,"textLines":1,"bbox":[66,110,820,34]}
-{"kind":"shape","id":"sh/8zqhkril","slide":10,"bbox":[64,154,1152,2]}
-{"kind":"shape","id":"sh/zah0nmh4","slide":10,"bbox":[88,220,1090,260]}
-{"kind":"textbox","id":"sh/y98zuh0j","slide":10,"text":"成员A","textPreview":"成员A","textChars":3,"textLines":1,"bbox":[125,250,120,30]}
-{"kind":"textbox","id":"sh/lwzipcza","slide":10,"text":"需求分析、报告撰写、材料整理","textPreview":"需求分析、报告撰写、材料整理","textChars":14,"textLines":1,"bbox":[290,250,600,30]}
-{"kind":"textbox","id":"sh/0vqhw7ip","slide":10,"text":"25%","textPreview":"25%","textChars":3,"textLines":1,"bbox":[980,250,100,30]}
-{"kind":"textbox","id":"sh/b6x0j2h8","slide":10,"text":"成员B","textPreview":"成员B","textChars":3,"textLines":1,"bbox":[125,305,120,30]}
-{"kind":"textbox","id":"sh/q5ozqx0n","slide":10,"text":"数据集整理、模型训练、结果分析","textPreview":"数据集整理、模型训练、结果分析","textChars":15,"textLines":1,"bbox":[290,305,600,30]}
-{"kind":"textbox","id":"sh/w7qt4rqt","slide":10,"text":"30%","textPreview":"30%","textChars":3,"textLines":1,"bbox":[980,305,100,30]}
-{"kind":"textbox","id":"sh/h8zuxwre","slide":10,"text":"成员C","textPreview":"成员C","textChars":3,"textLines":1,"bbox":[125,360,120,30]}
-{"kind":"textbox","id":"sh/u58b2h8n","slide":10,"text":"后端接口、检测模块、OpenCV 可视化","textPreview":"后端接口、检测模块、OpenCV 可视化","textChars":20,"textLines":1,"bbox":[290,360,600,30]}
-{"kind":"textbox","id":"sh/v6hsvm98","slide":10,"text":"25%","textPreview":"25%","textChars":3,"textLines":1,"bbox":[980,360,100,30]}
-{"kind":"textbox","id":"sh/8j6t07qx","slide":10,"text":"成员D","textPreview":"成员D","textChars":3,"textLines":1,"bbox":[125,415,120,30]}
-{"kind":"textbox","id":"sh/9kzatcr2","slide":10,"text":"前端页面、静态版、PPT 和视频","textPreview":"前端页面、静态版、PPT 和视频","textChars":16,"textLines":1,"bbox":[290,415,600,30]}
-{"kind":"textbox","id":"sh/mhobyh8r","slide":10,"text":"20%","textPreview":"20%","textChars":3,"textLines":1,"bbox":[980,415,100,30]}
-{"kind":"textbox","id":"sh/7ixsrm9c","slide":10,"text":"成员A：成员B：成员C：成员D = 2.5：3.0：2.5：2.0","textPreview":"成员A：成员B：成员C：成员D = 2.5：3.0：2.5：2.0","textChars":33,"textLines":1,"bbox":[130,535,720,32]}
-{"kind":"notes","id":"nt/aqvht0","slide":10,"text":""}
-{"kind":"slide","id":"sl/zyrzmt","slide":11,"title":"最终交付形成了可运行、可展示、可复现的视觉 AI 课程项目","textShapes":5}
-{"kind":"textbox","id":"sh/2l8nmxg7","slide":11,"text":"最终交付形成了可运行、可展示、可复现的视觉 AI 课程项目","textPreview":"最终交付形成了可运行、可展示、可复现的视觉 AI 课程项目","textChars":29,"textLines":1,"bbox":[72,138,1040,124]}
-{"kind":"textbox","id":"sh/poj6xsfy","slide":11,"text":"下一步可以接入完整 YOLO 权重、视频流检测和车牌字符识别，把原型扩展为更接近真实校园车辆管理系统的应用。","textPreview":"下一步可以接入完整 YOLO 权重、视频流检测和车牌字符识别，把原型扩展为更接近真实校园车辆管理系统的应用。","textChars":54,"textLines":1,"bbox":[78,330,880,82]}
-{"kind":"shape","id":"sh/onq5o7yd","slide":11,"bbox":[82,500,320,82]}
-{"kind":"textbox","id":"sh/fihorixg","slide":11,"text":"非静态版 + 静态版","textPreview":"非静态版 + 静态版","textChars":10,"textLines":1,"bbox":[110,525,260,32]}
-{"kind":"shape","id":"sh/ex8nidgb","slide":11,"bbox":[444,500,320,82]}
-{"kind":"textbox","id":"sh/1kz6tsfm","slide":11,"text":"模型和数据可复现","textPreview":"模型和数据可复现","textChars":8,"textLines":1,"bbox":[472,525,260,32]}
-{"kind":"shape","id":"sh/gjq5kny1","slide":11,"bbox":[806,500,320,82]}
-{"kind":"textbox","id":"sh/rux4nixk","slide":11,"text":"报告和 PPT 已整理","textPreview":"报告和 PPT 已整理","textChars":11,"textLines":1,"bbox":[834,525,260,32]}
-{"kind":"notes","id":"nt/zyrzmt","slide":11,"text":""}
+{"kind":"deck","id":"pr/vfffdp","name":"Deck"}
+{"kind":"layout","layoutId":"a9269495-5ddd-4567-bcde-52dbfad40e8c","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"a857b1a4-faf1-41ac-825d-aa5fe767c72b","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/n5vk82","slide":1,"title":"企业车牌识别与车辆管理系统","textShapes":11}
+{"kind":"textbox","id":"sh/q1szul0z","slide":1,"text":"企业车牌识别与车辆管理系统","textPreview":"企业车牌识别与车辆管理系统","textChars":13,"textLines":1,"bbox":[72,102,900,86]}
+{"kind":"textbox","id":"sh/doji50jq","slide":1,"text":"基于 YOLO / OpenCV / Flask 的视觉 AI 课程项目","textPreview":"基于 YOLO / OpenCV / Flask 的视觉 AI 课程项目","textChars":36,"textLines":1,"bbox":[76,202,760,34]}
+{"kind":"textbox","id":"sh/cnahwvi5","slide":1,"text":"P402019B 创新应用综合实训","textPreview":"P402019B 创新应用综合实训","textChars":17,"textLines":1,"bbox":[78,254,500,30]}
+{"kind":"shape","id":"sh/zq107a1w","slide":1,"bbox":[78,400,280,96]}
+{"kind":"textbox","id":"sh/epszy50b","slide":1,"text":"25554","textPreview":"25554","textChars":5,"textLines":1,"bbox":[104,416,160,42]}
+{"kind":"textbox","id":"sh/1s3i90jm","slide":1,"text":"合并训练图片","textPreview":"合并训练图片","textChars":6,"textLines":1,"bbox":[106,462,200,26]}
+{"kind":"shape","id":"sh/0ra10vi1","slide":1,"bbox":[408,400,280,96]}
+{"kind":"textbox","id":"sh/nul0ba1s","slide":1,"text":"0.1196","textPreview":"0.1196","textChars":6,"textLines":1,"bbox":[434,416,160,42]}
+{"kind":"textbox","id":"sh/mtcj2507","slide":1,"text":"测试集损失","textPreview":"测试集损失","textChars":5,"textLines":1,"bbox":[436,462,200,26]}
+{"kind":"shape","id":"sh/0jy14ja1","slide":1,"bbox":[738,400,280,96]}
+{"kind":"textbox","id":"sh/1k7ixor6","slide":1,"text":"8+","textPreview":"8+","textChars":2,"textLines":1,"bbox":[764,416,160,42]}
+{"kind":"textbox","id":"sh/ehgj29sv","slide":1,"text":"运行/开发截图","textPreview":"运行/开发截图","textChars":7,"textLines":1,"bbox":[766,462,200,26]}
+{"kind":"textbox","id":"sh/fip0ve9g","slide":1,"text":"组长：胡哲祺 24281098 · 组员：温豪杰 24281112、杨大松 24281118","textPreview":"组长：胡哲祺 24281098 · 组员：温豪杰 24281112、杨大松 24281118","textChars":46,"textLines":1,"bbox":[78,585,940,28]}
+{"kind":"textbox","id":"sh/o7y183ax","slide":1,"text":"企业车牌识别与车辆管理系统 · 1","textPreview":"企业车牌识别与车辆管理系统 · 1","textChars":17,"textLines":1,"bbox":[980,684,230,20]}
+{"kind":"notes","id":"nt/n5vk82","slide":1,"text":""}
+{"kind":"slide","id":"sl/tr9n3m","slide":2,"title":"成员分工和贡献比先讲清楚，便于答辩追问","textShapes":19}
+{"kind":"textbox","id":"sh/tsbapcfu","slide":2,"text":"成员分工和贡献比先讲清楚，便于答辩追问","textPreview":"成员分工和贡献比先讲清楚，便于答辩追问","textChars":19,"textLines":1,"bbox":[64,42,1000,56]}
+{"kind":"textbox","id":"sh/6pkbuhw3","slide":2,"text":"按群公告要求，PPT 第二页单独列出成员工作描述与量化贡献","textPreview":"按群公告要求，PPT 第二页单独列出成员工作描述与量化贡献","textChars":29,"textLines":1,"bbox":[66,100,980,30]}
+{"kind":"shape","id":"sh/7qtsn2xo","slide":2,"bbox":[64,142,1152,2]}
+{"kind":"shape","id":"sh/gfmt0re5","slide":2,"bbox":[88,210,1080,90]}
+{"kind":"textbox","id":"sh/hgvatwfq","slide":2,"text":"胡哲祺","textPreview":"胡哲祺","textChars":3,"textLines":1,"bbox":[120,228,130,34]}
+{"kind":"textbox","id":"sh/utkbyhwz","slide":2,"text":"24281098","textPreview":"24281098","textChars":8,"textLines":1,"bbox":[120,264,130,22]}
+{"kind":"textbox","id":"sh/fudsrmxk","slide":2,"text":"组长","textPreview":"组长","textChars":2,"textLines":1,"bbox":[286,228,80,30]}
+{"kind":"textbox","id":"sh/4jmt4reh","slide":2,"text":"总体设计、进度统筹、报告统稿、训练验收、答辩组织","textPreview":"总体设计、进度统筹、报告统稿、训练验收、答辩组织","textChars":24,"textLines":1,"bbox":[398,228,560,50]}
+{"kind":"textbox","id":"sh/pkvaxwfm","slide":2,"text":"40%","textPreview":"40%","textChars":3,"textLines":1,"bbox":[1030,230,86,38]}
+{"kind":"shape","id":"sh/tsvy58fu","slide":2,"bbox":[88,328,1080,90]}
+{"kind":"textbox","id":"sh/srmhc3y9","slide":2,"text":"温豪杰","textPreview":"温豪杰","textChars":3,"textLines":1,"bbox":[120,346,130,34]}
+{"kind":"textbox","id":"sh/7qtg3iho","slide":2,"text":"24281112","textPreview":"24281112","textChars":8,"textLines":1,"bbox":[120,382,130,22]}
+{"kind":"textbox","id":"sh/6pkfadg3","slide":2,"text":"组员","textPreview":"组员","textChars":2,"textLines":1,"bbox":[286,346,80,30]}
+{"kind":"textbox","id":"sh/1wvy9sfq","slide":2,"text":"数据集整理、训练脚本、模型训练、实验结果分析","textPreview":"数据集整理、训练脚本、模型训练、实验结果分析","textChars":22,"textLines":1,"bbox":[398,346,560,50]}
+{"kind":"textbox","id":"sh/gvmhgnyl","slide":2,"text":"30%","textPreview":"30%","textChars":3,"textLines":1,"bbox":[1030,348,86,38]}
+{"kind":"shape","id":"sh/fudg7ix0","slide":2,"bbox":[88,446,1080,90]}
+{"kind":"textbox","id":"sh/et4zedgf","slide":2,"text":"杨大松","textPreview":"杨大松","textChars":3,"textLines":1,"bbox":[120,464,130,34]}
+{"kind":"textbox","id":"sh/x0byxozm","slide":2,"text":"24281118","textPreview":"24281118","textChars":8,"textLines":1,"bbox":[120,500,130,22]}
+{"kind":"textbox","id":"sh/wz2x4jy1","slide":2,"text":"组员","textPreview":"组员","textChars":2,"textLines":1,"bbox":[286,464,80,30]}
+{"kind":"textbox","id":"sh/ojmhk36x","slide":2,"text":"Flask 后端、前端管理系统、OCR/车辆档案匹配、运行截图","textPreview":"Flask 后端、前端管理系统、OCR/车辆档案匹配、运行截图","textChars":31,"textLines":1,"bbox":[398,464,560,50]}
+{"kind":"textbox","id":"sh/9kfyt87i","slide":2,"text":"30%","textPreview":"30%","textChars":3,"textLines":1,"bbox":[1030,466,86,38]}
+{"kind":"textbox","id":"sh/mh4zitor","slide":2,"text":"贡献比：胡哲祺：温豪杰：杨大松 = 4：3：3","textPreview":"贡献比：胡哲祺：温豪杰：杨大松 = 4：3：3","textChars":23,"textLines":1,"bbox":[120,590,640,34]}
+{"kind":"textbox","id":"sh/nidgrypc","slide":2,"text":"企业车牌识别与车辆管理系统 · 2","textPreview":"企业车牌识别与车辆管理系统 · 2","textChars":17,"textLines":1,"bbox":[980,684,230,20]}
+{"kind":"notes","id":"nt/tr9n3m","slide":2,"text":""}
+{"kind":"slide","id":"sl/013366","slide":3,"title":"项目不是单纯识别车牌，而是识别后能找车","textShapes":9}
+{"kind":"textbox","id":"sh/58nips7a","slide":3,"text":"项目不是单纯识别车牌，而是识别后能找车","textPreview":"项目不是单纯识别车牌，而是识别后能找车","textChars":19,"textLines":1,"bbox":[64,42,1000,56]}
+{"kind":"textbox","id":"sh/i5wjex8z","slide":3,"text":"从课程视觉 AI 任务扩展到企业/校园门岗车辆管理场景","textPreview":"从课程视觉 AI 任务扩展到企业/校园门岗车辆管理场景","textChars":27,"textLines":1,"bbox":[66,100,980,30]}
+{"kind":"shape","id":"sh/j650nipk","slide":3,"bbox":[64,142,1152,2]}
+{"kind":"textbox","id":"sh/w3e1cnqt","slide":3,"text":"• 入口：上传车辆图片，检测车辆和车牌区域","textPreview":"• 入口：上传车辆图片，检测车辆和车牌区域","textChars":21,"textLines":1,"bbox":[92,205,650,30]}
+{"kind":"textbox","id":"sh/h4nils7e","slide":3,"text":"• 识别：输出车牌号、置信度、车牌裁剪和结果图","textPreview":"• 识别：输出车牌号、置信度、车牌裁剪和结果图","textChars":23,"textLines":1,"bbox":[92,253,650,30]}
+{"kind":"textbox","id":"sh/uhczad8n","slide":3,"text":"• 管理：根据车牌号自动匹配车辆档案","textPreview":"• 管理：根据车牌号自动匹配车辆档案","textChars":18,"textLines":1,"bbox":[92,301,650,30]}
+{"kind":"textbox","id":"sh/vil0jip8","slide":3,"text":"• 展示：返回车主部门、车辆类型、通行权限、车辆状态和最近通行记录","textPreview":"• 展示：返回车主部门、车辆类型、通行权限、车辆状态和最近通行记录","textChars":33,"textLines":1,"bbox":[92,349,650,30]}
+{"kind":"shape","id":"sh/gzy1o76x","slide":3,"bbox":[820,205,310,300]}
+{"kind":"textbox","id":"sh/107ixc7i","slide":3,"text":"识别 → 查询 → 处置","textPreview":"识别 → 查询 → 处置","textChars":12,"textLines":1,"bbox":[852,250,250,38]}
+{"kind":"textbox","id":"sh/587ulova","slide":3,"text":"门岗人员不只看到车牌框，还能知道这辆车是谁的、能不能进、是否需要人工核验。","textPreview":"门岗人员不只看到车牌框，还能知道这辆车是谁的、能不能进、是否需要人工核验。","textChars":37,"textLines":1,"bbox":[858,330,235,110]}
+{"kind":"textbox","id":"sh/47ydcjup","slide":3,"text":"企业车牌识别与车辆管理系统 · 3","textPreview":"企业车牌识别与车辆管理系统 · 3","textChars":17,"textLines":1,"bbox":[980,684,230,20]}
+{"kind":"notes","id":"nt/013366","slide":3,"text":""}
+{"kind":"slide","id":"sl/r0hwgk","slide":4,"title":"开发周期从 7 月 10 日到 7 月 19 日，按阶段推进","textShapes":23}
+{"kind":"textbox","id":"sh/1kz2d8nm","slide":4,"text":"开发周期从 7 月 10 日到 7 月 19 日，按阶段推进","textPreview":"开发周期从 7 月 10 日到 7 月 19 日，按阶段推进","textChars":30,"textLines":1,"bbox":[64,42,1000,56]}
+{"kind":"textbox","id":"sh/eh8j2t4v","slide":4,"text":"过程材料写入 PPT，展示实际工作量和迭代路线","textPreview":"过程材料写入 PPT，展示实际工作量和迭代路线","textChars":23,"textLines":1,"bbox":[66,100,980,30]}
+{"kind":"shape","id":"sh/fih0by5g","slide":4,"bbox":[64,142,1152,2]}
+{"kind":"shape","id":"sh/ona183md","slide":4,"bbox":[80,250,160,150]}
+{"kind":"textbox","id":"sh/poj2h8ni","slide":4,"text":"07/10","textPreview":"07/10","textChars":5,"textLines":1,"bbox":[98,280,120,34]}
+{"kind":"textbox","id":"sh/2l8j6d47","slide":4,"text":"选题与需求","textPreview":"选题与需求","textChars":5,"textLines":1,"bbox":[98,340,120,54]}
+{"kind":"textbox","id":"sh/3mhkfy5s","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[244,304,38,38]}
+{"kind":"shape","id":"sh/4r61wjmt","slide":4,"bbox":[270,250,160,150]}
+{"kind":"textbox","id":"sh/5sfi5one","slide":4,"text":"07/11-13","textPreview":"07/11-13","textChars":8,"textLines":1,"bbox":[288,280,120,34]}
+{"kind":"textbox","id":"sh/90nupcb2","slide":4,"text":"数据集整理","textPreview":"数据集整理","textChars":5,"textLines":1,"bbox":[288,340,120,54]}
+{"kind":"textbox","id":"sh/8zedg7uh","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[434,304,38,38]}
+{"kind":"shape","id":"sh/7y5cn2tw","slide":4,"bbox":[460,250,160,150]}
+{"kind":"textbox","id":"sh/mxcvexcb","slide":4,"text":"07/14-15","textPreview":"07/14-15","textChars":8,"textLines":1,"bbox":[478,280,120,34]}
+{"kind":"textbox","id":"sh/h4nutcby","slide":4,"text":"模型训练","textPreview":"模型训练","textChars":4,"textLines":1,"bbox":[478,340,120,54]}
+{"kind":"textbox","id":"sh/w3edk7ud","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[624,304,38,38]}
+{"kind":"shape","id":"sh/v25cr2ts","slide":4,"bbox":[650,250,160,150]}
+{"kind":"textbox","id":"sh/u1wvixcn","slide":4,"text":"07/16-17","textPreview":"07/16-17","textChars":8,"textLines":1,"bbox":[668,280,120,34]}
+{"kind":"textbox","id":"sh/5s7uxwba","slide":4,"text":"后端与前端","textPreview":"后端与前端","textChars":5,"textLines":1,"bbox":[668,340,120,54]}
+{"kind":"textbox","id":"sh/47ydorup","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[814,304,38,38]}
+{"kind":"shape","id":"sh/ob6xkvil","slide":4,"bbox":[840,250,160,150]}
+{"kind":"textbox","id":"sh/pcfet0j6","slide":4,"text":"07/18","textPreview":"07/18","textChars":5,"textLines":1,"bbox":[858,280,120,34]}
+{"kind":"textbox","id":"sh/294fil0v","slide":4,"text":"管理系统升级","textPreview":"管理系统升级","textChars":6,"textLines":1,"bbox":[858,340,120,54]}
+{"kind":"textbox","id":"sh/3axwrq1g","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[1004,304,38,38]}
+{"kind":"shape","id":"sh/cz6xovix","slide":4,"bbox":[1030,250,160,150]}
+{"kind":"textbox","id":"sh/d0fyx0ji","slide":4,"text":"07/19","textPreview":"07/19","textChars":5,"textLines":1,"bbox":[1048,280,120,34]}
+{"kind":"textbox","id":"sh/qdofm50r","slide":4,"text":"材料验收","textPreview":"材料验收","textChars":4,"textLines":1,"bbox":[1048,340,120,54]}
+{"kind":"textbox","id":"sh/byxwva1c","slide":4,"text":"• 每天形成一个可检查产物：数据、脚本、模型、接口、页面、截图或文档","textPreview":"• 每天形成一个可检查产物：数据、脚本、模型、接口、页面、截图或文档","textChars":34,"textLines":1,"bbox":[110,510,920,30]}
+{"kind":"textbox","id":"sh/s3mxcbit","slide":4,"text":"• 组长负责验收节点，成员分别负责数据模型和系统实现","textPreview":"• 组长负责验收节点，成员分别负责数据模型和系统实现","textChars":26,"textLines":1,"bbox":[110,546,920,30]}
+{"kind":"textbox","id":"sh/t4velgjy","slide":4,"text":"• 最终集中核对群公告：报告首页摘要、PPT 第二页分工、日志、截图、zip 命名","textPreview":"• 最终集中核对群公告：报告首页摘要、PPT 第二页分工、日志、截图、zip 命名","textChars":41,"textLines":1,"bbox":[110,582,920,30]}
+{"kind":"textbox","id":"sh/val87ips","slide":4,"text":"企业车牌识别与车辆管理系统 · 4","textPreview":"企业车牌识别与车辆管理系统 · 4","textChars":17,"textLines":1,"bbox":[980,684,230,20]}
+{"kind":"notes","id":"nt/r0hwgk","slide":4,"text":""}
+{"kind":"slide","id":"sl/91ozl6","slide":5,"title":"多源公开数据集合并后形成 25554 张训练图片","textShapes":7}
+{"kind":"textbox","id":"sh/ho7ah4rq","slide":5,"text":"多源公开数据集合并后形成 25554 张训练图片","textPreview":"多源公开数据集合并后形成 25554 张训练图片","textChars":24,"textLines":1,"bbox":[64,42,1000,56]}
+{"kind":"textbox","id":"sh/ulwr698z","slide":5,"text":"数据集不放入最终 zip，只在报告中写明来源和规模","textPreview":"数据集不放入最终 zip，只在报告中写明来源和规模","textChars":25,"textLines":1,"bbox":[66,100,980,30]}
+{"kind":"shape","id":"sh/vmpsfe9k","slide":5,"bbox":[64,142,1152,2]}
+{"kind":"shape","id":"sh/9knad4re","slide":5,"bbox":[900,220,250,350]}
+{"kind":"textbox","id":"sh/mhwr2p83","slide":5,"text":"数据划分","textPreview":"数据划分","textChars":4,"textLines":1,"bbox":[932,252,170,34]}
+{"kind":"textbox","id":"sh/7i58bu98","slide":5,"text":"训练集 22094","textPreview":"训练集 22094","textChars":9,"textLines":1,"bbox":[934,330,170,30]}
+{"kind":"textbox","id":"sh/sfi9g3qd","slide":5,"text":"验证集 2310","textPreview":"验证集 2310","textChars":8,"textLines":1,"bbox":[934,390,170,30]}
+{"kind":"textbox","id":"sh/dgrapory","slide":5,"text":"测试集 1150","textPreview":"测试集 1150","textChars":8,"textLines":1,"bbox":[934,450,170,30]}
+{"kind":"textbox","id":"sh/9ozy5wjq","slide":5,"text":"企业车牌识别与车辆管理系统 · 5","textPreview":"企业车牌识别与车辆管理系统 · 5","textChars":17,"textLines":1,"bbox":[980,684,230,20]}
+{"kind":"image","id":"im/dszmxs76","slide":5,"name":"","alt":"数据集整理开发截图","bbox":[80,190,760,440]}
+{"kind":"notes","id":"nt/91ozl6","slide":5,"text":""}
+{"kind":"slide","id":"sl/mb0bhx","slide":6,"title":"训练日志显示模型完成 12 轮训练并保存最佳权重","textShapes":4}
+{"kind":"textbox","id":"sh/9wzudg36","slide":6,"text":"训练日志显示模型完成 12 轮训练并保存最佳权重","textPreview":"训练日志显示模型完成 12 轮训练并保存最佳权重","textChars":24,"textLines":1,"bbox":[64,42,1000,56]}
+{"kind":"textbox","id":"sh/mtov2lkf","slide":6,"text":"开发过程不仅有页面，也有可复现的训练脚本和模型文件","textPreview":"开发过程不仅有页面，也有可复现的训练脚本和模型文件","textChars":25,"textLines":1,"bbox":[66,100,980,30]}
+{"kind":"shape","id":"sh/nuhcbql0","slide":6,"bbox":[64,142,1152,2]}
+{"kind":"textbox","id":"sh/ax8v6lkr","slide":6,"text":"最佳验证损失 0.1420\n测试集损失 0.1196\n模型 models/tiny_plate_detector.pt","textPreview":"最佳验证损失 0.1420 | 测试集损失 0.1196 | 模型 models/tiny_plate_detector.pt","textChars":59,"textLines":3,"bbox":[820,530,330,80]}
+{"kind":"textbox","id":"sh/vyhcfqlc","slide":6,"text":"企业车牌识别与车辆管理系统 · 6","textPreview":"企业车牌识别与车辆管理系统 · 6","textChars":17,"textLines":1,"bbox":[980,684,230,20]}
+{"kind":"image","id":"im/5onu9gb6","slide":6,"name":"","alt":"模型训练日志截图","bbox":[70,185,690,430]}
+{"kind":"image","id":"im/4nud0bal","slide":6,"name":"","alt":"训练曲线","bbox":[790,230,360,260]}
+{"kind":"notes","id":"nt/mb0bhx","slide":6,"text":""}
+{"kind":"slide","id":"sl/4vmdww","slide":7,"title":"系统联调把模型结果接进车辆档案查询流程","textShapes":7}
+{"kind":"textbox","id":"sh/d0bitwba","slide":7,"text":"系统联调把模型结果接进车辆档案查询流程","textPreview":"系统联调把模型结果接进车辆档案查询流程","textChars":19,"textLines":1,"bbox":[64,42,1000,56]}
+{"kind":"textbox","id":"sh/qxkjyhcz","slide":7,"text":"Flask 返回结果图、车牌裁剪、车辆返回图和结构化 JSON","textPreview":"Flask 返回结果图、车牌裁剪、车辆返回图和结构化 JSON","textChars":31,"textLines":1,"bbox":[66,100,980,30]}
+{"kind":"shape","id":"sh/ryt0rmtk","slide":7,"bbox":[64,142,1152,2]}
+{"kind":"textbox","id":"sh/1obixwbm","slide":7,"text":"• /detect 接口接收上传图片","textPreview":"• /detect 接口接收上传图片","textChars":18,"textLines":1,"bbox":[900,250,260,30]}
+{"kind":"textbox","id":"sh/e1kj21cv","slide":7,"text":"• 检测模块输出车辆框和车牌框","textPreview":"• 检测模块输出车辆框和车牌框","textChars":15,"textLines":1,"bbox":[900,296,260,30]}
+{"kind":"textbox","id":"sh/fmt0v6tg","slide":7,"text":"• OCR 模块返回车牌号","textPreview":"• OCR 模块返回车牌号","textChars":13,"textLines":1,"bbox":[900,342,260,30]}
+{"kind":"textbox","id":"sh/orm18bux","slide":7,"text":"• 前端按车牌号匹配档案库","textPreview":"• 前端按车牌号匹配档案库","textChars":13,"textLines":1,"bbox":[900,388,260,30]}
+{"kind":"textbox","id":"sh/psv21gbi","slide":7,"text":"企业车牌识别与车辆管理系统 · 7","textPreview":"企业车牌识别与车辆管理系统 · 7","textChars":17,"textLines":1,"bbox":[980,684,230,20]}
+{"kind":"image","id":"im/1wrqh87u","slide":7,"name":"","alt":"系统架构联调截图","bbox":[90,190,760,445]}
+{"kind":"notes","id":"nt/4vmdww","slide":7,"text":""}
+{"kind":"slide","id":"sl/dt2t05","slide":8,"title":"最终前端更像真实公司的车辆通行管理系统","textShapes":8}
+{"kind":"textbox","id":"sh/54ru14fy","slide":8,"text":"最终前端更像真实公司的车辆通行管理系统","textPreview":"最终前端更像真实公司的车辆通行管理系统","textChars":19,"textLines":1,"bbox":[64,42,1000,56]}
+{"kind":"textbox","id":"sh/y10vq9gn","slide":8,"text":"识别 BB8986 后自动找车，展示车主、部门、权限和车辆图片","textPreview":"识别 BB8986 后自动找车，展示车主、部门、权限和车辆图片","textChars":31,"textLines":1,"bbox":[66,100,980,30]}
+{"kind":"shape","id":"sh/j29czux8","slide":8,"bbox":[64,142,1152,2]}
+{"kind":"shape","id":"sh/t8bu5ofa","slide":8,"bbox":[925,220,250,330]}
+{"kind":"textbox","id":"sh/650vu9gj","slide":8,"text":"运行验证","textPreview":"运行验证","textChars":4,"textLines":1,"bbox":[955,252,170,34]}
+{"kind":"textbox","id":"sh/76tc3ex4","slide":8,"text":"• 识别车牌：BB8986","textPreview":"• 识别车牌：BB8986","textChars":13,"textLines":1,"bbox":[955,325,190,30]}
+{"kind":"textbox","id":"sh/obydkfyl","slide":8,"text":"• 匹配车辆：行政部车辆","textPreview":"• 匹配车辆：行政部车辆","textChars":12,"textLines":1,"bbox":[955,367,190,30]}
+{"kind":"textbox","id":"sh/9c7utkf6","slide":8,"text":"• 状态：正常","textPreview":"• 状态：正常","textChars":7,"textLines":1,"bbox":[955,409,190,30]}
+{"kind":"textbox","id":"sh/tovqp0jq","slide":8,"text":"• 返回车辆图片和车牌裁剪","textPreview":"• 返回车辆图片和车牌裁剪","textChars":13,"textLines":1,"bbox":[955,451,190,30]}
+{"kind":"textbox","id":"sh/s3mpgvil","slide":8,"text":"企业车牌识别与车辆管理系统 · 8","textPreview":"企业车牌识别与车辆管理系统 · 8","textChars":17,"textLines":1,"bbox":[980,684,230,20]}
+{"kind":"image","id":"im/5k3it4be","slide":8,"name":"","alt":"企业车辆管理系统运行截图","bbox":[70,175,800,470]}
+{"kind":"notes","id":"nt/dt2t05","slide":8,"text":""}
+{"kind":"slide","id":"sl/etw2i3","slide":9,"title":"至少五张运行截图覆盖不同车牌样例","textShapes":7}
+{"kind":"textbox","id":"sh/qxcvq9cf","slide":9,"text":"至少五张运行截图覆盖不同车牌样例","textPreview":"至少五张运行截图覆盖不同车牌样例","textChars":16,"textLines":1,"bbox":[64,42,1000,56]}
+{"kind":"textbox","id":"sh/dk3ulov6","slide":9,"text":"不同图片均通过本地 Flask 页面实际上传识别","textPreview":"不同图片均通过本地 Flask 页面实际上传识别","textChars":24,"textLines":1,"bbox":[66,100,980,30]}
+{"kind":"shape","id":"sh/czudsjul","slide":9,"bbox":[64,142,1152,2]}
+{"kind":"shape","id":"sh/zmlwnydw","slide":9,"bbox":[70,175,525,210]}
+{"kind":"textbox","id":"sh/lonepov2","slide":9,"text":"BB8986","textPreview":"BB8986","textChars":6,"textLines":1,"bbox":[88,183,180,24]}
+{"kind":"shape","id":"sh/0nedw3uh","slide":9,"bbox":[645,175,525,210]}
+{"kind":"textbox","id":"sh/epsvipw7","slide":9,"text":"589222","textPreview":"589222","textChars":6,"textLines":1,"bbox":[663,183,180,24]}
+{"kind":"shape","id":"sh/gb2tofuh","slide":9,"bbox":[70,415,525,210]}
+{"kind":"textbox","id":"sh/u9kbm5cb","slide":9,"text":"XCJ-S77","textPreview":"XCJ-S77","textChars":7,"textLines":1,"bbox":[88,423,180,24]}
+{"kind":"shape","id":"sh/vatcvadw","slide":9,"bbox":[645,415,525,210]}
+{"kind":"textbox","id":"sh/50vu1kby","slide":9,"text":"EVSROCK","textPreview":"EVSROCK","textChars":7,"textLines":1,"bbox":[663,423,180,24]}
+{"kind":"textbox","id":"sh/idkbqpcn","slide":9,"text":"企业车牌识别与车辆管理系统 · 9","textPreview":"企业车牌识别与车辆管理系统 · 9","textChars":17,"textLines":1,"bbox":[980,684,230,20]}
+{"kind":"image","id":"im/fu5kjmhg","slide":9,"name":"","alt":"BB8986","bbox":[82,207,500,150]}
+{"kind":"image","id":"im/2xw3u1g7","slide":9,"name":"","alt":"589222","bbox":[657,207,500,150]}
+{"kind":"image","id":"im/uhsrypcb","slide":9,"name":"","alt":"XCJ-S77","bbox":[82,447,500,150]}
+{"kind":"image","id":"im/7uhs3ad0","slide":9,"name":"","alt":"EVSROCK","bbox":[657,447,500,150]}
+{"kind":"notes","id":"nt/etw2i3","slide":9,"text":""}
+{"kind":"slide","id":"sl/9c8b8q","slide":10,"title":"沟通记录体现了从需求到验收的协作过程","textShapes":27}
+{"kind":"textbox","id":"sh/183a9c7e","slide":10,"text":"沟通记录体现了从需求到验收的协作过程","textPreview":"沟通记录体现了从需求到验收的协作过程","textChars":18,"textLines":1,"bbox":[64,42,1000,56]}
+{"kind":"textbox","id":"sh/e5sryho3","slide":10,"text":"按公告要求补充过程材料，便于证明分工和开发周期","textPreview":"按公告要求补充过程材料，便于证明分工和开发周期","textChars":23,"textLines":1,"bbox":[66,100,980,30]}
+{"kind":"shape","id":"sh/f6ls7mp8","slide":10,"bbox":[64,142,1152,2]}
+{"kind":"textbox","id":"sh/s3a9w76x","slide":10,"text":"07/10","textPreview":"07/10","textChars":5,"textLines":1,"bbox":[96,190,90,30]}
+{"kind":"textbox","id":"sh/d4jq5c7i","slide":10,"text":"腾讯会议","textPreview":"腾讯会议","textChars":4,"textLines":1,"bbox":[220,190,140,30]}
+{"kind":"textbox","id":"sh/6hsrux8r","slide":10,"text":"确定选题和功能范围","textPreview":"确定选题和功能范围","textChars":9,"textLines":1,"bbox":[390,190,620,30]}
+{"kind":"textbox","id":"sh/r21832pc","slide":10,"text":"07/12","textPreview":"07/12","textChars":5,"textLines":1,"bbox":[96,258,90,30]}
+{"kind":"textbox","id":"sh/cze98r61","slide":10,"text":"群聊","textPreview":"群聊","textChars":2,"textLines":1,"bbox":[220,258,140,30]}
+{"kind":"textbox","id":"sh/x0nahw7m","slide":10,"text":"确认数据来源和不提交原始数据集","textPreview":"确认数据来源和不提交原始数据集","textChars":15,"textLines":1,"bbox":[390,258,620,30]}
+{"kind":"textbox","id":"sh/5ozilsny","slide":10,"text":"07/14","textPreview":"07/14","textChars":5,"textLines":1,"bbox":[96,326,90,30]}
+{"kind":"textbox","id":"sh/4nqhcn6d","slide":10,"text":"线下/语音","textPreview":"线下/语音","textChars":5,"textLines":1,"bbox":[220,326,140,30]}
+{"kind":"textbox","id":"sh/jmh0ji5s","slide":10,"text":"选择轻量 YOLO 风格模型","textPreview":"选择轻量 YOLO 风格模型","textChars":14,"textLines":1,"bbox":[390,326,620,30]}
+{"kind":"textbox","id":"sh/il8zado7","slide":10,"text":"07/16","textPreview":"07/16","textChars":5,"textLines":1,"bbox":[96,394,90,30]}
+{"kind":"textbox","id":"sh/hkzih8n2","slide":10,"text":"群聊","textPreview":"群聊","textChars":2,"textLines":1,"bbox":[220,394,140,30]}
+{"kind":"textbox","id":"sh/wj6h836h","slide":10,"text":"前后端字段和接口联调","textPreview":"前后端字段和接口联调","textChars":10,"textLines":1,"bbox":[390,394,620,30]}
+{"kind":"textbox","id":"sh/vix0fi5w","slide":10,"text":"07/18","textPreview":"07/18","textChars":5,"textLines":1,"bbox":[96,462,90,30]}
+{"kind":"textbox","id":"sh/uxoz6dob","slide":10,"text":"腾讯会议","textPreview":"腾讯会议","textChars":4,"textLines":1,"bbox":[220,462,140,30]}
+{"kind":"textbox","id":"sh/1gjitcn6","slide":10,"text":"升级为企业车辆管理界面","textPreview":"升级为企业车辆管理界面","textChars":11,"textLines":1,"bbox":[390,462,620,30]}
+{"kind":"textbox","id":"sh/gfahk7ml","slide":10,"text":"07/19","textPreview":"07/19","textChars":5,"textLines":1,"bbox":[96,530,90,30]}
+{"kind":"textbox","id":"sh/0b2tcfyt","slide":10,"text":"群聊","textPreview":"群聊","textChars":2,"textLines":1,"bbox":[220,530,140,30]}
+{"kind":"textbox","id":"sh/lwba5kze","slide":10,"text":"核对报告、PPT、日志和截图","textPreview":"核对报告、PPT、日志和截图","textChars":14,"textLines":1,"bbox":[390,530,620,30]}
+{"kind":"shape","id":"sh/y9kba5g3","slide":10,"bbox":[910,200,240,280]}
+{"kind":"textbox","id":"sh/zats3aho","slide":10,"text":"材料输出","textPreview":"材料输出","textChars":4,"textLines":1,"bbox":[945,238,160,34]}
+{"kind":"textbox","id":"sh/c7it8vyx","slide":10,"text":"• 课程报告","textPreview":"• 课程报告","textChars":6,"textLines":1,"bbox":[950,310,150,30]}
+{"kind":"textbox","id":"sh/d8ra10zi","slide":10,"text":"• 陈述 PPT","textPreview":"• 陈述 PPT","textChars":8,"textLines":1,"bbox":[950,348,150,30]}
+{"kind":"textbox","id":"sh/q50b6lgr","slide":10,"text":"• 演示截图","textPreview":"• 演示截图","textChars":6,"textLines":1,"bbox":[950,386,150,30]}
+{"kind":"textbox","id":"sh/b69szqhc","slide":10,"text":"• 开发日志","textPreview":"• 开发日志","textChars":6,"textLines":1,"bbox":[950,424,150,30]}
+{"kind":"textbox","id":"sh/o3it4vy1","slide":10,"text":"• 沟通记录","textPreview":"• 沟通记录","textChars":6,"textLines":1,"bbox":[950,462,150,30]}
+{"kind":"textbox","id":"sh/p4rax0z6","slide":10,"text":"企业车牌识别与车辆管理系统 · 10","textPreview":"企业车牌识别与车辆管理系统 · 10","textChars":18,"textLines":1,"bbox":[980,684,230,20]}
+{"kind":"notes","id":"nt/9c8b8q","slide":10,"text":""}
+{"kind":"slide","id":"sl/kl3gq8","slide":11,"title":"项目亮点是把视觉识别结果落到可用业务界面","textShapes":14}
+{"kind":"textbox","id":"sh/alo7epgj","slide":11,"text":"项目亮点是把视觉识别结果落到可用业务界面","textPreview":"项目亮点是把视觉识别结果落到可用业务界面","textChars":20,"textLines":1,"bbox":[64,42,1000,56]}
+{"kind":"textbox","id":"sh/x8fq94fu","slide":11,"text":"同时保留训练、截图、日志等过程证据，满足课程提交要求","textPreview":"同时保留训练、截图、日志等过程证据，满足课程提交要求","textChars":26,"textLines":1,"bbox":[66,100,980,30]}
+{"kind":"shape","id":"sh/wn6pgzy9","slide":11,"bbox":[64,142,1152,2]}
+{"kind":"shape","id":"sh/jax8bex0","slide":11,"bbox":[90,210,500,310]}
+{"kind":"textbox","id":"sh/y9o7i9gf","slide":11,"text":"已完成","textPreview":"已完成","textChars":3,"textLines":1,"bbox":[128,245,160,38]}
+{"kind":"textbox","id":"sh/lcfqd4f6","slide":11,"text":"• 多源数据集合并","textPreview":"• 多源数据集合并","textChars":9,"textLines":1,"bbox":[130,320,350,30]}
+{"kind":"textbox","id":"sh/kb6pkjyl","slide":11,"text":"• 轻量检测模型训练","textPreview":"• 轻量检测模型训练","textChars":10,"textLines":1,"bbox":[130,360,350,30]}
+{"kind":"textbox","id":"sh/7eh8fexw","slide":11,"text":"• Flask 非静态系统","textPreview":"• Flask 非静态系统","textChars":13,"textLines":1,"bbox":[130,400,350,30]}
+{"kind":"textbox","id":"sh/6d87m9gr","slide":11,"text":"• 企业车辆管理前端","textPreview":"• 企业车辆管理前端","textChars":10,"textLines":1,"bbox":[130,440,350,30]}
+{"kind":"textbox","id":"sh/wvmlgjat","slide":11,"text":"• 报告、PPT、日志和截图","textPreview":"• 报告、PPT、日志和截图","textChars":14,"textLines":1,"bbox":[130,480,350,30]}
+{"kind":"shape","id":"sh/xwv2pore","slide":11,"bbox":[690,210,500,310]}
+{"kind":"textbox","id":"sh/at43e9sn","slide":11,"text":"后续改进","textPreview":"后续改进","textChars":4,"textLines":1,"bbox":[728,245,180,38]}
+{"kind":"textbox","id":"sh/budkne98","slide":11,"text":"• 接入真实 OCR 引擎","textPreview":"• 接入真实 OCR 引擎","textChars":13,"textLines":1,"bbox":[730,320,360,30]}
+{"kind":"textbox","id":"sh/kj6lkja5","slide":11,"text":"• 使用 YOLOv8 提升检测精度","textPreview":"• 使用 YOLOv8 提升检测精度","textChars":18,"textLines":1,"bbox":[730,362,360,30]}
+{"kind":"textbox","id":"sh/lkfmtorq","slide":11,"text":"• 加入视频流识别","textPreview":"• 加入视频流识别","textChars":9,"textLines":1,"bbox":[730,404,360,30]}
+{"kind":"textbox","id":"sh/yxo3i9sz","slide":11,"text":"• 连接数据库和真实门禁系统","textPreview":"• 连接数据库和真实门禁系统","textChars":14,"textLines":1,"bbox":[730,446,360,30]}
+{"kind":"textbox","id":"sh/jixkre9k","slide":11,"text":"企业车牌识别与车辆管理系统 · 11","textPreview":"企业车牌识别与车辆管理系统 · 11","textChars":18,"textLines":1,"bbox":[980,684,230,20]}
+{"kind":"notes","id":"nt/kl3gq8","slide":11,"text":""}
+{"kind":"slide","id":"sl/ocqak0","slide":12,"title":"最终交付：源代码、模型、课程报告、陈述 PPT、运行截图、开发日志和沟通记录","textShapes":6}
+{"kind":"textbox","id":"sh/fy1gfaxc","slide":12,"text":"最终交付：源代码、模型、课程报告、陈述 PPT、运行截图、开发日志和沟通记录","textPreview":"最终交付：源代码、模型、课程报告、陈述 PPT、运行截图、开发日志和沟通记录","textChars":38,"textLines":1,"bbox":[78,150,1040,120]}
+{"kind":"textbox","id":"sh/gzax8fex","slide":12,"text":"提交包按组长学号命名为 24281098.zip；原始数据集不提交，在报告中注明数据来源。","textPreview":"提交包按组长学号命名为 24281098.zip；原始数据集不提交，在报告中注明数据来源。","textChars":45,"textLines":1,"bbox":[82,330,880,70]}
+{"kind":"shape","id":"sh/h0jyhkfi","slide":12,"bbox":[90,500,300,82]}
+{"kind":"textbox","id":"sh/6t8f25wv","slide":12,"text":"40% / 30% / 30%","textPreview":"40% / 30% / 30%","textChars":15,"textLines":1,"bbox":[118,526,240,30]}
+{"kind":"shape","id":"sh/7uhgbaxg","slide":12,"bbox":[460,500,300,82]}
+{"kind":"textbox","id":"sh/svqx4fel","slide":12,"text":"8+ 张截图证据","textPreview":"8+ 张截图证据","textChars":8,"textLines":1,"bbox":[488,526,240,30]}
+{"kind":"shape","id":"sh/twjyd0f6","slide":12,"bbox":[830,500,300,82]}
+{"kind":"textbox","id":"sh/qpcfepwz","slide":12,"text":"7/10-7/19 日志","textPreview":"7/10-7/19 日志","textChars":12,"textLines":1,"bbox":[858,526,240,30]}
+{"kind":"textbox","id":"sh/bqlgnuxk","slide":12,"text":"企业车牌识别与车辆管理系统 · 12","textPreview":"企业车牌识别与车辆管理系统 · 12","textChars":18,"textLines":1,"bbox":[980,684,230,20]}
+{"kind":"notes","id":"nt/ocqak0","slide":12,"text":""}

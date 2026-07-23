@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/rxic1s",
-    "id": "rxic1s",
+    "aid": "sl/n5vk82",
+    "id": "n5vk82",
     "slide": 1,
-    "layoutId": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+    "layoutId": "a857b1a4-faf1-41ac-825d-aa5fe767c72b",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+    "masterLayoutId": "a9269495-5ddd-4567-bcde-52dbfad40e8c",
     "masterLayoutName": "Master",
     "backgroundColor": "#FFFFFF",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+      "id": "a857b1a4-faf1-41ac-825d-aa5fe767c72b",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+      "parentLayoutId": "a9269495-5ddd-4567-bcde-52dbfad40e8c",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "368012da-b264-4b8e-9d25-45db87a40646",
+      "id": "a9269495-5ddd-4567-bcde-52dbfad40e8c",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,17 +64,17 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ob2tozah",
+      "aid": "sh/q1szul0z",
       "id": "1",
       "bbox": [
         72,
-        120,
-        1020,
-        120
+        102,
+        900,
+        86
       ],
       "geometry": "rect",
-      "text": "基于 YOLO 的校园车辆与车牌检测系统",
-      "textPreview": "基于 YOLO 的校园车辆与车牌检测系统",
+      "text": "企业车牌识别与车辆管理系统",
+      "textPreview": "企业车牌识别与车辆管理系统",
       "resolvedFontSize": 54,
       "resolvedTextStyle": {
         "fontSize": 54,
@@ -94,14 +94,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "基于 YOLO 的校园车辆与车牌检测系统"
+            "text": "企业车牌识别与车辆管理系统"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "基于 YOLO 的校园车辆与车牌检测系统",
+          "text": "企业车牌识别与车辆管理系统",
           "resolvedTextStyle": {
             "fontSize": 54,
             "color": "#111827",
@@ -111,7 +111,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "基于 YOLO 的校园车辆与车牌检测系统",
+              "text": "企业车牌识别与车辆管理系统",
               "fontSize": 54,
               "color": "#111827",
               "bold": true,
@@ -127,22 +127,22 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/natsfutw",
+      "aid": "sh/doji50jq",
       "id": "2",
       "bbox": [
         76,
-        265,
+        202,
         760,
-        38
+        34
       ],
       "geometry": "rect",
-      "text": "创新应用综合实训 · 视觉 AI 应用项目",
-      "textPreview": "创新应用综合实训 · 视觉 AI 应用项目",
+      "text": "基于 YOLO / OpenCV / Flask 的视觉 AI 课程项目",
+      "textPreview": "基于 YOLO / OpenCV / Flask 的视觉 AI 课程项目",
       "resolvedFontSize": 24,
       "resolvedTextStyle": {
         "fontSize": 24,
         "typeface": "+mn-lt",
-        "color": "#667085",
+        "color": "#64748B",
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -156,25 +156,25 @@
         "lines": [
           {
             "index": 1,
-            "text": "创新应用综合实训 · 视觉 AI 应用项目"
+            "text": "基于 YOLO / OpenCV / Flask 的视觉 AI 课程项目"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "创新应用综合实训 · 视觉 AI 应用项目",
+          "text": "基于 YOLO / OpenCV / Flask 的视觉 AI 课程项目",
           "resolvedTextStyle": {
             "fontSize": 24,
-            "color": "#667085",
+            "color": "#64748B",
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "创新应用综合实训 · 视觉 AI 应用项目",
+              "text": "基于 YOLO / OpenCV / Flask 的视觉 AI 课程项目",
               "fontSize": 24,
-              "color": "#667085",
+              "color": "#64748B",
               "alignment": "left"
             }
           ],
@@ -187,37 +187,97 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/29krmpsb",
+      "aid": "sh/cnahwvi5",
       "id": "3",
       "bbox": [
-        76,
-        385,
-        300,
-        96
+        78,
+        254,
+        500,
+        30
       ],
       "geometry": "rect",
-      "fillColor": "#EFF6FF",
-      "lineColor": "#D1D5DB",
-      "lineWidth": 1
+      "text": "P402019B 创新应用综合实训",
+      "textPreview": "P402019B 创新应用综合实训",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#64748B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "P402019B 创新应用综合实训"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "P402019B 创新应用综合实训",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#64748B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "P402019B 创新应用综合实训",
+              "fontSize": 20,
+              "color": "#64748B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
     },
     {
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/18badkbq",
+      "aid": "sh/zq107a1w",
       "id": "4",
       "bbox": [
+        78,
+        400,
+        280,
+        96
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EFF6FF",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/epszy50b",
+      "id": "5",
+      "bbox": [
         104,
-        402,
+        416,
         160,
-        44
+        42
       ],
       "geometry": "rect",
       "text": "25554",
       "textPreview": "25554",
-      "resolvedFontSize": 40,
+      "resolvedFontSize": 38,
       "resolvedTextStyle": {
-        "fontSize": 40,
+        "fontSize": 38,
         "typeface": "+mn-lt",
         "color": "#2563EB",
         "bold": true,
@@ -243,7 +303,7 @@
           "index": 1,
           "text": "25554",
           "resolvedTextStyle": {
-            "fontSize": 40,
+            "fontSize": 38,
             "color": "#2563EB",
             "bold": true,
             "alignment": "left"
@@ -252,7 +312,7 @@
             {
               "index": 1,
               "text": "25554",
-              "fontSize": 40,
+              "fontSize": 38,
               "color": "#2563EB",
               "bold": true,
               "alignment": "left"
@@ -264,25 +324,25 @@
       "lineWidth": 0
     },
     {
-      "order": 5,
+      "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/g729kfa5",
-      "id": "5",
+      "aid": "sh/1s3i90jm",
+      "id": "6",
       "bbox": [
         106,
-        452,
-        220,
-        28
+        462,
+        200,
+        26
       ],
       "geometry": "rect",
-      "text": "张合并训练图片",
-      "textPreview": "张合并训练图片",
-      "resolvedFontSize": 20,
+      "text": "合并训练图片",
+      "textPreview": "合并训练图片",
+      "resolvedFontSize": 18,
       "resolvedTextStyle": {
-        "fontSize": 20,
+        "fontSize": 18,
         "typeface": "+mn-lt",
-        "color": "#667085",
+        "color": "#64748B",
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -296,25 +356,25 @@
         "lines": [
           {
             "index": 1,
-            "text": "张合并训练图片"
+            "text": "合并训练图片"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "张合并训练图片",
+          "text": "合并训练图片",
           "resolvedTextStyle": {
-            "fontSize": 20,
-            "color": "#667085",
+            "fontSize": 18,
+            "color": "#64748B",
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "张合并训练图片",
-              "fontSize": 20,
-              "color": "#667085",
+              "text": "合并训练图片",
+              "fontSize": 18,
+              "color": "#64748B",
               "alignment": "left"
             }
           ],
@@ -324,40 +384,40 @@
       "lineWidth": 0
     },
     {
-      "order": 6,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/f6tsbatk",
-      "id": "6",
-      "bbox": [
-        410,
-        385,
-        300,
-        96
-      ],
-      "geometry": "rect",
-      "fillColor": "#ECFDF3",
-      "lineColor": "#D1D5DB",
-      "lineWidth": 1
-    },
-    {
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/e5kri5sf",
+      "aid": "sh/0ra10vi1",
       "id": "7",
       "bbox": [
-        438,
-        402,
-        190,
-        44
+        408,
+        400,
+        280,
+        96
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#ECFDF3",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nul0ba1s",
+      "id": "8",
+      "bbox": [
+        434,
+        416,
+        160,
+        42
       ],
       "geometry": "rect",
       "text": "0.1196",
       "textPreview": "0.1196",
-      "resolvedFontSize": 40,
+      "resolvedFontSize": 38,
       "resolvedTextStyle": {
-        "fontSize": 40,
+        "fontSize": 38,
         "typeface": "+mn-lt",
         "color": "#16865B",
         "bold": true,
@@ -383,7 +443,7 @@
           "index": 1,
           "text": "0.1196",
           "resolvedTextStyle": {
-            "fontSize": 40,
+            "fontSize": 38,
             "color": "#16865B",
             "bold": true,
             "alignment": "left"
@@ -392,7 +452,7 @@
             {
               "index": 1,
               "text": "0.1196",
-              "fontSize": 40,
+              "fontSize": 38,
               "color": "#16865B",
               "bold": true,
               "alignment": "left"
@@ -404,25 +464,25 @@
       "lineWidth": 0
     },
     {
-      "order": 8,
+      "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/l4fap4ra",
-      "id": "8",
+      "aid": "sh/mtcj2507",
+      "id": "9",
       "bbox": [
-        440,
-        452,
-        180,
-        28
+        436,
+        462,
+        200,
+        26
       ],
       "geometry": "rect",
       "text": "测试集损失",
       "textPreview": "测试集损失",
-      "resolvedFontSize": 20,
+      "resolvedFontSize": 18,
       "resolvedTextStyle": {
-        "fontSize": 20,
+        "fontSize": 18,
         "typeface": "+mn-lt",
-        "color": "#667085",
+        "color": "#64748B",
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -445,16 +505,16 @@
           "index": 1,
           "text": "测试集损失",
           "resolvedTextStyle": {
-            "fontSize": 20,
-            "color": "#667085",
+            "fontSize": 18,
+            "color": "#64748B",
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
               "text": "测试集损失",
-              "fontSize": 20,
-              "color": "#667085",
+              "fontSize": 18,
+              "color": "#64748B",
               "alignment": "left"
             }
           ],
@@ -464,42 +524,42 @@
       "lineWidth": 0
     },
     {
-      "order": 9,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/k36twjap",
-      "id": "9",
-      "bbox": [
-        744,
-        385,
-        300,
-        96
-      ],
-      "geometry": "rect",
-      "fillColor": "#FFF7ED",
-      "lineColor": "#D1D5DB",
-      "lineWidth": 1
-    },
-    {
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/mt43ipgj",
+      "aid": "sh/0jy14ja1",
       "id": "10",
       "bbox": [
-        772,
-        402,
-        90,
-        44
+        738,
+        400,
+        280,
+        96
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFF7ED",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1k7ixor6",
+      "id": "11",
+      "bbox": [
+        764,
+        416,
+        160,
+        42
       ],
       "geometry": "rect",
-      "text": "2",
-      "textPreview": "2",
-      "resolvedFontSize": 40,
+      "text": "8+",
+      "textPreview": "8+",
+      "resolvedFontSize": 38,
       "resolvedTextStyle": {
-        "fontSize": 40,
+        "fontSize": 38,
         "typeface": "+mn-lt",
-        "color": "#EA7A24",
+        "color": "#D97706",
         "bold": true,
         "alignment": "left",
         "insets": {
@@ -514,26 +574,26 @@
         "lines": [
           {
             "index": 1,
-            "text": "2"
+            "text": "8+"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "2",
+          "text": "8+",
           "resolvedTextStyle": {
-            "fontSize": 40,
-            "color": "#EA7A24",
+            "fontSize": 38,
+            "color": "#D97706",
             "bold": true,
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "2",
-              "fontSize": 40,
-              "color": "#EA7A24",
+              "text": "8+",
+              "fontSize": 38,
+              "color": "#D97706",
               "bold": true,
               "alignment": "left"
             }
@@ -544,25 +604,25 @@
       "lineWidth": 0
     },
     {
-      "order": 11,
+      "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/nud4buh4",
-      "id": "11",
+      "aid": "sh/ehgj29sv",
+      "id": "12",
       "bbox": [
-        774,
-        452,
-        180,
-        28
+        766,
+        462,
+        200,
+        26
       ],
       "geometry": "rect",
-      "text": "套演示版本",
-      "textPreview": "套演示版本",
-      "resolvedFontSize": 20,
+      "text": "运行/开发截图",
+      "textPreview": "运行/开发截图",
+      "resolvedFontSize": 18,
       "resolvedTextStyle": {
-        "fontSize": 20,
+        "fontSize": 18,
         "typeface": "+mn-lt",
-        "color": "#667085",
+        "color": "#64748B",
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -576,26 +636,146 @@
         "lines": [
           {
             "index": 1,
-            "text": "套演示版本"
+            "text": "运行/开发截图"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "套演示版本",
+          "text": "运行/开发截图",
           "resolvedTextStyle": {
-            "fontSize": 20,
-            "color": "#667085",
+            "fontSize": 18,
+            "color": "#64748B",
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "套演示版本",
-              "fontSize": 20,
-              "color": "#667085",
+              "text": "运行/开发截图",
+              "fontSize": 18,
+              "color": "#64748B",
               "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fip0ve9g",
+      "id": "13",
+      "bbox": [
+        78,
+        585,
+        940,
+        28
+      ],
+      "geometry": "rect",
+      "text": "组长：胡哲祺 24281098 · 组员：温豪杰 24281112、杨大松 24281118",
+      "textPreview": "组长：胡哲祺 24281098 · 组员：温豪杰 24281112、杨大松 24281118",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#64748B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "组长：胡哲祺 24281098 · 组员：温豪杰 24281112、杨大松 24281118"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "组长：胡哲祺 24281098 · 组员：温豪杰 24281112、杨大松 24281118",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#64748B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "组长：胡哲祺 24281098 · 组员：温豪杰 24281112、杨大松 24281118",
+              "fontSize": 18,
+              "color": "#64748B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o7y183ax",
+      "id": "14",
+      "bbox": [
+        980,
+        684,
+        230,
+        20
+      ],
+      "geometry": "rect",
+      "text": "企业车牌识别与车辆管理系统 · 1",
+      "textPreview": "企业车牌识别与车辆管理系统 · 1",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#64748B",
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "企业车牌识别与车辆管理系统 · 1"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "企业车牌识别与车辆管理系统 · 1",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#64748B",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "企业车牌识别与车辆管理系统 · 1",
+              "fontSize": 12,
+              "color": "#64748B",
+              "alignment": "right"
             }
           ],
           "marginLeft": 0

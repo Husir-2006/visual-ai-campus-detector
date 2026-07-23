@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/hlpnk5",
-    "id": "hlpnk5",
+    "aid": "sl/mb0bhx",
+    "id": "mb0bhx",
     "slide": 6,
-    "layoutId": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+    "layoutId": "a857b1a4-faf1-41ac-825d-aa5fe767c72b",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+    "masterLayoutId": "a9269495-5ddd-4567-bcde-52dbfad40e8c",
     "masterLayoutName": "Master",
     "backgroundColor": "#FFFFFF",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "09653692-eecc-452b-b9f5-5cb9812ec5cd",
+      "id": "a857b1a4-faf1-41ac-825d-aa5fe767c72b",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "368012da-b264-4b8e-9d25-45db87a40646",
+      "parentLayoutId": "a9269495-5ddd-4567-bcde-52dbfad40e8c",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "368012da-b264-4b8e-9d25-45db87a40646",
+      "id": "a9269495-5ddd-4567-bcde-52dbfad40e8c",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,17 +64,17 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0rmd0n2l",
+      "aid": "sh/9wzudg36",
       "id": "1",
       "bbox": [
         64,
-        50,
-        880,
-        58
+        42,
+        1000,
+        56
       ],
       "geometry": "rect",
-      "text": "非静态版完成真实模型推理，静态版保证现场演示稳定",
-      "textPreview": "非静态版完成真实模型推理，静态版保证现场演示稳定",
+      "text": "训练日志显示模型完成 12 轮训练并保存最佳权重",
+      "textPreview": "训练日志显示模型完成 12 轮训练并保存最佳权重",
       "resolvedFontSize": 36,
       "resolvedTextStyle": {
         "fontSize": 36,
@@ -90,22 +90,18 @@
         }
       },
       "textLayout": {
-        "lineCount": 2,
+        "lineCount": 1,
         "lines": [
           {
             "index": 1,
-            "text": "非静态版完成真实模型推理，静态版保证现场演示稳"
-          },
-          {
-            "index": 2,
-            "text": "定"
+            "text": "训练日志显示模型完成 12 轮训练并保存最佳权重"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "非静态版完成真实模型推理，静态版保证现场演示稳定",
+          "text": "训练日志显示模型完成 12 轮训练并保存最佳权重",
           "resolvedTextStyle": {
             "fontSize": 36,
             "color": "#111827",
@@ -115,7 +111,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "非静态版完成真实模型推理，静态版保证现场演示稳定",
+              "text": "训练日志显示模型完成 12 轮训练并保存最佳权重",
               "fontSize": 36,
               "color": "#111827",
               "bold": true,
@@ -131,22 +127,22 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/zqdc7i10",
+      "aid": "sh/mtov2lkf",
       "id": "2",
       "bbox": [
         66,
-        110,
-        820,
-        34
+        100,
+        980,
+        30
       ],
       "geometry": "rect",
-      "text": "两套入口降低答辩时的运行风险",
-      "textPreview": "两套入口降低答辩时的运行风险",
+      "text": "开发过程不仅有页面，也有可复现的训练脚本和模型文件",
+      "textPreview": "开发过程不仅有页面，也有可复现的训练脚本和模型文件",
       "resolvedFontSize": 18,
       "resolvedTextStyle": {
         "fontSize": 18,
         "typeface": "+mn-lt",
-        "color": "#667085",
+        "color": "#64748B",
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -160,25 +156,25 @@
         "lines": [
           {
             "index": 1,
-            "text": "两套入口降低答辩时的运行风险"
+            "text": "开发过程不仅有页面，也有可复现的训练脚本和模型文件"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "两套入口降低答辩时的运行风险",
+          "text": "开发过程不仅有页面，也有可复现的训练脚本和模型文件",
           "resolvedTextStyle": {
             "fontSize": 18,
-            "color": "#667085",
+            "color": "#64748B",
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "两套入口降低答辩时的运行风险",
+              "text": "开发过程不仅有页面，也有可复现的训练脚本和模型文件",
               "fontSize": 18,
-              "color": "#667085",
+              "color": "#64748B",
               "alignment": "left"
             }
           ],
@@ -191,56 +187,81 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ep4vydkf",
+      "aid": "sh/nuhcbql0",
       "id": "3",
       "bbox": [
         64,
-        154,
+        142,
         1152,
         2
       ],
       "geometry": "rect",
-      "fillColor": "#D1D5DB",
-      "lineColor": "#D1D5DB",
+      "fillColor": "#CBD5E1",
+      "lineColor": "#CBD5E1",
       "lineWidth": 0
     },
     {
       "order": 4,
-      "kind": "shape",
+      "kind": "image",
       "scope": "slide",
-      "aid": "sh/9wfedsj2",
+      "aid": "im/5onu9gb6",
       "id": "4",
       "bbox": [
-        82,
-        215,
-        500,
-        340
+        70,
+        185,
+        690,
+        430
       ],
-      "geometry": "rect",
-      "fillColor": "#F9FAFB",
-      "lineColor": "#D1D5DB",
-      "lineWidth": 1
+      "alt": "模型训练日志截图",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "91d7508a-b084-42ee-983e-5e34124af958",
+        "contentType": "image/png",
+        "byteLength": 85333
+      }
     },
     {
       "order": 5,
-      "kind": "shape",
+      "kind": "image",
       "scope": "slide",
-      "aid": "sh/ov6d4n2h",
+      "aid": "im/4nud0bal",
       "id": "5",
       "bbox": [
-        122,
-        248,
-        220,
-        40
+        790,
+        230,
+        360,
+        260
+      ],
+      "alt": "训练曲线",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "10a93a0e-493f-4e8e-ab1f-1ed8e8f2f3ed",
+        "contentType": "image/png",
+        "byteLength": 19390
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ax8v6lkr",
+      "id": "6",
+      "bbox": [
+        820,
+        530,
+        330,
+        80
       ],
       "geometry": "rect",
-      "text": "非静态版",
-      "textPreview": "非静态版",
-      "resolvedFontSize": 30,
+      "text": "最佳验证损失 0.1420\n测试集损失 0.1196\n模型 models/tiny_plate_detector.pt",
+      "textPreview": "最佳验证损失 0.1420 | 测试集损失 0.1196 | 模型 models/tiny_plate_detector.pt",
+      "resolvedFontSize": 22,
       "resolvedTextStyle": {
-        "fontSize": 30,
+        "fontSize": 22,
         "typeface": "+mn-lt",
-        "color": "#2563EB",
+        "color": "#111827",
         "bold": true,
         "alignment": "left",
         "insets": {
@@ -251,91 +272,85 @@
         }
       },
       "textLayout": {
-        "lineCount": 1,
+        "lineCount": 4,
         "lines": [
           {
             "index": 1,
-            "text": "非静态版"
+            "text": "最佳验证损失 0.1420"
+          },
+          {
+            "index": 2,
+            "text": "测试集损失 0.1196"
+          },
+          {
+            "index": 3,
+            "text": "模型"
+          },
+          {
+            "index": 4,
+            "text": "models/tiny_plate_detector.pt"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "非静态版",
+          "text": "最佳验证损失 0.1420",
           "resolvedTextStyle": {
-            "fontSize": 30,
-            "color": "#2563EB",
+            "fontSize": 22,
+            "color": "#111827",
             "bold": true,
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "非静态版",
-              "fontSize": 30,
-              "color": "#2563EB",
+              "text": "最佳验证损失 0.1420",
+              "fontSize": 22,
+              "color": "#111827",
               "bold": true,
               "alignment": "left"
             }
           ],
           "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 6,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/nuxwb21w",
-      "id": "6",
-      "bbox": [
-        124,
-        320,
-        370,
-        34
-      ],
-      "geometry": "rect",
-      "text": "• Flask 后端接口",
-      "textPreview": "• Flask 后端接口",
-      "resolvedFontSize": 22,
-      "resolvedTextStyle": {
-        "fontSize": 22,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "• Flask 后端接口"
-          }
-        ]
-      },
-      "paragraphs": [
+        },
         {
-          "index": 1,
-          "text": "• Flask 后端接口",
+          "index": 2,
+          "text": "测试集损失 0.1196",
           "resolvedTextStyle": {
             "fontSize": 22,
             "color": "#111827",
+            "bold": true,
             "alignment": "left"
           },
           "runs": [
             {
               "index": 1,
-              "text": "• Flask 后端接口",
+              "text": "测试集损失 0.1196",
               "fontSize": 22,
               "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "模型 models/tiny_plate_detector.pt",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "模型 models/tiny_plate_detector.pt",
+              "fontSize": 22,
+              "color": "#111827",
+              "bold": true,
               "alignment": "left"
             }
           ],
@@ -348,23 +363,23 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/mtov2xkr",
+      "aid": "sh/vyhcfqlc",
       "id": "7",
       "bbox": [
-        124,
-        358,
-        370,
-        34
+        980,
+        684,
+        230,
+        20
       ],
       "geometry": "rect",
-      "text": "• 加载 PyTorch 训练模型",
-      "textPreview": "• 加载 PyTorch 训练模型",
-      "resolvedFontSize": 22,
+      "text": "企业车牌识别与车辆管理系统 · 6",
+      "textPreview": "企业车牌识别与车辆管理系统 · 6",
+      "resolvedFontSize": 12,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 12,
         "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
+        "color": "#64748B",
+        "alignment": "right",
         "insets": {
           "top": 4.8,
           "right": 9.6,
@@ -377,466 +392,26 @@
         "lines": [
           {
             "index": 1,
-            "text": "• 加载 PyTorch 训练模型"
+            "text": "企业车牌识别与车辆管理系统 · 6"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "• 加载 PyTorch 训练模型",
+          "text": "企业车牌识别与车辆管理系统 · 6",
           "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
-            "alignment": "left"
+            "fontSize": 12,
+            "color": "#64748B",
+            "alignment": "right"
           },
           "runs": [
             {
               "index": 1,
-              "text": "• 加载 PyTorch 训练模型",
-              "fontSize": 22,
-              "color": "#111827",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 8,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/p0bu183y",
-      "id": "8",
-      "bbox": [
-        124,
-        396,
-        370,
-        34
-      ],
-      "geometry": "rect",
-      "text": "• OpenCV 绘制检测结果",
-      "textPreview": "• OpenCV 绘制检测结果",
-      "resolvedFontSize": 22,
-      "resolvedTextStyle": {
-        "fontSize": 22,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "• OpenCV 绘制检测结果"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "• OpenCV 绘制检测结果",
-          "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• OpenCV 绘制检测结果",
-              "fontSize": 22,
-              "color": "#111827",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 9,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/4z2ds32d",
-      "id": "9",
-      "bbox": [
-        124,
-        434,
-        370,
-        34
-      ],
-      "geometry": "rect",
-      "text": "• 适合展示真实系统",
-      "textPreview": "• 适合展示真实系统",
-      "resolvedFontSize": 22,
-      "resolvedTextStyle": {
-        "fontSize": 22,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "• 适合展示真实系统"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "• 适合展示真实系统",
-          "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• 适合展示真实系统",
-              "fontSize": 22,
-              "color": "#111827",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 10,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/u10r6p4r",
-      "id": "10",
-      "bbox": [
-        680,
-        215,
-        500,
-        340
-      ],
-      "geometry": "rect",
-      "fillColor": "#F9FAFB",
-      "lineColor": "#D1D5DB",
-      "lineWidth": 1
-    },
-    {
-      "order": 11,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/v298zalc",
-      "id": "11",
-      "bbox": [
-        720,
-        248,
-        220,
-        40
-      ],
-      "geometry": "rect",
-      "text": "静态版",
-      "textPreview": "静态版",
-      "resolvedFontSize": 30,
-      "resolvedTextStyle": {
-        "fontSize": 30,
-        "typeface": "+mn-lt",
-        "color": "#16865B",
-        "bold": true,
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "静态版"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "静态版",
-          "resolvedTextStyle": {
-            "fontSize": 30,
-            "color": "#16865B",
-            "bold": true,
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "静态版",
-              "fontSize": 30,
-              "color": "#16865B",
-              "bold": true,
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 12,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/wni98fmx",
-      "id": "12",
-      "bbox": [
-        722,
-        320,
-        370,
-        34
-      ],
-      "geometry": "rect",
-      "text": "• 单个 HTML 文件",
-      "textPreview": "• 单个 HTML 文件",
-      "resolvedFontSize": 22,
-      "resolvedTextStyle": {
-        "fontSize": 22,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "• 单个 HTML 文件"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "• 单个 HTML 文件",
-          "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• 单个 HTML 文件",
-              "fontSize": 22,
-              "color": "#111827",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 13,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/hobq1k32",
-      "id": "13",
-      "bbox": [
-        722,
-        358,
-        370,
-        34
-      ],
-      "geometry": "rect",
-      "text": "• 无需启动服务器",
-      "textPreview": "• 无需启动服务器",
-      "resolvedFontSize": 22,
-      "resolvedTextStyle": {
-        "fontSize": 22,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "• 无需启动服务器"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "• 无需启动服务器",
-          "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• 无需启动服务器",
-              "fontSize": 22,
-              "color": "#111827",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 14,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/ipkrap4n",
-      "id": "14",
-      "bbox": [
-        722,
-        396,
-        370,
-        34
-      ],
-      "geometry": "rect",
-      "text": "• 本地上传并画框",
-      "textPreview": "• 本地上传并画框",
-      "resolvedFontSize": 22,
-      "resolvedTextStyle": {
-        "fontSize": 22,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "• 本地上传并画框"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "• 本地上传并画框",
-          "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• 本地上传并画框",
-              "fontSize": 22,
-              "color": "#111827",
-              "alignment": "left"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "lineWidth": 0
-    },
-    {
-      "order": 15,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/jqt83ul8",
-      "id": "15",
-      "bbox": [
-        722,
-        434,
-        370,
-        34
-      ],
-      "geometry": "rect",
-      "text": "• 适合备用演示",
-      "textPreview": "• 适合备用演示",
-      "resolvedFontSize": 22,
-      "resolvedTextStyle": {
-        "fontSize": 22,
-        "typeface": "+mn-lt",
-        "color": "#111827",
-        "alignment": "left",
-        "insets": {
-          "top": 4.8,
-          "right": 9.6,
-          "bottom": 4.8,
-          "left": 9.6
-        }
-      },
-      "textLayout": {
-        "lineCount": 1,
-        "lines": [
-          {
-            "index": 1,
-            "text": "• 适合备用演示"
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "• 适合备用演示",
-          "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#111827",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "• 适合备用演示",
-              "fontSize": 22,
-              "color": "#111827",
-              "alignment": "left"
+              "text": "企业车牌识别与车辆管理系统 · 6",
+              "fontSize": 12,
+              "color": "#64748B",
+              "alignment": "right"
             }
           ],
           "marginLeft": 0
